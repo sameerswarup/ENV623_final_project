@@ -5,11 +5,43 @@ date: '2025-04-13'
 output: pdf_document
 ---
 
+```{r clear-project}
+rm(list=ls())
+```
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r clear-project}
-rm(list=ls())
+
+```{r import-libraries}
+library(dplyr)
+
+```
+
+
+```{r import-elephant}
+
+e_dat <- read.csv("./wildlife_insights_data/images_2009198.csv")
+
+e_dat |>
+  summarise(
+    n_proboscidea = sum(order == "Proboscidea"),
+    n_elephantidae = sum(family == "Elephantidae"),
+    n_loxodonta = sum(genus == "Loxodonta"),
+    n_loxodonta_africana = sum(species == "africana")
+  ) |>
+  print()
+
+# Proboscidae is sufficent to guarantee African elephant, and
+# As we can see, some datapoints are not sufficiently labeled
+e_dat <- e_dat[e_dat$order == "Proboscidea", ]
+```
+
+```{r}
+# rm(e_dat_filtered)
+# testing_dat <- read.csv("./wildlife_insights_data/images_2009198.csv")
+# table(testing_dat$identified_by)
+
 ```
 
