@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r import-libraries}
 library(dplyr)
-
+library(readxl)
 ```
 
 ```{r import-elephant}
@@ -55,6 +55,23 @@ table(deployments_dat$end_date)
 intersect(unique(e_dat$deployment_id), unique(deployments_dat$deployment_id))
 
 setdiff(unique(deployments_dat$deployment_id), unique(e_dat$deployment_id))
+```
 
+
+```{r}
+#Import iNaturalist data on trees
+iNat <- read.csv("./ENV 623 - iNaturalist Observations.csv")
+```
+
+```{r}
+#Filter to relevant columns and only trees
+#Select rows where crown diameter is NA so it is only trees
+tree_data <- iNat %>%
+             filter(is.na(field.crownradius)) %>%
+             select(species_guess, scientific_name, common_name, field.stemdiameter, field.treeidentifier)
+```
+
+```{r}
+#Mixed effects model: Tree Diameter ~ Elephant Presence + Site + Soil type + Temperature + Precipitation
 ```
 
