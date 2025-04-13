@@ -13,14 +13,12 @@ rm(list=ls())
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 ```{r import-libraries}
 library(dplyr)
 library(readxl)
 library(tidyr)
 library(tibble)
 ```
-
 
 ```{r import-elephant}
 
@@ -46,6 +44,21 @@ e_dat <- e_dat[e_dat$order == "Proboscidea", ]
 # table(testing_dat$identified_by)
 
 ```
+
+```{r}
+table(e_dat$deployment_id)
+
+deployments_dat <- read.csv("./wildlife_insights_data/deployments.csv")
+
+table(deployments_dat$start_date)
+
+table(deployments_dat$end_date)
+
+intersect(unique(e_dat$deployment_id), unique(deployments_dat$deployment_id))
+
+setdiff(unique(deployments_dat$deployment_id), unique(e_dat$deployment_id))
+```
+
 
 ```{r}
 #Import iNaturalist data on trees
