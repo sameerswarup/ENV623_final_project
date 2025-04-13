@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r import-libraries}
 library(dplyr)
 library(readxl)
+library(tidyr)
+library(tibble)
 ```
 
 
@@ -55,7 +57,47 @@ iNat <- read.csv("./ENV 623 - iNaturalist Observations.csv")
 #Select rows where crown diameter is NA so it is only trees
 tree_data <- iNat %>%
              filter(is.na(field.crownradius)) %>%
-             select(species_guess, scientific_name, common_name, field.stemdiameter, field.treeidentifier)
+             select(latitude, longitude, species_guess, scientific_name, common_name, field.stemdiameter, field.treeidentifier)
+```
+
+```{r}
+#Read in and clean monthly precipitation data
+prec_df <- as.data.frame(prec)
+
+prec_df <- prec_df %>%
+  rownames_to_column(var = "location")
+
+prec_clean <- prec_df %>%
+  mutate(
+    location = gsub("^E", "", location),        # remove leading 'E'
+    location = gsub("_N=|_N", "_", location)    # convert '_N=26' or '_N26' into '_26'
+  ) %>%
+  separate(location, into = c("longitude", "latitude"), sep = "_") %>%
+  mutate(
+    longitude = as.numeric(longitude),
+    latitude = as.numeric(latitude)
+  )
+
+```
+
+```{r}
+#Read in and clean monthly temperature data
+temp_df <- as.data.frame(temp)
+
+temp_df <- temp_df %>%
+  rownames_to_column(var = "location")
+
+temp_clean <- temp_df %>%
+  mutate(
+    location = gsub("^E", "", location),        # remove leading 'E'
+    location = gsub("_N=|_N", "_", location)    # convert '_N=26' or '_N26' into '_26'
+  ) %>%
+  separate(location, into = c("longitude", "latitude"), sep = "_") %>%
+  mutate(
+    longitude = as.numeric(longitude),
+    latitude = as.numeric(latitude)
+  )
+
 ```
 
 ```{r}
