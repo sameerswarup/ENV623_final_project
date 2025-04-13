@@ -1,0 +1,1087 @@
+id,uuid,observed_on_string,observed_on,tag_list,description,num_identification_agreements,captive_cultivated,oauth_application_id,place_guess,latitude,longitude,positional_accuracy,private_place_guess,private_latitude,private_longitude,public_positional_accuracy,geoprivacy,taxon_geoprivacy,coordinates_obscured,positioning_method,positioning_device,species_guess,scientific_name,common_name,iconic_taxon_name,taxon_id,field:stemdiameter,field:stemcircumference,field:units for stemdiameter or stemcircumference,field:cropyear,field:cropcount,field:cropfraction,field:canopyclass,field:treeidentifier,field:basalareafactor,field:stemdiameter2,field:stemdiameter3,field:cropcount2,field:cropyear2,field:cropcount3,field:cropyear3,field:crownradius,field:crownradius2,field:treeht,field:reproht,field:refht
+264284518,0c82c216-c35c-4989-94f5-17d1370d4ff6,2025-03-07 07:29:17,2025-03-07,"","Vrptshokwane_1-1
+Count 0
+Crop fraction 0.8
+Dbh A stem 3.8
+Crown class 2
+Crown width 4
+Basal area 213
+",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2700,,,,2700,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,3.8,,,2025,0,0.8,2,VRPtshok_1-1,213,,,,,,,,,,,
+264284556,9c025739-7e74-421a-b153-ea074bd94343,2025-03-07 07:37:00,2025-03-07,"","Vrptshokwane_1-4
+Count 0
+Crop fraction 0.8
+Dbh A stem 7.5
+Crown class 2
+Crown width 2.5
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2781,,,,2781,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,7.5,,,2025,0,0.8,2,Vrptshok_1-4,213,,,,,,,,,,,
+264284580,ec2876fd-6e3c-4103-90f4-6076e5d389e7,2025-03-07 07:39:00,2025-03-07,"","Vrptshokwane_1-6
+Count 0
+Crop fraction 0.8
+Dbh A stem 4.4
+Crown class 2
+Crown width 3
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004966667,31.725415,11,,,,11,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,4.4,,,2025,0,0.8,2,,,,,,,,,3,,,,
+264284608,7d20507a-82a4-41a4-b043-e3e35daf825f,2025-03-07 07:40:48,2025-03-07,"","Vrptshokwane_1-7
+Count 0
+Crop fraction 0.8
+Dbh A stem 5.3
+Crown class 2
+Crown width 4
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004966667,31.725365,11,,,,11,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,5.3,,,2025,0,0.8,2,VRPtshok_1-7,,,,,,,,,,,,
+264284628,10f5641b-ab48-44dd-9432-7a8ba07fcdad,2025-03-07 07:42:20,2025-03-07,"","Vrptshokwane_1-9
+Count 0
+Crop fraction 0.8
+Dbh A stem 5.4
+Crown class 2
+Crown width 2.5
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.900445,31.7254133333,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,5.4,,,2025,0,0.8,2,VRPtshok_1-9,213,,,,,,,,,,,
+264284675,2da1268a-b2ad-41fc-ac22-89edf5d69103,2025-03-07 07:50:59,2025-03-07,"","Vrptshokwane_2-1
+Count 56
+Crop fraction 0.3
+Dbh A stem 3
+Crown class 2
+Basal area 5",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983666667,31.725995,7,,,,7,,open,false,,,Sweet Thorn,Vachellia karroo,Sweet Thorn,Plantae,502780,3,,,2025,56,0.3,2,Vrptshok_2-1,5,,,,,,,,,,,
+264284718,d07c69a6-c2d3-418e-ba64-de52d966306c,2025-03-07 07:58:30,2025-03-07,"","Vrptshokwane_2-4
+Count 0
+Crop fraction 0.1
+Dbh A stem 54.6
+Crown class 3
+Basal area 5
+
+Elephant damage on bark",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983,31.7259316667,6,,,,6,,open,false,,,knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,54.6,,,2025,0,0.1,3,Vrptshok_2-4,5,,,,,,,,,,,
+264284770,d032ac41-1804-4343-afb7-afb936cd7837,2025-03-07 08:02:02,2025-03-07,"","Vrptshokwane_2-6
+Count 0
+Crop fraction 0.8
+Dbh A stem 13.5
+Crown class 3
+Crown width 3.5
+Basal area 213
+
+Toppled over but alive ",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2734,,,,2734,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,13.5,,,2025,0,0.8,3,VRPtshok_2-6,213,,,,,,,,,,,
+264284803,fd65e66e-e181-429a-a99e-16cabb810f0b,2025-03-07 08:03:56,2025-03-07,"","Vrptshokwane_2-8
+Count 0
+Crop fraction 0.7
+Dbh A stem 5.7
+Crown class 2
+Crown width 7
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2741,,,,2741,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,5.7,,,2025,0,0.7,2,VRPtshok_2-8,213,,,,,,,,,,,
+264284823,fbf300a1-2580-46f9-85d6-cfd84b67379e,2025-03-07 08:35:20,2025-03-07,"","Vrptshokwane_3-2
+Count 999
+Crop fraction 0.9
+Dbh A stem 5
+Crown class 4
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715316667,31.7750816667,7,,,,7,,open,false,,,Blue Spikethorn,Gymnosporia glaucophylla,Blue Spikethorn,Plantae,586677,5,,,2025,999,0.9,4,VRPtshok_3-2,5,,,,,,,,,,,
+264284875,e9ab0633-e1dd-43a1-9cc4-bee8898bf97d,2025-03-07 08:39:28,2025-03-07,"","Vrptshokwane_3-4
+Count 44
+Crop fraction 0.6
+Dbh A stem 15.2
+Crown class 3
+Basal area 5",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715716667,31.7750016667,5,,,,5,,open,false,,,red bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,15.2,,,2025,44,0.6,3,VRPtshok_3-4,,,,,,,,,,,,
+264284911,7abdc7c3-3dd4-4376-831a-31fca11c0de0,2025-03-07 08:44:21,2025-03-07,"","Vrptshokwane_3-7
+Count 12
+Crop fraction 0.3
+Dbh A stem 6.2
+Crown class 3
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.871665,31.77511,5,,,,5,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,6.2,,,2025,12,0.3,3,VRPtshok_3-7,5,,,,,,,,,,,
+264284939,839941c4-026d-4a04-a763-6d49142d71cb,2025-03-07 10:16:41,2025-03-07,"","Vrptshokwane34_1-2
+Count 0
+Crop fraction 0.7
+Dbh A stem 4.4
+Crown class 3
+Crown width 5.5
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.77836,31.85126,4,,,,4,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,4.4,,,2025,0,0.7,3,VRPtshok34_1-2,213,,,,,,,,,,,
+264284972,c162fc2d-6392-491d-b6e3-4072209016e1,2025-03-07 10:21:40,2025-03-07,"","Vrptshokwane34_1-4
+Count 55
+Crop fraction 0.1
+Dbh A stem 4
+Crown class 2
+Crown width 5.5
+Basal area 213",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7781716667,31.8509616667,8,,,,8,,open,false,,,Snowberrytree,Flueggea virosa,snowberrytree,Plantae,340143,4,,,2025,55,0.1,2,VRPtshok34_1-4,213,,,,,,,,,,,
+264285030,02fb66d3-960a-47e6-a290-742c1ca78f69,2025-03-07 10:28:07,2025-03-07,"","Vrptshokwane34_2-1
+Count 41
+Crop fraction 0.1
+Dbh A stem 12.7
+Crown class 2
+Crown width 6
+Basal area 213",2,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7783433333,31.8498966667,9,,,,9,,open,false,,,Snowberrytree,Flueggea virosa,snowberrytree,Plantae,340143,12.7,,,2025,41,0.1,2,VRPtshok34_2-1,213,,,,,,,,,,,
+264285088,0bfd442b-2031-4616-be21-d9fd98382502,2025-03-07 10:37:29,2025-03-07,"","Vrptshokwane34_3-1
+Count 0
+Crop fraction 0.4
+Dbh A stem 12.4
+Crown class 1
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.77875,31.8487433333,8,,,,8,,open,false,,,vachellia nilotica,Vachellia nilotica,Egyptian acacia,Plantae,557826,12.4,,,2025,0,0.4,1,VRPtshok34_3-1,5,,,,,,,,,,,
+264285118,52da8406-be48-4685-aa47-98b3a756c626,2025-03-07 10:47:54,2025-03-07,"","Vrptshokwane34_4-1
+Count 550
+Crop fraction 0.3
+Dbh A stem 9.5
+Crown class 2
+Basal area 5",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7769066667,31.849835,9,,,,9,,open,false,,,russet bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062,9.5,,,2025,550,0.3,2,VRPtshok34_4-1,5,,,,,,,,,,,
+264285171,43e41566-a57e-473f-a897-ce6c81607727,2025-03-07 10:52:26,2025-03-07,"","Vrptshokwane34_4-5
+Count 0
+Crop fraction 0.8
+Dbh A stem 2.3
+Crown class 2
+Crown width 2.5
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771316667,31.8496683333,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,2.3,,,2025,0,0.8,2,VRPtshok34_4-5,213,,,,,,,,,,,
+264285196,659007c3-46d9-4248-9287-110f9e67f54e,2025-03-07 10:54:25,2025-03-07,"","Vrptshokwane34_4-7
+Count 0
+Crop fraction 0.7
+Dbh A stem 3.2
+Crown class 2
+Crown width 1.5
+Basal area 213",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771316667,31.84996,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,3.2,,,2025,0,0.7,2,VRPtshok34_4-7,213,,,,,,,,,,,
+264285244,4430d6b9-5311-4d82-af29-a6388d272b87,2025-03-07 11:26:10,2025-03-07,"","Vrptshokwane34_5-1
+Count 74
+Crop fraction 0.3
+Dbh A stem 7.3
+Crown class 4
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.765485,31.7762483333,6,,,,6,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,7.3,,,2025,74,0.3,4,VRPTSHOK34_5-1,5,,,,,,,,,,,
+264285283,3eae9134-6748-4479-b744-81d08e70137f,2025-03-07 11:29:24,2025-03-07,"","Vrptshokwane34_5-4
+Count 0
+Crop fraction 0.7
+Dbh A stem 4.1
+Crown class 4
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7654566667,31.7762233333,7,,,,7,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,4.1,,,2025,0,0.7,4,VRPTSHOK34_5-4,5,,,,,,,,,,,
+264285338,6f9a5eb5-5508-49f3-acc8-a69306b9edfd,2025-03-07 11:32:13,2025-03-07,"","Vrptshokwane34_5-6
+Count 0
+Crop fraction 0.5
+Dbh A stem 8.4
+Crown class 4
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7653516667,31.7762233333,9,,,,9,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,8.4,,,2025,0,0.5,4,VRPTSHOK34_5-6,5,,,,,,,,,,,
+264285443,2e6cb0d2-06cb-4c52-885e-31b1da74825f,2025-03-07 11:51:37,2025-03-07,"","Vrptshokwane34_6-1
+Count 0
+Crop fraction 0.9
+Dbh A stem 5.3
+Crown class 2
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7664566667,31.81761,4,,,,4,,open,false,,,Apple-Leaf,Philenoptera violacea,apple-leaf,Plantae,340211,5.3,,,2025,0,0.9,2,VRPTSHOK34_6-1,5,,,,,,,,,,,
+264286600,8708473e-3251-4ec9-894a-90487f4b3e25,2025-03-07 07:30:04+02:00,2025-03-07,"","Vrptshokwane_1-2
+0,.7
+10,1
+5 crown width 
+213 baf ",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004094689,31.7254368575,7,,,,7,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,10,,,2025,0,.7,1,VRPtshok_1-2,213,,,,,,,,,,,
+264286653,a298bfc5-0bf4-4ac4-9b0d-b8380d797cc4,2025-03-07 07:36:11+02:00,2025-03-07,"","Vrptshokewane_1-3
+0,.7
+8,1
+4 crown 
+213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9003947021,31.7254472768,6,,,,6,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,8,,,2025,0,.7,1,VRPtshok_1-3,213,,,,,,,,,,,
+264286720,c3afebfe-a6a5-4f04-96c5-24e061b3c3fb,2025-03-07 07:39:03+02:00,2025-03-07,"","Vrptsokwane_1-5
+0,.8
+12,2
+3
+213",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004150108,31.7254550504,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,12,,,2025,0,.8,2,VRPtshok_1-5,213,,,,,,,,,,,
+264286772,0d5fead3-8591-46fe-9310-3cbbdc551c99,2025-03-07 07:41:31+02:00,2025-03-07,"","Vrptsokwane_1-8
+0,.9
+6,2
+4 cw 
+213
+
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9005367514,31.7252854072,6,,,,6,,open,false,,,Thorny Karee,Searsia gueinzii,Thorny Karee,Plantae,560135,6,,,2025,0,.9,2,VRPtshok_1-8,213,,,,,,,,,,,
+264286811,f873206e-4475-4f74-a3cd-64fc7b80d082,2025-03-07 07:43:37+02:00,2025-03-07,"","Tsokewane_1-10
+0,.9
+12,1
+6.5 cw
+213
+
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9003688699,31.7253819948,8,,,,8,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,12,,,2025,0,.9,1,VRPtshok_1-10,213,,,,,,,,,,,
+264286979,3662f861-459b-472d-8f7a-fd10d708c3e4,2025-03-07 07:52:40+02:00,2025-03-07,"","Tsockwane_2-2
+0,.9
+8,2
+4 cw
+213",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983940767,31.7260153486,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,8,,,2025,0,.9,2,VRPtshok_2-2,213,,,,,,,,,,,
+264287038,868d75ab-fcf4-4ec3-8572-c658e556cdc5,2025-03-07 07:56:00+02:00,2025-03-07,"","Tsockwan_2-3
+999,999
+21.1,21.6,2
+
+
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983983368,31.7259337707,6,,,,6,,open,false,,,apple-leaf,Philenoptera violacea,apple-leaf,Plantae,340211,21.1,,,2025,999,0,2,VRPtshok_2-3,5,21.6,,,,,,,,,,
+264287110,8f5607fa-2d40-4b5d-9c31-e2be84504684,2025-03-07 08:00:51+02:00,2025-03-07,"","0,.2
+48,1
+Tsokwane-2-5",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983814197,31.7258252706,3,,,,3,,open,false,,,Leadwood,Combretum imberbe,Leadwood,Plantae,340408,48,,,2025,0,.1,1,VRPtshok_2-5,5,,,,,,,,,,,
+264287243,178f6665-3a7f-4799-a536-3603763196d0,2025-03-07 08:02:36+02:00,2025-03-07,"","Tchowane2-7
+0,.9
+4,1
+213
+3.5 cr
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8985190597,31.7259560433,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,4,,,2025,0,.9,1,VRPtshok_2-7,213,,,,,,,,,,,
+264287306,7bc31c92-b1e5-4db0-b4c7-19f1e9fd2819,2025-03-07 08:04:17+02:00,2025-03-07,"","Tcockwane2-9
+0,1
+2,1
+1.5 cw
+213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8984998409,31.7260117636,8,,,,8,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,2,,,2025,0,1,1,VRPtshok_2-9,213,,,,,,,,,,,
+264287343,12e83bd9-ea1c-411b-af25-30aaed56b1a0,2025-03-07 08:07:53+02:00,2025-03-07,"","Taickwane2-10
+0,1
+4,2
+4 cr
+213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8985227477,31.7259526067,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,4,,,2025,0,1,2,VRPtshok_2-10,213,,,,,,,,,,,
+264287394,e52cc542-ddcf-4f79-bf17-7a8c96c0a057,2025-03-07 08:34:10+02:00,2025-03-07,"","Tchockwane3-1
+999,999
+4,1
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715489032,31.7750267219,4,,,,4,,open,false,,,Common Spikethorn,Gymnosporia buxifolia,Common Spikethorn,Plantae,586670,4,,,2025,999,0,1,VRPtshok_3-1,5,,,,,,,,,,,
+264287431,16cd7180-5557-4ef1-bb24-ae40ce6862b7,2025-03-07 08:36:41+02:00,2025-03-07,"","Tchockwane3-3
+100,.11
+9,7,8,1
+Baf 5",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715442042,31.7750038378,9,,,,9,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,9,,,2025,100,.11,1,VRPtshok_3-3,5,7,8,,,,,,,,,
+264287465,278e47d4-e58d-45a4-bb74-8955f275fa08,2025-03-07 08:40:11+02:00,2025-03-07,"","Tchockwane3-5
+0,1
+3,2
+Bag 5
+",2,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715546758,31.775012559,9,,,,9,,open,false,,,Bushwillows,Combretum,Bushwillows,Plantae,81496,3,,,2025,0,1,2,VRPtshok_3-5,5,,,,,,,,,,,
+264287497,80706e17-3896-4e2f-a17b-dfe8f547fbe8,2025-03-07 08:41:18+02:00,2025-03-07,"","Tscockwane3-6
+999,999
+67.4,1
+Baf 5
+
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.871567797,31.774967863,6,,,,6,,open,false,,,marula,Sclerocarya birrea,marula,Plantae,340245,67.4,,,2025,999,0,1,VRPtshok_3-6,5,,,,,,,,,,,
+264287555,b247b2a7-4f64-48cb-bfb4-871c24995288,2025-03-07 08:44:25+02:00,2025-03-07,"","0,.8
+8,4",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8717227907,31.7748307069,9,,,,9,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,8,,,2025,0,.8,4,,,,,,,,,,,,,
+264287682,8f7ee738-8c1f-4876-b6eb-c7f60bcae361,2025-03-07 08:45:17+02:00,2025-03-07,"","0,1
+3,2
+
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8717003352,31.7748192473,6,,,,6,,open,false,,,"",Flueggea virosa,snowberrytree,Plantae,340143,3,,,2025,0,1,2,,,,,,,,,,,,,
+264287853,5b849c1c-6832-4498-a914-81a1091dd4c5,2025-03-07 09:59:37+02:00,2025-03-07,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7845415597,31.8582130225,2,,,,2,,open,false,,,"",Cassia abbreviata,sjambok-pod,Plantae,147000,24,"",cm,2025,70,.8,1,"","","","","","","","","","","","",""
+264287978,c411a6ce-5838-44b2-9f34-0b7fff7614ce,2025-03-07 10:15:16+02:00,2025-03-07,"","Tsokwane34-1-1
+0,.8
+20.4,1
+Baf 5",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7784681066,31.8511883194,3,,,,3,,open,false,,,"",Vachellia tortilis,umbrella thorn,Plantae,489563,20.4,,,2025,0,.8,1,VRPtshok34_1-1,5,,,,,,,,,,,
+264288134,117f322d-a7d9-4a55-84ab-3feffe09ad33,2025-03-07 10:19:09+02:00,2025-03-07,"","Tsockwane34-1-3
+0,.8
+4,1
+2 cw
+213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.778327989,31.8513359177,5,,,,5,,open,false,,,Confetti Spikethorn,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,4,,,2025,0,.8,1,VRPtshok34_1-3,213,,,,,,,,,,,
+264288230,cda98105-ffb0-4783-8c29-5884f5a7ba17,2025-03-07 10:21:56+02:00,2025-03-07,"","Tsockwane34-1-6
+0,.95
+11,2
+4 cw
+213",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7782365699,31.8510453031,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,11,,,2025,0,.95,2,VRPtshok34_1-6,213,,,,,,,,,,,
+264288312,518d033e-8e99-4d16-9116-99ba5960c930,2025-03-07 10:29:23+02:00,2025-03-07,"","Tcockwane34-2-2
+2,7
+35.1,2
+Baf 5
+
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7781499429,31.8499201164,4,,,,4,,open,false,,,"",Cassia abbreviata,sjambok-pod,Plantae,147000,35.1,,,2025,2,.7,2,VRPtshok34_2-2,5,,,,,,,,,,,
+264288393,e2a7fef7-a56a-441e-b1f6-be730b2f1049,2025-03-07 10:32:24+02:00,2025-03-07,"","Tsochwane34-2-3
+0,.75
+24,1
+Baf 5
+
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7782847911,31.8496934769,7,,,,7,,open,false,,,"",Vachellia nilotica,Egyptian acacia,Plantae,557826,24,,,2025,0,.75,1,VRPtshok34_2-3,5,,,,,,,,,,,
+264288440,732d2eae-82d6-4a44-8378-0f65f5088858,2025-03-07 10:40:40+02:00,2025-03-07,"","0,.5
+14,12,6,1
+Baf 5",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7788042762,31.8489647471,3,,,,3,,open,false,,,Egyptian Acacia,Vachellia nilotica,Egyptian acacia,Plantae,557826,14,,,2025,0,.5,1,VRPtshok34_3-1,5,12,6,,,,,,,,,
+264288514,d682792b-fb5b-4f90-9c2c-138925af13d4,2025-03-07 10:48:31+02:00,2025-03-07,"","Tschockwane34-4-2
+0,.9
+4,2
+1.5 cw
+Baf 213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7769781109,31.849791538,4,,,,4,,open,false,,,Confetti Spikethorn,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,4,,,2025,0,.9,2,VRPtshok34_4-2,213,,,,,,,,,,,
+264288593,d1be9663-5d60-483a-a33b-8655362c7708,2025-03-07 10:50:16+02:00,2025-03-07,"","Tsockwane34-4-3
+0,.9
+3,1
+2 cw
+213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7769855568,31.8498341347,7,,,,7,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,3,,,2025,0,.9,1,VRPtshok34_4-3,213,,,,,,,,,,,
+264288687,ffa5e5af-deab-4198-a7db-5e7025ca5b6f,2025-03-07 10:52:29+02:00,2025-03-07,"","Tsickwane34-4-4
+0,1
+12,1
+2 cw
+213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771442821,31.8498476968,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,12,,,2025,0,1,1,VRPtshok34_4-4,213,,,,,,,,,,,
+264288798,1cfb16bc-848c-45f7-a289-c595bffa1777,2025-03-07 10:54:29+02:00,2025-03-07,"","Rsickwane34-4-6
+0,1
+11,1
+3 cw
+213
+
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771309079,31.8498178413,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,11,,,2025,0,1,1,VRPtshok34_4-6,213,,,,,,,,,,,
+264288844,789db37a-0e07-4b0e-ac17-8dc5c52a0815,2025-03-07 10:56:20+02:00,2025-03-07,"","Tcockwane34-4-8
+0,1
+3,1
+2.5 cw 
+213
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7770924401,31.8497518078,4,,,,4,,open,false,,,Confetti Spikethorn,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,3,,,2025,0,1,1,VRPtshok34_4-8,213,,,,,,,,,,,
+264288877,c13c4799-f484-4430-8882-84b4cba79b5e,2025-03-07 10:59:42+02:00,2025-03-07,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7770975111,31.8505429756,3,,,,3,,open,false,,,Snowberrytree,Flueggea virosa,snowberrytree,Plantae,340143,32,"",cm,2025,5,.2,1,"","","","","","","","","","","","",""
+264289093,6ac0530b-9410-4c8c-b962-e0ee75a347c1,2025-03-07 11:27:26+02:00,2025-03-07,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7653984191,31.7762816697,3,,,,3,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,34.2,"",cm,2025,0,.3,2,VRPtshok34_5-2,5,"","","","","","","","","","",""
+264289250,49d4a2b7-31f5-4a67-88d6-5554f3812fae,2025-03-07 11:28:53+02:00,2025-03-07,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7654451277,31.7762569093,6,,,,6,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,7,"",cm,2025,0,.8,2,VRPtshok34_5-3,5,"","","","","","","","","","",""
+264289333,2ac69b0f-95a5-4bbc-98d3-f0dc18e2003b,2025-03-07 11:30:14+02:00,2025-03-07,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7654730285,31.7763159658,7,,,,7,,open,false,,,Small-leaf Sicklebush,Dichrostachys cinerea africana,Small-leaf Sicklebush,Plantae,349756,11,"",cm,2025,0,.6,2,VRPtshok34_5-5,5,"","","","","","","","","","",""
+264289421,285715c5-c218-4eb4-a425-ed5f5aff089c,2025-03-07 11:33:02+02:00,2025-03-07,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7653599994,31.7764114192,4,,,,4,,open,false,,,knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,26.4,"",cm,2025,0,.4,2,VRPtshok34_5-7,5,"","","","","","","","","","",""
+264289551,6ea2a0ce-7faa-4e1c-92d1-b22c6f1de4dc,2025-03-07 11:51:32+02:00,2025-03-07,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7664120514,31.8177453429,3,,,,3,,open,false,,,apple-leaf,Philenoptera violacea,apple-leaf,Plantae,340211,21,"",cm,2025,999,0,1,VRPtshok34_6-1,5,12,"","","","","","","","","",""
+264289642,e8b74c99-d109-4418-b2bc-77945401f6ca,2025-03-07 11:57:36+02:00,2025-03-07,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659562217,31.8184456738,3,,,,3,,open,false,,,Sjambok-Pod,Cassia abbreviata,sjambok-pod,Plantae,147000,4,"",cm,2025,0,.9,1,VRPtshok34_7-2,5,3,"","","","","","","","","",""
+264289725,d9b483c3-d032-44ba-911c-85100bba4731,2025-03-07 11:58:55+02:00,2025-03-07,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659597094,31.8184089803,4,,,,4,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,3,"",cm,2025,0,.9,1,VRPtshok34_7-3,5,"","",3,2,"","","","","","",""
+264289814,df418cf4-0faa-491d-bc53-8538dd5689ae,2025-03-07 12:00:46+02:00,2025-03-07,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659132786,31.818397458,5,,,,5,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810,8,"",cm,2025,0,.6,1,VRPtshok34_7-5,5,8,7,"","","","","","","","",""
+264289906,97ef86e1-281d-43a4-95fd-b3badcce0a3e,2025-03-07 12:02:35+02:00,2025-03-07,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659764473,31.8184610832,5,,,,5,,open,false,,,red bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,4,"",cm,2025,0,.7,2,VRPtshok34_7-5,5,2,3,"","","","","","","","",""
+264539675,9a106d91-d160-498a-b0af-6acf6ae17f23,2025-03-08 16:36:35+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9941955926,31.5956395772,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636,8,"",cm,2025,22,.6,2,"","","","","","","","","","","","",""
+264539897,d602d84c-996f-4026-9eb2-73b86ca39e9e,2025-03-08 16:38:50+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9942661284,31.5956501791,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636,4,"",cm,2025,28,.5,3,"","",3,"","","","","","","","","",""
+264540101,a6e2e894-f585-4163-bc0b-aa5829035ecc,2025-03-08 16:41:21+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9943771641,31.595708933,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636,"","",cm,2025,140,.5,2,"","","","","","","","","","","","",""
+264540126,499a0d12-f40d-4139-997d-4c7106d4fcb7,2025-03-08 16:37:27+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9942520741,31.5956016234,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636,10,"",cm,2025,25,.1,3,"","","","","","","","","","","","",""
+264540196,b62dcf1e-8b75-4cee-a4d2-14cffa4fb8d6,2025-03-08 16:41:00+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9942196177,31.5955424547,470,,,,470,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,8,"",cm,2025,380,.08,2,"","","","","","","","","","","","",""
+264540246,b18c204c-af8d-4b29-8dfc-a55c63c21252,2025-03-08 16:43:40+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9944956647,31.5956128389,3,,,,3,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,6,"",cm,2025,100,.09,2,"","","","","","","","","","","","",""
+264540282,5fe6883f-e5af-4405-a046-65e1476ada75,2025-03-08 16:47:54+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9945605728,31.5955250564,6,,,,6,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,6,"",cm,2025,180,.035,2,"","","","","","","","","","","","",""
+264540368,1a6fa661-502c-4082-b189-c59a94e5ba68,2025-03-08 16:58:30+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9907631723,31.5905974884,1526,,,,1526,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,3,"",cm,2025,90,.1,2,"","","","","","","","","","","","",""
+264540500,5f49a590-ae2f-473f-a846-9eedba542b1a,2025-03-08 16:45:25+02:00,2025-03-08,"","",0,false,3,"Camping Skukuza, Skukuza, Mpumalanga, ZA",-24.994518941,31.5955837562,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,5,"",cm,2025,33,.75,2,"","","","","","","","","","","","",""
+264789522,ca0474f4-9a24-4f4b-9ea5-7f674f4bdd8b,2025-03-08 16:48:43+02:00,2025-03-08,"","",0,false,3,"Camping Skukuza, Skukuza, Mpumalanga, ZA",-24.9944672355,31.5955378195,224,,,,224,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,3.5,"",cm,2025,440,.85,2,"","","","","","","","","","","","",""
+264789586,b434e0ce-9e44-4142-bf0a-a2be5cc237a6,2025-03-08 16:56:53+02:00,2025-03-08,"","",1,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9953721604,31.5929461364,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228,36,"",cm,2025,100,.023,2,"","","","","","","","","","","","",""
+264789624,8a87564d-17a2-47a5-8564-e761208848b8,2025-03-08 16:58:31+02:00,2025-03-08,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.995236664,31.5928077813,37,,,,37,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,8,"",cm,2025,100,.4,3,"","",6,5,"","","","","","","","",""
+264789672,d94b21e6-8fbd-4da9-8cc8-e41a8beae662,2025-03-10 10:52:39+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0718390895,31.6089862492,3,,,,3,,open,false,,,"",Vachellia robusta,splendid thorn,Plantae,559229,12,"",cm,2025,4,.1,2,"","","","","","","","","","","","",""
+264789721,2a0f5c3d-3ab1-4d8b-99fa-e039d5806a48,2025-03-10 10:56:37+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0718885028,31.6084578904,63,,,,63,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,2,"",cm,2025,120,.95,2,"","",1.8,"","","","","","","","","",""
+264789748,410d1b79-c43e-40fd-b2f5-9ddc77d68f11,2025-03-10 11:00:11+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.072059041,31.6081358036,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,1.6,"",cm,2025,18,.8,1,"","",2,1,"","","","","","","","",""
+264789791,0e38a6d2-b325-473b-9353-ad4d6f2f5e8a,2025-03-10 11:05:22+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0722652089,31.6075874109,3,,,,3,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,1.3,"",cm,2025,8,.8,2,"","","","","","","","","","","","",""
+264789816,03858263-d65a-4c3e-8299-2cffe5c8053b,2025-03-10 11:06:38+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0722679165,31.6075850045,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,2,"",cm,2025,13,.75,2,"","","","","","","","","","","","",""
+264789838,8933a8a3-17bd-4f49-b2be-0574a14d54ff,2025-03-10 11:09:05+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0722510021,31.6075797176,10,,,,10,,open,false,,,Pod-mahogany,Afzelia quanzensis,Pod-mahogany,Plantae,340236,68,"",cm,.2,100,.2,1,"","","","","","","","","","","","",""
+264789904,affafa7a-5c1a-41b2-9942-d5b649aaa139,2025-03-10 11:12:35+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0106349959,31.5667462198,2945,,,,2945,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,.4,"",cm,2025,70,.85,3,"","","","","","","","","","","","",""
+264789936,d38d4e5e-917b-42a5-b3e8-4b493cd2bfe6,2025-03-10 11:29:06+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0723902416,31.6083082371,3,,,,3,,open,false,,,"",Terminalia prunioides,Purplepod clusterleaf,Plantae,430533,33,"",cm,2025,100,.25,1,"","","","","","","","","","","","",""
+264790006,dff81cb1-6afe-4b42-84a0-7b278c331d6f,2025-03-10 11:30:49+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0723885651,31.6082719863,3,,,,3,,open,false,,,"",Euclea natalensis,Mountain Guarri,Plantae,430991,12,"",cm,2025,0,.5,1,"","",8,"","","","","","","","","",""
+264790071,ed275464-81f1-4ceb-bdf5-558c6778b68c,2025-03-10 11:36:17+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0723553302,31.6083736375,3,,,,3,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688,28,"",cm,2025,100,.12,1,"","","","","","","","","","","","",""
+264790157,7a01bb40-fb4c-4e5c-8a99-6bc86c4b2c89,2025-03-10 11:53:31+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.075019477,31.6028300766,3,,,,3,,open,false,,,Broad-Pod,Albizia forbesii,Broad-Pod,Plantae,579378,32,"",cm,2025,100,.25,1,"","","","","","","","","","","","",""
+265032694,c9ec4938-295f-4bf4-a1d4-ae9d683e8f08,2025-03-11 09:39:13+02:00,2025-03-11,"","100,.22
+.3,1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.989591255,31.7759712045,7,,,,7,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,4,,,2025,37,.4,2,,,,,,,,,,,,,
+265032741,f672bb1b-b80a-4d92-9bbe-2dd98951b713,2025-03-11 10:19:55+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9894888606,31.7771087867,14,,,,14,,open,false,,,"",Flueggea virosa,snowberrytree,Plantae,340143,6,,,2025,5,.25,2,,,,,,,,,,,,,
+265032762,1b4d5984-c2d3-404c-8529-09131d55630a,2025-03-11 13:24:25+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2169131256,31.9299674843,3,,,,3,,open,false,,,"",Commiphora africana,Hairy Corkwood,Plantae,505821,4,,,2025,7,.6,2,,,,,,,,,,,,,
+265032803,9e7fe537-e7a2-49c5-9a0f-e8b32104c80a,2025-03-11 13:31:07+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2171667524,31.9298700358,2,,,,2,,open,false,,,"",Grewia villosa,Mallow Raisin,Plantae,431080,2.2,,,2025,12,.7,2,,,,,,,,,,,,,
+265040874,a204da47-6a0d-4b26-93c5-143da03c958e,2025-03-12 10:44:12,2025-03-12,"","VRP10R_2-3
+Dbh1 12
+Dbh2 8
+Dbh 3
+Crown width 4.5
+Count 23
+Fraction 0.5
+Shade 3",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9778346,31.6374011,4149,,,,4149,,open,false,,,Zambesi Gold,Rhigozum zambesiacum,Zambesi Gold,Plantae,593047,12,,,2025,23,0.5,3,VRPLTSABIE_R10Y_2-3,213,8,3,,,,,,,,,
+265040944,bf0f8474-1744-4a23-9510-6de50c62fcf5,2025-03-12 11:38:07,2025-03-12,"","VRP8R_1-4
+Crown width 3.5
+Dbh 18
+Count 0
+Fraction 0.4
+Basal 213
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906566667,31.610335,9,,,,9,,open,false,,,Leadwood,Combretum imberbe,Leadwood,Plantae,340408,18,,,2025,0,0.4,2,VRPLTSABIE_R8X-4,213,,,,,,,,,,,
+265040987,9f05c3d7-ffc2-4ebb-94b3-b17d6f6f4a64,2025-03-12 11:41:08,2025-03-12,"","VRP8R_1-7
+Dbh 22
+Basal area 5
+Count 0
+Fraction 0.3
+Shade 3
+",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9904233333,31.610325,6,,,,6,,open,false,,,brown ivory,Phyllogeiton discolor,brown ivory,Plantae,1473181,22,,,2025,0,0.3,3,VRPLTSABIE_R8X-7,5,,,,,,,,,,,
+265041032,b498ed6e-010a-4272-a919-92820ea3577f,2025-03-12 12:13:35,2025-03-12,"","VRP3R_1-1
+Dbh 19
+12.0
+12.1
+Count 0
+0.4
+Shade 4
+Basal 10
+",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3099,,,,3099,,open,false,,,river bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389,19,,,2025,0,0.4,4,VRP3R_1-1,10,12,12.1,,,,,,,,,
+265041065,dddd81cb-a5a8-4bb6-9286-114ea308cdde,2025-03-12 12:16:33,2025-03-12,"","VRP3R_1-3
+Dbh 1 17.1
+Dbh2 18.9
+Dbh3 19.8
+Count 0
+Fraction 0.4
+Basal 10
+Shade 4",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9823933333,31.62861,8,,,,8,,open,false,,,river bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389,17.1,,,2025,0,0.4,4,VRPLTSABIE_R3X-3,10,18.9,19.8,,,,,,,,,
+265041239,d7ce4344-dc10-40a5-9caf-857964521ff4,2025-03-07 11:57:31,2025-03-07,"","Vrptshokwane34_7-1
+Count 0
+Crop fraction 0.7
+Dbh stem1 6.8
+Dbhstem2 4.2
+Crown class 2
+Crown width 7
+Basal area 5",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7658866667,31.8185416667,5,,,,5,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810,6.8,,,2025,0,0.7,2,VRPTSHOK34_7-1,5,4.2,,,,,,,,,,
+265041260,cc4db372-7d84-4a88-a343-35aa30f481a1,2025-03-07 12:00:26,2025-03-07,"","Vrptshokwane34_7-4
+Count 0
+Crop fraction 0.7
+Dbh1 3.3
+Dbh2 4.4
+Crown class 2
+Basal area 5",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659083333,31.8184383333,6,,,,6,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810,3.3,,,2025,0,0.7,2,VRPTSHOK34_7-4,5,4.4,,,,,,,,,,
+265041277,45b53537-f9c5-42f1-8d69-24c1400288bc,2025-03-07 12:02:05,2025-03-07,"","Vrptshokwane34_7-6
+Count 0
+Crop fraction 0.7
+Dbh1 5.5
+Dbh2 3.5
+Dbh3 4.2
+Crown class 2
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7658966667,31.8184633333,9,,,,9,,open,false,,,combretum apiculatum,Combretum apiculatum,red bushwillow,Plantae,340059,5.5,,,2025,0,0.7,2,VRPTSHOK34_7-6,5,3.5,4.2,,,,,,,,,
+265041371,6e1bfcc1-8f12-437e-8370-4a1f232f62cf,2025-03-10 11:18:58,2025-03-10,"","20 dbh
+2
+250
+0.2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0725366667,31.607285,7,,,,7,,open,false,,,combretum apiculatum,Combretum apiculatum,red bushwillow,Plantae,340059,20,,,2025,250,0.2,2,,,,,,,,,,,,,
+265041404,57ea9c50-17a1-4403-b2a6-3ae023dae1a3,2025-03-11 09:38:46,2025-03-11,"","Vrpnkuin_1-4
+Dbh 16.8
+Count 0
+Fraction 0.5
+Shade3
+Basal area 5",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9891866667,31.77601,9,,,,9,,open,false,,,false-marula,Lannea schweinfurthii,false-marula,Plantae,340118,16.8,,,2025,0,0.5,3,VRPNKUIN_1-4,5,,,,,,,,,,,
+265041456,107be880-5ad3-48d1-895b-b9654a798d9b,2025-03-11 13:22:31,2025-03-11,"","Browse37_1
+Dbh 6, 4, 2
+Count 0
+Shade 2
+Fraction 0.7",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.216775,31.9300016667,9,,,,9,,open,false,,,gymnospora senegalensis,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,6,,,2025,0,0.7,2,BROWSE37_1,,4,2,,,,,,,,,
+265041541,a01b4be6-aac0-4350-a919-6ebc9d751979,2025-03-11 13:26:39,2025-03-11,"","Browse37_731
+Dbh 22, 13
+Count 0
+Shade 2
+Fraction 0.7",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2169633333,31.9298066667,7,,,,7,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,22,,,2025,0,0.7,2,BROWSE37_731,,13,,,,,,,,,,
+265041622,91af6c87-7cb1-4e8e-a63d-dd0866c49c95,2025-03-12 10:38:11,2025-03-12,"","VRP10R_2_5
+Dbh100.9
+Count 7
+Fraction 0.1
+Shade 2
+Basal area 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.975905,31.6559166667,4,,,,4,,open,false,,,Brown Ivory,Phyllogeiton discolor,brown ivory,Plantae,1473181,100.9,,,2025,7,0.1,2,VRPLTSABIE_R10Y-5,5,,,,,,,,,,,
+265041753,29b61562-0fb3-4d3b-a419-604ce6ec7f29,2025-03-12 12:18:58,2025-03-12,"","VRP3R_1-5
+Dbh1 15.7
+Dbh2 13.2
+Dbh3 27.8
+
+Count 0
+Fraction 0.2
+Basal 10
+Shade 4",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3195,,,,3195,,open,false,,,River Bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389,27.8,,,2025,0,0.2,4,VRPLTSABIE_R3X-5,10,15.7,13.2,,,,,,,,,
+265041792,185a90b9-360c-454e-a8ae-4a05cc0fbb58,2025-03-12 12:21:26,2025-03-12,"","VRP3R_1-6
+Dbh1 7.9
+Dbh2 7.2
+Dbh3 4.2
+Count 0
+Fraction 0.3
+Basal 10
+Shade 4",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9826433333,31.62865,9,,,,9,,open,false,,,River Bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389,7.9,,,2025,0,0.3,4,VRPLTSABIE_R3X-6,10,7.2,4.2,,,,,,,,,
+265041863,1c56e95a-3acb-46b1-bb0a-efe15372fbb8,2025-03-12 12:38:36,2025-03-12,"","VRP2R_1-2
+Dbh 29.0
+Count 0
+Fraction 0.4
+Basal 10
+Shade 3",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3099,,,,3099,,open,false,,,tamboti,Spirostachys africana,tamboti,Plantae,340253,29,,,2025,0,0.4,3,VRPLTSABIE_R2X-2,10,,,,,,,,,,,
+265041956,5f1aa521-d5d1-467a-8d24-86df2003e3b8,2025-03-12 12:41:40,2025-03-12,"","VRP2R_1-1
+Dbh 33.2
+Count 0
+Fraction 0.2
+Basal 10
+Shade 3",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3099,,,,3099,,open,false,,,tamboti,Spirostachys africana,tamboti,Plantae,340253,33.2,,,2025,0,0.2,3,VRPLTSABIE_R2X-1,10,,,,,,,,,,,
+265042226,bbfbbb30-000d-4d9c-8526-767f0388a406,2025-03-12 12:47:11,2025-03-12,"","VRP2R_1-5
+Dbh 68.3
+Count 200
+Fraction 0.05
+Basal 10
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873416667,31.6150916667,8,,,,8,,open,false,,,lead wood,Combretum imberbe,Leadwood,Plantae,340408,68.3,,,2025,200,0.05,2,VRPLTSABIE_R2X-5,10,,,,,,,,,,,
+265042666,ac973386-c694-4039-838e-6e921b198eff,2025-03-12 12:39:08+02:00,2025-03-12,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.987325,31.6151466667,21,,,,21,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253,31.5,"",cm,2025,0,0.3,3,VRPLTSABIE_R2X-1,10,"","","","","","","","","","",""
+265042913,324898d1-deb9-45b5-94b5-e9274bb1c01f,2025-03-11 13:19:32+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172813678,31.9303243677,3,,,,3,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,11,"",cm,2025,0,.4,1,Browse_37-2115,.000204,5,"","","","","","","","","",""
+265042984,84a2b570-504a-47b3-ba8b-575ee8771fa4,2025-03-11 13:26:15+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2173073124,31.9302045821,3,,,,3,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,12.5,"",cm,2025,0,.25,1,Browse_37-2216,.000204,7.5,13,"","","","","","","","",""
+265043241,d022ca3b-ef16-40a6-b943-231a92ef5af3,2025-03-11 09:56:23+02:00,2025-03-11,"","Number of tree might not be accurate, site is.",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.989222966,31.7761921854,4,,,,4,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,46.1,"",cm,2025,0,.6,1,VSPNKUIN_1-6,5,"","","","","","","","","","",""
+265043264,e87a5b5a-b9fb-49c2-aa5d-872f16b85dd1,2025-03-11 13:18:46+02:00,2025-03-11,"","FRP
+Browse 37
+Tag 14
+10099
+Stem diameter - 15.7
+Crop year - 2025
+Crop count 999
+0.8 fraction
+Tree type 2",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2169819972,31.9299208182,8,,,,8,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,15.7,,cm,2025,999,0.8,2,FRPBrowse37_14,,,,,,,,,,,,
+265043511,bf1d2753-f3d2-460e-a926-2881b127d4de,2025-03-12 09:14:19+02:00,2025-03-12,"","VRP12R_2-2
+
+DBH: 26.5
+Count: 0
+Fraction 0.3
+Type: 4
+Basal area 10",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566081685,31.7262774874,8,,,,8,,open,false,,,"",Euclea natalensis,Mountain Guarri,Plantae,430991,"","",cm,"","","","","","","","","","","","","","","","",""
+265043657,edeec804-5afc-423c-ad9a-3d6c2fe42a44,2025-03-12 09:57:48+02:00,2025-03-12,"","110 cm for stem 1
+100 cm for stem 2
+0 fruit
+0.3 proportion 
+VRP11R_2-x
+Shade class 3
+
+FIX TAG
+VRP11R_2-x
+FIX VRP SIZE",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9652664562,31.6850192183,8,,,,8,,open,false,,,Pod-Mahogany,Afzelia quanzensis,Pod-mahogany,Plantae,340236,110,,cm,2025,0,0.3,3,VRPLTSABIE_R11_Y-2,,,,,,,,,,,,
+265043658,89fb1664-0e85-4c86-a7ae-7107f874e8c8,2025-03-11 09:34:52+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9896866667,31.7760133333,2,,,,2,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,12.4,"",cm,2025,500,0.18,1,VRPNKUIN_10-2,5,8,7.5,"","","","","","","","",""
+265043678,51ce993b-0e69-478c-8b94-f289e7058a32,2025-03-11 10:12:05+02:00,2025-03-11,"","VRPNKUOUT_1-1
+14.8
+No seeds
+Canopy 3
+.5",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881698661,31.7770035972,4,,,,4,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,14.8,"",cm,2025,0,.50,3,VRPNKUOUT_1-1,5,"","","","","","","","","","",""
+265043712,54b09374-4f0f-447e-a543-c1ec98808ecc,2025-03-11 10:18:18+02:00,2025-03-11,"","13.1
+VRPNKUOUT_1-2
+Canopy 1
+1,100
+50%",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881178327,31.7769642826,5,,,,5,,open,false,,,Russett Bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062,13.1,"",cm,2025,1100,.50,1,VRPNKUOUT_1-2,5,"","","","","","","","","","",""
+265043993,5520d91d-66b2-45e5-a4c1-61558a8761df,2025-03-11 13:21:35+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.259999421,31.7981215532,9041,,,,9041,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,22.2,"",cm,2025,999,1,1,"","","","","","","","","","","","",""
+265044013,469033bd-9a65-4e2a-82e3-ec15ce2f8019,2025-03-10 16:37:52+02:00,2025-03-10,"","In dormitory entrance of Skukuza
+Pretty sure the species is jackalberry because there is a label",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9952823317,31.5885031108,18,,,,18,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,"","",cm,"","","","","","","","","","","","","","","","",""
+265044138,94955c09-831f-4404-ba54-9ba1c30e9653,2025-03-10 16:25:21+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9950174382,31.5882185052,4,,,,4,,open,false,,,"",Terminalia prunioides,Purplepod clusterleaf,Plantae,430533,34,"",cm,2025,1000,40,3,"","","","","","","","","","","","",""
+265044142,6c961c10-2cef-4560-8f82-7b00bf1dc785,2025-03-12 12:40:42+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9874083472,31.6149584025,76,,,,76,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,76,"",cm,2025,120,0.05,3,VRPLTSABIE_R2X-3,"","","","","","","","","","","",""
+265044149,39043358-81fa-4fb4-a6e7-b04394e9af6c,2025-03-12 08:30:45+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968505,31.7498216667,5,,,,5,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,62,"",cm,2025,0,0.2,3,VRPLTSABIE_R13X-1,10,"","","","","","","","","","",""
+265044259,0c426270-aab1-4698-a771-9fdc107a1aad,2025-03-11 10:05:12+02:00,2025-03-11,"","VRPNKUOUT_10-2
+Crown width .8m",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9894916667,31.7773883333,3,,,,3,,open,false,,,Russet Bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062,.3,"",cm,2025,0,"",1,VRPNKUOUT_10-2,213,"","","","","","","","","","",""
+265044267,c4896100-33cf-40c2-a541-0e9f8e69e5c9,2025-03-11 09:38:36+02:00,2025-03-11,"","Diameters
+
+15.8
+11.0
+
+Combretum with fruit
+
+Fruit estimate 300 total
+
+Canopy rating 2
+
+Basal area factor 5
+
+VRPNKUN_2-7",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9898963825,31.7757454281,4,,,,4,,,false,,,"",Combretum,Bushwillows,Plantae,81496,15.8,"",cm,2025,30,0.1,2,VRPNKUN_2-7,5,"","","","","","","","","","",""
+265044368,187d8418-b4fc-48c0-831a-deb74a24984f,2025-03-11 13:17:22+02:00,2025-03-11,"","BROWSE_2117
+",1,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.217195,31.9300966667,4,,,,4,,open,false,,,knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427,12,37.7,cm,2025,0,0.5,1,Knobthorn,0.000204,"","","","","","","","","","",""
+265044531,005aa5d3-f48a-46a0-a3aa-c2acb7ff0e8e,2025-03-12 11:38:19+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9905758902,31.6103761621,13,,,,13,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,11,"",cm,2025,0,0.4,1,VRPLTSABIE_R8X-1,"","","","","","","","","","","",""
+265044686,d95e6638-97b3-465b-b4a1-292ba64c8845,2025-03-11 10:09:44+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9896583333,31.7772216667,4,,,,4,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,58.5,"",cm,2025,999,0,1,VRPNKUOUT_10-1,"","","","","","","","","","","",""
+265044688,fc791a47-af0c-4ff3-b4ce-ddaf506c13d2,2025-03-11 13:29:34+02:00,2025-03-11,"",BROWSE_37-9,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.2170783333,31.9298583333,4,,,,4,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,4.5,"",cm,2025,0,.5,1,BROWSE_37-9,.000204,"","","","","","","","","","",""
+265044774,80f8b514-036a-4ab6-85fb-d5a4307e9e15,2025-03-11 10:26:26+02:00,2025-03-11,"",VRPNKUOUT_1-3,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881056568,31.7772063109,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062,"","",cm,"","","","","","","","","","","","","","","","",""
+265044806,d17ed878-a522-4ee7-8374-bab2f50f0f2b,2025-03-10 16:41:25+02:00,2025-03-10,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9951490786,31.5884628153,12,,,,12,,open,false,,,Sausage tree,Kigelia africana,Sausage tree,Plantae,81491,82.6,"",cm,2025,11,.2,2,"","","","","","","","","","","","",""
+265044898,31379723-ad16-436d-9b45-7f2d29ab5a12,2025-03-11 13:21:38+02:00,2025-03-11,"","Tag 2122
+BROWSE_31-2122",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2168892105,31.9299263519,3,,,,3,,open,false,,,Unknown,Senegalia nigrescens,knobthorn,Plantae,594427,"","",cm,"","","","","","","","","","","","","","","","",""
+265045033,c4e97f34-453c-413c-89d8-4731a0cad778,2025-03-11 10:03:31+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9886034965,31.7772522174,13,,,,13,,open,false,,,Senegalia nigrescens,Senegalia nigrescens,knobthorn,Plantae,594427,50.0,"",cm,2025,0,.25,1,VRPNKUOUT_2-1,"","","","","","","","","","","",""
+265045096,251832ee-12d4-439e-9436-65332a598dda,2025-03-11 09:31:53+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, Limpopo, ZA",-23.9295457,31.4605914,81484,,,,81484,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,61.5,"",cm,2025,999,999,1,VPRNKUIN_10-1,5,"","","","","","","","","","",""
+265045209,55d1654c-a071-4a77-a645-3252fd4bdb9c,2025-03-11 13:19:18+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, Limpopo, ZA",-23.9295457,31.4605914,81484,,,,81484,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,9,"",cm,2025,0,0.5,1,BROWSE37_541,.000204,"","","","","","","","","","",""
+265045285,61c83f25-cd3b-481a-8470-d8888d7f3c2e,2025-03-11 09:31:54+02:00,2025-03-11,"",VRPNKUIN_10-3,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9893883333,31.77668,1,,,,1,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,9,"",cm,2025,0,.75,2,VRPNKUIN_10-3,5,"","","","","","","","","","",""
+265045486,bb5e584a-2096-4c44-b724-853336b24268,2025-03-11 13:20:36+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2171684011,31.930265848,395,,,,395,,open,false,,,Dichrostachys cinerea,Dichrostachys cinerea,aroma,Plantae,129706,3,"",cm,2025,0,0.5,2,BROWSE37_19,"",3,"","","","","","","","","",""
+265045597,edad5dd0-9b4a-40e5-8f28-99b7881cc31d,2025-03-11 10:15:54+02:00,2025-03-11,"","VRPNKUOUT_10-7
+Crown width 1.2
+",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9895033333,31.7774133333,15,,,,15,,open,false,,,Russet Bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062,1.2,"",cm,2025,0,.3,1,VRPNKUOUT_10-7,213,"","","","","","","","","","",""
+265045650,309ab3df-1393-4d0c-bf17-cdd18e7b8957,2025-03-12 08:42:09+02:00,2025-03-12,"","",2,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9683164525,31.7495013981,18,,,,18,,open,false,,,"roses, elms, figs, and allies",Rosales,"roses, elms, figs, and allies",Plantae,47132,129,"",cm,2025,0,0.2,4,VRPLTSABIE_R13X-4,"","","","","","","","","","","",""
+265045735,0986b639-9631-4ca7-aae7-7133ddd3e0ac,2025-03-11 13:31:59+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.2172283333,31.92988,3,,,,3,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,13,"",cm,2025,0,0.5,1,BROWSE_37-728,"",9.5,"","","","","","","","","",""
+265046232,2175e133-0ea5-4fc3-b3da-fe02001d2977,2025-03-12 08:46:25+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9682133333,31.7494883333,41,,,,41,,open,false,,,Natal Mahogany,Trichilia emetica,Natal mahogany,Plantae,595643,83.6,"",cm,2025,0,.2,3,VRPLTSABIE_R13_2-4,10,"","","","","","","","","","",""
+265089456,3fd73252-46b0-44ea-ab70-e343de3f846a,2025-03-12 12:19:22+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9824916667,31.6285783333,8,,,,8,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,102,"",cm,2025,120,0.2,2,VRPLTSABIE_R3X-6,10,"","","","","","","","","","",""
+265089607,b7bd2eb1-6dc7-4174-af93-9d4cb891bd0a,2025-03-12 12:14:45+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.990545,31.60225,3509,,,,3509,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,109.9,"",cm,2025,0,0.1,2,VRPLTSABIE_R3X-2,10,"","","","","","","","","","",""
+265089702,837a75d3-7c61-4846-b990-a55215f96d83,2025-03-12 11:40:59+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9905366667,31.61033,4,,,,4,,open,false,,,"",Euclea divinorum,Magic Gwarrie,Plantae,343032,14.0,"",cm,2025,0,0.5,2,VRPLTSABIE_R8X-6,10,"","","","","","","","","","",""
+265089771,7f609919-43b3-40a0-9dd6-9a51006493b8,2025-03-12 11:37:33+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.99057,31.6104033333,3,,,,3,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211,5.5,"",cm,2025,0,0.5,2,VRPLTSABIE_R8X-2,10,"","","","","","","","","","",""
+265089875,6e6fa718-7553-444d-bd22-aa5249d5c91b,2025-03-12 11:12:37+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.986809753,31.621408062,4,,,,4,,,false,,,"",Gymnosporia,Spikethorns,Plantae,185532,10,"",cm,2025,0,0.4,2,VRPLTSABIE_R9X-2,5,"","","","","","","","","","",""
+265090000,2fbf9092-166c-4ad9-8e1f-a168dea41601,2025-03-12 10:39:14+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.976105,31.656155,3040,,,,3040,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,67.5,"",cm,2025,70,0.1,1,VRPLTSABIE_R10X-2,10,"","","","","","","","","","",""
+265090071,09b2eb61-b294-4968-b136-c0a153cf8c7d,2025-03-12 10:36:02+02:00,2025-03-12,"","",2,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9761083333,31.656145,3,,,,3,,open,false,,,dicots,Magnoliopsida,dicots,Plantae,47124,35.5,"",cm,2025,10,0.2,1,VRPLTSABIE_R10X-1,10,46.0,24.0,"","","","","","","","",""
+265090182,7c7cd712-3483-4364-bb6a-62cd6e1a7ed9,2025-03-12 10:05:05+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9653216667,31.6853116667,3,,,,3,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253,29.5,"",cm,2025,0,0.5,2,VRPLTSABIE_11RX-5,10,"","","","","","","","","","",""
+265090291,ac474013-6721-405a-b8ce-858e03e46434,2025-03-12 09:58:43+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651866667,31.685295,4,,,,4,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253,84.0,"",cm,2025,100,0.1,3,VRPLTSABIE_R11X-5,10,"","","","","","","","","","",""
+265090505,f31d8f5e-3092-4de0-af28-89d5da1856e5,2025-03-12 09:56:11+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651667988,31.6853014659,4,,,,4,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211,159.0,"",cm,2025,0,0.3,2,VRPLTSABIE_R11X-3,10,"","","","","","","","","","",""
+265090608,18bb1f62-485e-4dbe-a109-91da5230433a,2025-03-12 09:53:32+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9653033333,31.6852383333,9,,,,9,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,19.0,"",cm,2025,0,0.4,3,VRPLTSABIE_R11X-2,10,18.5,"","","","","","","","","",""
+265090828,6588500f-2601-4488-a465-19e1f7bf9fb3,2025-03-12 09:52:48+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9653083333,31.685245,13,,,,13,,open,false,,,"",Combretum imberbe,Leadwood,Plantae,340408,39.0,"",cm,2025,0,0.3,3,VRPLTSABIE_R11X-1,10,"","","","","","","","","","",""
+265090955,4075c354-5598-4373-8346-94a0ea4dbaa8,2025-03-12 09:28:33+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565366667,31.7265383333,16,,,,16,,open,false,,,"",Trichilia emetica,Natal mahogany,Plantae,595643,148.0,"",cm,2025,180,0.1,4,VRPLTSABIE_R12X-6,10,80,"","","","","","","","","",""
+265091100,30d311c7-6875-4dfe-985d-7790adb21eb0,2025-03-12 09:25:00+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565716667,31.7264916667,11,,,,11,,open,false,,,"",Trichilia emetica,Natal mahogany,Plantae,595643,60.0,"",cm,2025,2,0.1,4,VRPLTSABIE_R12X-5,10,"","","","","","","","","","",""
+265091218,99913fa8-50cf-466c-84ad-1cf221de38ef,2025-03-12 09:19:45+02:00,2025-03-12,"","",2,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566033333,31.7266116667,4,,,,4,,open,false,,,dicots,Magnoliopsida,dicots,Plantae,47124,54.0,"",cm,2025,0,0.4,4,VRPLTSABIE_R12X-3,10,37.0,"","","","","","","","","",""
+265091304,5542c60b-a88b-46a2-ab3a-d2b2ff92a0b0,2025-03-12 09:21:27+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565666667,31.726575,5,,,,5,,open,false,,,"",Breonadia salicina,Matumi,Plantae,429244,46.0,"",cm,2025,360,0.1,4,VRPLTSABIE_R12X-4,10,36.0,"","","","","","","","","",""
+265091417,0aab918b-2a17-4894-b564-d6f9a90f7a4b,2025-03-12 09:10:22+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566466667,31.7266033333,27,,,,27,,open,false,,,"",Breonadia salicina,Matumi,Plantae,429244,50.6,"",cm,2025,40,0.5,2,VRPLTSABIE_R12X-1,10,"","","","","","","","","","",""
+265091537,7790fe6c-3d2a-4778-81e1-202cdb8a6fab,2025-03-12 08:36:08+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9684249996,31.749655,20,,,,20,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,89,"",cm,2025,0,0.3,3,VRPLTSABIE_R13X-2,10,"","","","","","","","","","",""
+265091640,f2c44be6-63bd-4935-8a78-ad19668ff788,2025-03-12 08:39:39+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968455,31.7498033333,4,,,,4,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,88.4,"",cm,2025,0,0.2,4,VRPLTSABIE_R13X-3,10,"","","","","","","","","","",""
+265091809,6b1e6806-c225-482f-a876-8e7b927bfc40,2025-03-12 08:48:21+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9683916667,31.749555,20,,,,20,,open,false,,,"",Breonadia salicina,Matumi,Plantae,429244,93.0,"",cm,2025,60,0.1,2,VRPLTSABIE_R13X-5,10,"","","","","","","","","","",""
+265091900,e88315b3-cb20-4c2d-954b-e6cd65edd1fc,2025-03-12 09:14:41+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566283333,31.72682,4,,,,4,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,74.0,"",cm,2025,180,0.1,3,VRPLTSABIE_R12X-2,10,53.3,"","","","","","","","","",""
+265148770,ec6f86a4-728d-4f3c-bdfe-41ed41debe22,2025-03-13 08:31:05+02:00,2025-03-13,"","30,.75
+1.7,4
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681593492,31.749435426,3,,,,3,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,1.7,,,2025,30,.75,4,,,,,,,,,,,,,
+265148796,f6746324-eda6-4052-9ead-3cc66ba87a99,2025-03-13 08:32:27+02:00,2025-03-13,"","0,.1
+101.8,3
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681522386,31.7494242125,2,,,,2,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,101.8,,,2025,0,.1,3,,,,,,,,,,,,,
+265148820,211d9763-dfdc-4214-aeaa-d3d4ed50c2a2,2025-03-13 09:15:21+02:00,2025-03-13,"","100,.13
+14,2",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9661996588,31.685527945,3,,,,3,,open,false,,,Horned Thorn,Vachellia grandicornuta,Horned Thorn,Plantae,595949,14,,,2025,100,.13,2,,,,,,,,,,,,,
+265148833,a3181533-7445-47c5-a16b-dfce8da7ad41,2025-03-13 09:23:50+02:00,2025-03-13,"","0,.2
+12,2
+
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651496997,31.6847589892,9,,,,9,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253,12,,,2026,0,.2,2,,,,,,,,,,,,,
+265148856,82c319ad-7b78-4967-af91-f840e538131f,2025-03-13 09:26:24+02:00,2025-03-13,"","0,.6
+9,1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.965092619,31.6844661255,5,,,,5,,open,false,,,"",Vachellia karroo,Sweet Thorn,Plantae,502780,9,,,2025,0,.6,1,,,,,,,,,,,,,
+265148891,a74387e5-27ed-42c4-80b2-1a9a5a7c26c1,2025-03-13 09:32:05+02:00,2025-03-13,"","100,.08
+21,2
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9650037358,31.68519074,3,,,,3,,open,false,,,Horned Thorn,Vachellia grandicornuta,Horned Thorn,Plantae,595949,21,,,2025,100,.08,2,,,,,,,,,,,,,
+265148950,7a3e6704-fe8e-481b-a7ec-7424ad04aaa2,2025-03-13 09:42:24+02:00,2025-03-13,"","100,1
+16,2 ",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.976658386,31.6566046071,3,,,,3,,open,false,,,"",Vachellia grandicornuta,Horned Thorn,Plantae,595949,16,,,2025,100,.9,2,,,,,,,,,,,,,
+265148970,3c07ae5f-6011-4c32-a6ad-e9b84382f5a0,2025-03-13 09:52:16+02:00,2025-03-13,"","7,.7
+2.4,2
+",1,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.976034737,31.6563407612,8,,,,8,,open,false,,,aroma,Dichrostachys cinerea,aroma,Plantae,129706,2.4,,,2025,7,.7,2,,,,,,,,,,,,,
+265148986,214dda81-e957-4d8d-b946-b0817e10da32,2025-03-13 10:25:09+02:00,2025-03-13,"","70,.25
+11,10,1
+",1,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9871845078,31.6211476364,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228,11,,,2025,70,.25,1,,,10,,,,,,,,,,
+265149008,741449ed-c42c-43eb-86f3-52956dbea008,2025-03-13 10:27:41+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9871056607,31.6212403317,7,,,,7,,open,false,,,"",Combretum erythrophyllum,river bushwillow,Plantae,135389,10,"",cm,2025,0,.25,"","","","","","","","","","","","","",""
+265149104,32538219-e2e0-4f03-a566-4aaae6caf7e3,2025-03-13 10:29:38+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9870396824,31.6212389154,4,,,,4,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,13,"",cm,2025,0,.25,1,"","","","","","","","","","","","",""
+265149175,11b95ce1-61f7-4267-84aa-8cf3452c544d,2025-03-13 10:31:31+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9868819623,31.62146712,631,,,,631,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,8,"",cm,2025,100,.2,2,"","","","","","","","","","","","",""
+265149231,1d61789d-1022-481d-97e1-19cd9d13ac97,2025-03-13 10:35:41+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9873361364,31.6211389192,3,,,,3,,open,false,,,"",Grewia villosa,Mallow Raisin,Plantae,431080,2.5,"",cm,2025,25,.5,2,"","","","","","","","","","","","",""
+265149255,c966f511-142f-4301-a9f9-961f50f7aa59,2025-03-13 10:46:08+02:00,2025-03-13,"","",1,false,3,"Kruger National Park, Mpumalanga, ZA",-24.9905678211,31.6106655635,3,,,,3,,open,false,,,aroma,Dichrostachys cinerea,aroma,Plantae,129706,6,"",cm,2025,0,.6,2,"","",4,2,"","","","","","","","",""
+265149327,61dbbaca-7020-4ea4-af24-e1e53e5366d1,2025-03-13 10:49:34+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Mpumalanga, ZA",-24.9905473776,31.6103032597,3,,,,3,,open,false,,,"",Phyllogeiton discolor,brown ivory,Plantae,1473181,16,"",cm,2025,0,.25,1,"","","","","","","","","","","","",""
+265149454,06676606-5b3b-45a7-b4bc-5cea83bb5b73,2025-03-13 11:17:54+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9822252151,31.6286477721,226,,,,226,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,.8,"",cm,2025,0,.85,2,"","","","","","","","","","","","",""
+265152998,1acb7c25-4dd4-4bc3-8939-f270032a49a6,2025-03-13 11:34:54+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9872944767,31.615375471,4,,,,4,,open,false,,,Sausage,Kigelia africana,Sausage tree,Plantae,81491,59.7,"",cm,2025,0,0.2,4,"","",41.1,"","","","","","","","","",""
+265153047,06e2c945-2058-4ee4-ac64-311d7812d516,2025-03-13 08:32:33+02:00,2025-03-13,"","brown ivory
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9679904276,31.7494304798,4,,,,4,,open,false,,,unknow,Phyllogeiton discolor,brown ivory,Plantae,1473181,9.7,"",cm,2025,0,0.4,3,"","","","","","","","","","","","",""
+265153684,a456e6ba-08c2-4931-a004-73fe56e0642f,2025-03-13 11:32:40+02:00,2025-03-13,"",Male,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9872429747,31.6152390725,9,,,,9,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,96.8,"",cm,2025,0,0.3,3,"","","","","","","","","","","","",""
+265153985,fec6c046-6f6f-45f6-90f3-5959b42efde2,2025-03-13 11:18:22+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9823044672,31.6286517639,3,,,,3,,open,false,,,"",Euclea divinorum,Magic Gwarrie,Plantae,343032,3,"",cm,2025,0,0.4,3,"","","","","","","","","","","","",""
+265154047,dbd44632-d3e3-4bd5-a7f9-dc8d66114fcc,2025-03-13 11:14:42+02:00,2025-03-13,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9822531071,31.6285854766,86,,,,86,,open,false,,,tamboti,Spirostachys africana,tamboti,Plantae,340253,3,"",cm,2025,0,2.4,2,"","","","","","","","","","","","",""
+265154202,b8f0d54a-6312-4b89-b704-d6d7948e3a89,2025-03-13 10:45:16+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906864133,31.6103314534,1126,,,,1126,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706,4.5,"",cm,2025,240,0.5,2,"","","","","","","","","","","","",""
+265154473,0e908151-2513-4264-8aa0-c1e2ff9d40f2,2025-03-13 10:29:20+02:00,2025-03-13,"",5th plots,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9871953654,31.6211138139,451,,,,451,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,1,"",cm,2025,0,0.4,3,"","","","","","","","","","","","",""
+265155308,0506159e-9cc1-4ff4-8f07-6d7d9218c0b1,2025-03-13 08:26:28,2025-03-13,"","Dbh 67.7
+Count 540
+Fraction 0.3
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968425,31.750015,154,,,,154,,open,false,,,batumi,Breonadia salicina,Matumi,Plantae,429244,67.7,,,2025,540,0.3,2,,,,,,,,,,,,,
+265155342,c5236312-42eb-45d8-93f5-82018f6cc088,2025-03-13 08:33:03,2025-03-13,"","Dbh 44.3
+Dbh2 40.2
+Count 30
+Fraction 0.3
+Shade 3",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968015,31.7493833333,8,,,,8,,open,false,,,brown Ivory,Phyllogeiton discolor,brown ivory,Plantae,1473181,44.3,,,2025,30,0.3,3,,,40.2,,,,,,,,,,
+265155429,1dd03040-5daf-45bc-93ee-cef4cba567db,2025-03-13 08:52:09,2025-03-13,"","Dbh 3
+Count 0
+Fraction 0.9
+Shade 3",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9570333333,31.7270283333,8,,,,8,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032,3,,,2025,0,0.9,3,,,,,,,,,,,,,
+265155436,c40c74c9-a6a2-436a-9348-60159d5937a9,2025-03-13 09:20:05,2025-03-13,"","Dbh 5, 3, 4
+Count 0
+Fraction 0.4
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.964935,31.6851333333,9,,,,9,,open,false,,,dychrostachus,Dichrostachys cinerea,aroma,Plantae,129706,5,,,2025,0,0.4,2,,,4,3,,,,,,,,,
+265155463,ff88ea5d-b90e-49ba-bf68-843578bd11e9,2025-03-13 09:22:22,2025-03-13,"","Dbh 2, 1, 0.5
+Count 0
+Fraction 0.5
+Shade 3",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651116667,31.684915,9,,,,9,,open,false,,,snowberry,Flueggea virosa,snowberrytree,Plantae,340143,2,,,2025,0,0.5,3,,,1,0.5,,,,,,,,,
+265155502,d2a3b0e4-661a-4f53-a867-df82091978ad,2025-03-13 09:23:28,2025-03-13,"","Dbh 2,2,1.5
+Count 0
+Fraction 0.5
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651016667,31.68487,9,,,,9,,open,false,,,snowberry,Flueggea virosa,snowberrytree,Plantae,340143,2,,,2025,0,0.5,2,,,2,1.5,,,,,,,,,
+265155517,f322245e-0e8c-4ab8-912b-c841ce63dbc4,2025-03-13 09:25:26,2025-03-13,"","Dbh 3
+Count 0
+Fraction 0.3
+Shade 4",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9652233333,31.684875,9,,,,9,,open,false,,,,Spirostachys africana,tamboti,Plantae,340253,3,,,2025,0,0.3,4,,,,,,,,,,,,,
+265155637,c9f32eba-a01f-4a8e-a3e0-2d029ecc935e,2025-03-13 09:47:18,2025-03-13,"","Dbh 33.7
+Count 108
+Fraction 0.2
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9761516667,31.6561216667,9,,,,9,,open,false,,,terminalia pruneides,Terminalia prunioides,Purplepod clusterleaf,Plantae,430533,33.7,,,2025,108,0.2,2,,,,,,,,,,,,,
+265155704,ed9d3af9-1a7d-414c-9d82-eb5830809ba4,2025-03-13 09:51:18,2025-03-13,"","Tiny leaf vachellia
+Dbh 11
+Count 0
+Fraction 0.6
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9763183333,31.65605,7,,,,7,,open,false,,,Sweet Thorn,Vachellia karroo,Sweet Thorn,Plantae,502780,11,,,2025,0,0.6,2,,,,,,,,,,,,,
+265155841,204f7ca2-e1c4-4a1e-adfc-2cdd0e6ef931,2025-03-13 10:34:25,2025-03-13,"","Dbh 3
+Count 0
+Fraction 0.3
+Shade 3",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.987305,31.621135,102,,,,102,,open,false,,,euclea Natalensis,Euclea natalensis,Mountain Guarri,Plantae,430991,3,,,2025,0,0.3,3,,,,,,,,,,,,,
+265155867,3932d139-349d-4bad-aed7-4cf19c9f134d,2025-03-13 10:46:11,2025-03-13,"","Dbh 0.5
+Count 70
+0.1
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9913639,31.605311,2588,,,,2588,,open,false,,,sandpaper grewia,Grewia flavescens,Sandpaper Raisin,Plantae,431075,0.5,,,2025,70,0.1,2,,,,,,,,,,,,,
+265155887,0dde8220-896b-4f2a-9e1f-2546c55b4fa2,2025-03-13 10:49:31,2025-03-13,"","Dbh 4
+Count 2
+Fraction 0.1
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9908166667,31.6103733333,8,,,,8,,open,false,,,Twotone Raisin,Euclea crispa,Blue Gwarrie,Plantae,558688,4,,,2025,2,0.1,2,,,,,,,,,,,,,
+265156002,57b9c232-308c-47c5-a63f-0d68bf110be1,2025-03-13 11:35:21,2025-03-13,"","Count 550
+Fraction 0.1
+Shade 2
+Dbh 74.5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.98706,31.615365,8,,,,8,,open,false,,,jackal berry,Diospyros mespiliformis,jackalberry,Plantae,340214,74.5,,,2025,550,0.1,2,,,,,,,,,,,,,
+265156006,692ec1bf-2d30-4f7c-afb4-541a9db6980d,2025-03-11 13:23:51+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, Limpopo, ZA",-23.9295457,31.4605914,81484,,,,81484,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,14,"",cm,2025,0,0.5,1,BROWSE_37-729,.000204,8,"","","","","","","","","",""
+265158377,758cbcac-3ca3-4e72-a6ee-1056fae8261c,2025-03-13 08:56:47+02:00,2025-03-13,"","Euclea 
+Canopy 2
+.4
+No seeds
+1.8",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9569650227,31.7266146094,5,,,,5,,open,false,,,"",Euclea divinorum,Magic Gwarrie,Plantae,343032,1.8,"",cm,2025,0,.4,2,"",10,"","","","","","","","","","",""
+265158491,ed5f2fd5-aaca-4999-8c8f-9ff8be2bb04a,2025-03-13 09:22:52+02:00,2025-03-13,"","Canopy 1
+No seeds
+20.3",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9650431657,31.6848502681,9,,,,9,,open,false,,,Bushveld Gardenia,Gardenia volkensii,Bushveld Gardenia,Plantae,431063,20.3,"",cm,2025,0,.5,1,"",10,"","","","","","","","","","",""
+265158677,e968483f-52fb-479e-a2d9-e5c0e82d2cc9,2025-03-13 09:49:44+02:00,2025-03-13,"","13.4
+Seeds
+Canopy 1
+.5
+60",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9760408094,31.6561955586,8,,,,8,,open,false,,,Horned thorn,Vachellia grandicornuta,Horned Thorn,Plantae,595949,"","",cm,2025,60,.5,1,"","","","","","","","","","","","",""
+265158849,536b37ee-bd4e-4a70-a52b-f6228b110977,2025-03-13 10:27:15+02:00,2025-03-13,"","Canopy 2
+No seeds
+8",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9871606613,31.6211683397,7,,,,7,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106,8,"",cm,2025,0,.4,2,"",10,"","","","","","","","","","",""
+265159021,6655a019-6df7-4aa9-961e-17c10db3d3fb,2025-03-13 10:45:06+02:00,2025-03-13,"","Canopy 2
+No seeds 
+5 cm",0,false,3,"Kruger National Park, Mpumalanga, ZA",-24.9907153007,31.6105874442,6,,,,6,,,false,,,Snowberry,Symphoricarpos albus,Common Snowberry,Plantae,48523,5,"",cm,2025,0,.5,2,"",10,"","","","","","","","","","",""
+265159117,a0e974f7-e94d-4376-a46f-61a44d74b1d2,2025-03-13 11:15:15+02:00,2025-03-13,"",".2
+Canopy 2
+No seeds",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9821848283,31.6286451649,4,,,,4,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075,.2,"",cm,2025,0,.4,2,"",10,"","","","","","","","","","",""
+265161603,85477b6b-1cae-45ec-a0c9-1011ffdd0db9,2025-03-13 08:31:36+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.968095,31.7493616667,4,,,,4,,open,false,,,"",Phyllogeiton discolor,brown ivory,Plantae,1473181,24.8,77.9,cm,2025,30,0.15,3,Phyllogeiton discolor,"","","","","","","","","","","",""
+265264743,e0aaed15-364d-4253-9996-53cd9b18009a,2025-03-13 11:16:36+02:00,2025-03-13,"","",0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9823133333,31.6285783333,4,,,,4,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706,3,9.4,cm,2025,70,.5,2,"","",3,3,"","","","","","","","",""
+265363359,fa1d90f4-027b-4f17-b256-5ebd0923ac5f,2025-03-14 05:59:54+02:00,2025-03-14,"","55,.9
+.8,2",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0551978266,31.5948001296,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,.8,,,2025,55,.9,2,,,,,,,,,,,,,
+265363428,6437cac6-b0d6-4aae-b5f5-c543822dfa79,2025-03-14 06:02:06+02:00,2025-03-14,"","0,.6
+6,2
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552706647,31.5945674453,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228,6,,,2025,0,.6,2,,,,,,,,,,,,,
+265363448,3fdd5bf4-2a15-44b7-91c0-11cc5fc33e77,2025-03-14 06:06:36+02:00,2025-03-14,"","0,.6
+11,1
+",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0552249063,31.5942353428,3,,,,3,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688,11,,,2025,0,.6,1,,,,,,,,,,,,,
+265363507,34dab293-c0ef-4a52-a73a-96fdb9ba9cf4,2025-03-14 06:20:16+02:00,2025-03-14,"","100,.11
+68,1",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0650208304,31.5995354019,4,,,,4,,open,false,,,"",Afzelia quanzensis,Pod-mahogany,Plantae,340236,68,,,2025,100,.11,1,,,,,,,,,,,,,
+265363545,9a7fc976-0d5d-4380-96ad-f70467fa3464,2025-03-14 06:26:01+02:00,2025-03-14,"","28,.4
+7,7,6,1",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0831942633,31.6020027828,3,,,,3,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688,7,,,2025,28,.4,1,,,7,6,,,,,,,,,
+265363560,c00627cc-25dc-44e0-b833-42d50c45eaa1,2025-03-14 06:30:37+02:00,2025-03-14,"","0,.3
+6,4,1
+
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0832770765,31.6023435071,4,,,,4,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599,6,,,2025,0,.3,1,,,,,,,,,,,,,
+265363573,709ec392-38e2-4fe6-8dc8-f8fa25a816db,2025-03-14 06:54:25+02:00,2025-03-14,"","100,.07
+18,1
+
+",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1019108082,31.5933180571,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062,18,,,2025,100,.07,1,,,,,,,,,,,,,
+265363585,dc4ec888-5860-4af5-bbd9-3a74b29f3328,2025-03-14 06:56:12+02:00,2025-03-14,"","0,.3
+11,2",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1021832554,31.5938780364,5,,,,5,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599,11,,,2025,0,.3,2,,,,,,,,,,,,,
+265363633,df161153-4825-4b72-9350-0ef2dcb0668d,2025-03-14 07:38:33+02:00,2025-03-14,"","0,.9
+8,2",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1185600693,31.5648239292,3,,,,3,,open,false,,,"",Vachellia nilotica,Egyptian acacia,Plantae,557826,7.4,,,2025,0,.9,2,,,,,,,,,,,,,
+265363657,16427a59-9ae6-4f79-a53a-2094ccaa2299,2025-03-14 08:22:03+02:00,2025-03-14,"","0,.8
+5,2",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1020666511,31.5470841348,4,,,,4,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599,5,,,2025,0,.8,2,,,,,,,,,,,,,
+265363704,2c0b4998-7b44-4836-82d9-bff1ef376758,2025-03-14 08:43:53+02:00,2025-03-14,"","0,.95
+8,1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0706680538,31.5491966252,5,,,,5,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,8,,,2025,0,.95,1,,,,,,,,,,,,,
+265363725,82343696-cef7-4414-a42c-8223b80f98de,2025-03-14 08:45:11+02:00,2025-03-14,"","0,.8
+8,2",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0706919842,31.5491264686,3,,,,3,,open,false,,,aroma,Dichrostachys cinerea,aroma,Plantae,129706,8,,,2025,0,.8,2,,,,,,,,,,,,,
+265363799,5eb4d4ca-fa3f-40ac-966e-81f24abe1f71,2025-03-14 08:48:20+02:00,2025-03-14,"","0,.95
+2,1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0708851409,31.5490614375,3,,,,3,,open,false,,,"",Flueggea virosa,snowberrytree,Plantae,340143,2,,,2025,0,.95,1,,,,,,,,,,,,,
+265363817,56acba72-9a56-40a9-91c6-857467e35770,2025-03-14 08:58:03+02:00,2025-03-14,"","999,0
+8,8,7,2
+Vrpltgran_r12a-1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1550931615,31.4804747463,3,,,,30003,,obscured,true,,,"",Balanites maughamii,greenthorn,Plantae,340261,8,,,2025,999,0,2,VRPLTGRAN_r12a-1,5,8,7,,,,,,,,,
+265363846,35698ef0-b30e-4717-91d4-9dfd35538fb0,2025-03-14 09:25:40+02:00,2025-03-14,"","Vrpltgran-r11a-1
+0,.7
+15.9,1
+5 baf
+",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1024794603,31.5466703221,4,,,,4,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688,15.9,,,2025,0,.7,1,VRPLTGRAN_r11a-1,5,,,,,,,,,,,
+265363873,ed898e43-e71a-4575-be34-6eef3e455929,2025-03-14 10:02:45+02:00,2025-03-14,"","999,0
+53.6,1
+Vrpltgran-r10a-4",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1183797745,31.5649069101,3,,,,3,,open,false,,,marula,Sclerocarya birrea,marula,Plantae,340245,53.6,,,2024,999,0,1,VRPLTGRAN_r10a-4,,,,,,,,,,,,
+265363901,fe00a9b1-757a-44eb-b90f-caa3d1684bfa,2025-03-14 10:06:40+02:00,2025-03-14,"","0,.8
+9,7,3,1
+Beltran-r10b-3",2,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1185531604,31.5648626042,242,,,,242,,open,false,,,Bushwillows,Combretum,Bushwillows,Plantae,81496,9,,,2025,0,.8,1,VRPLTGRAN_R10B-3,5,,,,,,,,,,,
+265363917,228f9f09-6eaa-40ba-89ce-838d16925097,2025-03-14 10:15:10+02:00,2025-03-14,"","0,.9
+7.8,2
+
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1184225222,31.5649707802,3,,,,3,,open,false,,,"",Vachellia tortilis,umbrella thorn,Plantae,489563,7.8,,,2025,0,.9,2,,,,,,,,,,,,,
+265363956,498838f8-0d38-435e-90c6-3df2f321392c,2025-03-14 10:38:30+02:00,2025-03-14,"","999,0
+52.3,1
+Vrpltgran r9a-2
+
+",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0132300814,31.4996114013,1761,,,,1761,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,52.3,,,2025,999,0,1,VRPLTGRAN_r9a-2,5,,,,,,,,,,,
+265364055,1f9dc12f-8ad0-4d3b-ab38-c158b4838b65,2025-03-14 11:03:03+02:00,2025-03-14,"","0,.6
+7,2
+
+",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1021844376,31.5940927343,4,,,,4,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599,7,,,2025,0,.6,2,,,,,,,,,,,,,
+265364094,acfd928f-a100-4cdc-bb89-712db7be2334,2025-03-14 11:04:59+02:00,2025-03-14,"","0,.7
+9,2",1,false,3,"Kruger National Park, Mpumalanga, ZA",-25.102059748,31.5941929445,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228,9,,,2025,0,.7,2,,,,,,,,,,,,,
+265364129,63eec42b-5544-414b-b5b6-dee79429510a,2025-03-14 11:14:43+02:00,2025-03-14,"","Vrpltgran-r9c-1
+0,.8
+6.3,1
+",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1018689073,31.5939530193,3,,,,3,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,6.3,,,2025,0,.8,1,VRPLTGRAN_R9c-1,5,,,,,,,,,,,
+265364199,024e8ede-8167-4da3-a9e3-c0b907f797b4,2025-03-14 11:39:06+02:00,2025-03-14,"","0,.7
+13,2
+Vrpltgran4b-1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0835530088,31.6027970519,3,,,,3,,open,false,,,"",Vachellia nilotica,Egyptian acacia,Plantae,557826,13,,,2025,0,.7,2,VRPltgran_4B-1,5,,,,,,,,,,,
+265364219,988054a2-897b-4691-a799-502e8133af4f,2025-03-14 11:44:27+02:00,2025-03-14,"","3,.6
+11,10,101",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0834897781,31.6026502843,5,,,,5,,open,false,,,"",Vangueria infausta,wild-medlar,Plantae,340324,11,,,2025,3,.6,1,,,10,10,,,,,,,,,
+265364298,af77d16e-f20e-4da8-9526-2d771c810459,2025-03-14 11:49:24+02:00,2025-03-14,"","2,.6
+8,7,4,2
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0833335705,31.6023290064,6,,,,6,,open,false,,,"",Vangueria infausta,wild-medlar,Plantae,340324,8,,,2025,2,.6,2,,,7,4,,,,,,,,,
+265364354,d2911f9c-bba3-4568-912b-64133e406d18,2025-03-14 12:03:25+02:00,2025-03-14,"","0,.95
+.4,2",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552196615,31.5943755023,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,.4,,,2025,0,.95,2,,,,,,,,,,,,,
+265364364,747d60c1-70a9-4a8e-904c-e0932db2d19d,2025-03-14 12:05:07+02:00,2025-03-14,"","6,.5
+11,2",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552145066,31.59423762,3,,,,3,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810,11,,,2025,6,.5,2,,,,,,,,,,,,,
+265364402,e5439bd6-fc48-4e69-afd8-3a2567646d57,2025-03-14 12:10:45+02:00,2025-03-14,"","0,.8
+2.2,2
+
+",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0553673679,31.5943032496,254,,,,254,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,2.2,,,2025,0,.8,2,,,,,,,,,,,,,
+265387119,ea46e809-e758-4ede-9d8a-3e9038b84029,2025-03-15 13:08:53+02:00,2025-03-15,"","",1,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9953561214,31.5884739712,21,,,,21,,open,false,,,Fried-egg flower,Oncoba spinosa,Fried-egg flower,Plantae,340332,14,"",cm,2025,22,.95,2,"","",13,"","","","","","","","","",""
+265389409,f85bd939-e32d-4f6e-9912-375bd412802c,2025-03-14 12:25:37+02:00,2025-03-14,"","Baccelia something 
+Diameter: 12.2
+Crop count: 0
+Fraction 0.33
+Shading: 3
+LTRGRAN_1A-1
+BAF 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0470724315,31.5888367265,4,,,,4,,open,false,,,Blue Thorn,Senegalia erubescens,Blue Thorn,Plantae,594421,12.2,,cm,2025,0,0.33,3,VRPLTGRAN_1A-1,5,,,,,,,,,,,
+265389422,fbfdaf08-fb0d-4034-aa3e-bb58f80e1793,2025-03-14 09:26:07+02:00,2025-03-14,"","Weeping waddle
+Diameter: 7.7, 5.9, 3.2
+Crop count: 0
+Crop fraction: 0.3
+TreeID: VRPLTGRAN_R11A-2
+BAF: 5
+Canopy class: 1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.102417242,31.5467079633,4,,,,4,,open,false,,,Weeping Wattle,Peltophorum africanum,Weeping wattle,Plantae,138688,7.7,,,2025,0,0.3,1,VRPLTGRAN_R11A-2,5,5.9,3.2,,,,,,,,,
+265389444,bff37844-a26a-458d-a720-7f71f83bf901,2025-03-14 09:30:51+02:00,2025-03-14,"","Cambridum epiculatum 
+Diameter: 22.4, 25.5
+Canopy class: 1
+Crop count: 0
+Crop faction: .25
+TreeID: VRPLTGRAN_R11-B3
+BAF: 5",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1023533693,31.5468581635,4,,,,4,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,22.4,,,2025,0,0.25,1,VRPLTGRAN_R11B-3,5,25.5,,,,,,,,,,
+265389494,0e0f4224-b39c-4ac6-9117-8eeacacf228e,2025-03-14 11:02:36+02:00,2025-03-14,"","Cambridum epiculatum
+Diameter: 9.3
+Crop count: 0
+Crop fraction: 0.7
+Shade: 1
+BAF: 5
+LTGRANR8A-2",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1022775937,31.5942429006,3,,,,3,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,9.3,,,2025,0,0.7,1,VRPLTGRAN_R8A-2,5,,,,,,,,,,,
+265389527,a8bb6a7b-a328-4a4f-888c-4945deb15d48,2025-03-14 11:07:13+02:00,2025-03-14,"","Jackleberry 
+Diameter: 52.7
+Crop count: 0
+Fraction: 0.4
+Shade: 1
+BAF 5
+LTGRANR8B-1",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1025515143,31.5939205326,4,,,,4,,open,false,,,Jackalberry,Diospyros mespiliformis,jackalberry,Plantae,340214,52.7,,,2025,0,0.4,1,VRPLTGRAN_R8B-1,5,,,,,,,,,,,
+265389543,d07b6616-4f66-43a7-9c2c-d3c0da1b52a6,2025-03-14 11:35:30+02:00,2025-03-14,"","??
+Diameter: 7.9, 8.1, 7
+Crop count: 5
+Crop fraction: 0.8
+Shade: 1
+BAF: 5
+LTGRAN4A-4",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0835085729,31.6026544773,4,,,,4,,open,false,,,Wild-Medlar,Vangueria infausta,wild-medlar,Plantae,340324,7.9,,,2025,5,0.8,1,VRPLTGRAN_4A-4,5,8.1,7,,,,,,,,,
+265389584,55cfa935-2a58-41f8-ae8a-928d0ec57bea,2025-03-14 09:04:57+02:00,2025-03-14,"","9:04 am
+VRPLTGRAN_R12B-2
+Aroma
+DBH_1: 6.1
+DBH_2: 4.2
+DBH_3: 12.5
+Fruit: 0
+Fraction: .2
+Class: 3
+BAF: 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0705778333,31.5491866667,3,,,,3,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706,12.5,"",cm,2025,0,.2,3,VRPLTGRAN_R12B-2,5,6.1,4.2,"","","","","","","","",""
+265389597,856d6392-fe81-4cc7-95a9-a8a6d5788aae,2025-03-14 12:09:06+02:00,2025-03-14,"","Silver cluster leaf terminalia eriselia
+Diameter: 5.5, 3
+Crop count: 0
+Crop fraction: 0.5
+Shade: 1
+LTGRAN_2B-1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0554533812,31.5942326504,2,,,,2,,open,false,,,Silver Terminalia,Terminalia sericea,silver terminalia,Plantae,336810,5.5,,,2025,0,0.5,1,VRPLTGRAN_2B-1,5,3,,,,,,,,,,
+265389669,6d23e7bc-a31d-45b5-a0f1-b2f07220a89c,2025-03-10 16:27:07+02:00,2025-03-10,"","",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.995455,31.5884716667,19,,,,19,,open,false,,,"",Terminalia prunioides,Purplepod clusterleaf,Plantae,430533,57.8,"",cm,2025,810,.3,2,"","","","","","","","","","","","",""
+265389727,eceafb66-eb5f-4adb-a779-65132839f8ad,2025-03-11 09:41:51+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9895125106,31.7760030954,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062,9,"",cm,2025,60,.5,2,VRPNKUIN_10-5,5,3,"","","","","","","","","",""
+265389823,b39be1d6-13d4-43f6-88e9-c898577d994f,2025-03-11 10:10:26+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.989405,31.7772383333,7,,,,7,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062,3,"",cm,2025,0,.3,2,VRPNKUOUT_10-4,213,3,2,"","","","",2,"","","",""
+265389882,dd367148-8138-465c-9d14-8ef0ee93f234,2025-03-11 13:20:21+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172971703,31.9300009869,4,,,,4,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,17,"",cm,225,0,.25,1,BROWSE_37-7,.000204,"","","","","","","","","","",""
+265389940,e5f32c74-1a32-4b8f-9d10-b1e619d1a176,2025-03-11 13:22:32+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172915964,31.9300786033,7,,,,7,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706,3,"",cm,2025,0,.25,1,BROWSE_37-4,.000204,2,2,"","","","",1.5,"","","",""
+265389996,d5dac153-8631-439b-abc0-80d28241535c,2025-03-11 13:31:04+02:00,2025-03-11,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172853891,31.9302142247,3,,,,3,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427,12.5,"",cm,2025,0,.25,1,BROWSE_37-2118,.000204,7,"","","","","","","","","",""
+265390014,7b1bfc8b-c3a0-4ca0-8ab2-5d0e5417ec5c,2025-03-11 09:44:08+02:00,2025-03-11,"","Diameters
+
+12.0
+10.1
+14.0
+
+Canopy type 2
+
+Combretum with fruit
+
+Total fruit estimate 2000
+
+VRPNKUN_2-7
+
+Basal area factor 5",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9898224593,31.7757334058,3,,,,3,,,false,,,"",Combretum,Bushwillows,Plantae,81496,12,"",cm,2025,200,10,2,VRPNKUN_2-7,5,10.1,"","","","","","","","","",""
+265390067,77327553-5c31-40b9-8eec-1aa985711cd6,2025-03-12 08:46:53+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.96827,31.7495533333,3,,,,3,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253,63,"",cm,2025,0,.4,3,VRPLTSABIE_R13Y-4,10,27,"","","","","","","","","",""
+265390118,2af1b4d6-e414-407c-8886-40cb467d4607,2025-03-14 09:01:49+02:00,2025-03-14,"","",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0705695,31.549105,7,,,,7,,open,false,,,"",Terminalia sericea,silver terminalia,Plantae,336810,8,"",cm,2025,40,.8,1,VRPLTGRAN_R12B-1,5,8,4,"","","","","","","","",""
+265390128,4f4ac75d-0178-41c6-aeb8-ade949e0cd67,2025-03-14 12:05:39+02:00,2025-03-14,"","12:05
+VRPLTGRAN_2A-1
+Buffalo Thorn
+DBH: 13.4
+Fruit:
+Fraction
+Class:1
+BAF: 5",2,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552971667,31.5943866667,4,,,,4,,open,false,,,dicots,Magnoliopsida,dicots,Plantae,47124,13.4,"",cm,2025,0,.2,1,VRPLTGRAN_2A-1,5,"","","","","","","","","","",""
+265390234,01cfeba7-b57f-4552-b7bf-3fb37d5cd01d,2025-03-14 12:10:55+02:00,2025-03-14,"","12:11
+VRPLTGRAN_2B-2
+Red Bushwillow
+DBH: 12.7
+Fruit: 0
+Fraction: .3
+Class: 1
+BAF: 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0554971667,31.5940616667,11,,,,11,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,12.7,"",cm,2025,0,.3,1,VRPLTGRAN_2B-2,5,"","","","","","","","","","",""
+265390254,ec6df72f-030d-4d34-9b72-bfd3a4ac46b3,2025-03-14 12:25:45+02:00,2025-03-14,"","VRPLTGRAN_1-2
+
+Dbh 8.5, 6.5
+Shade factor 3
+Crop count 0
+Crop fraction 0.3
+BAF 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.047098369,31.5887739591,8,,,,8,,open,false,,,"",Senegalia erubescens,Blue Thorn,Plantae,594421,8.5,"",cm,2025,0,0.3,3,VRPLTGRAN_1-2,5,"","","","","","","","","","",""
+265390346,6c95a706-dd0d-465e-aff4-410c8321966e,2025-03-14 10:00:12+02:00,2025-03-14,"","",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1184305,31.5647866667,5,,,,5,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,48,"",cm,2025,999,.3,2,VRPLTGRAN_R10A-1,5,"","","","","","","","","","",""
+265390354,3ef62482-fe01-4735-b596-de0e617e5da9,2025-03-14 11:38:05+02:00,2025-03-14,"","11:38
+VRPLTGRAN_4A-1
+False Marula
+DBH: 58.3
+Fruit: 0
+Fraction: .2
+Class: 2
+BAF: 5",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0835611667,31.602555,4,,,,4,,open,false,,,"",Lannea schweinfurthii,false-marula,Plantae,340118,58.3,"",cm,2025,0,.2,2,VRPLTGRAN_4A-1,5,"","","","","","","","","","",""
+265390462,b21deac3-a0c1-4656-8e51-0b495cc331fe,2025-03-14 12:28:01+02:00,2025-03-14,"","12:28 
+VRPLTGRAN_1A-3
+Unknown
+DBH: 9.9
+Fruit: 0
+Fraction: .2
+Class: 3
+BAF: 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0308388333,31.5307466667,3234,,,,3234,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706,9.9,"",cm,2025,0,.2,3,VRPLTGRAN_1A-3,5,"","","","","","","","","","",""
+265390539,716d0537-82c1-4b8a-8520-e36ec3a065ea,2025-03-14 10:42:59+02:00,2025-03-14,"","10:43
+VRPLTGRAN_R9B-1
+Russet Bush Willow 
+DBH: 7.9
+Fruit: 0
+Fraction: .3
+Class: .2
+BAF: .5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1123166667,31.5944216667,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062,7.9,"",cm,2025,0,.3,2,VRPLTGRAN_R9B-1,5,"","","","","","","","","","",""
+265390597,7d795a03-4bcd-4b7e-8a4e-da6f07e5e8a4,2025-03-14 10:37:19+02:00,2025-03-14,"","10:37
+VRPLPGRAN_R9A-1
+Rudder Bushwillow
+DBH_1: 13.5
+DBH_2: 16.1
+Fruit: 0
+Fraction: .3
+Class: 1
+BAF: 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1119471667,31.594325,16,,,,16,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062,16.1,"",cm,2025,0,.3,1,VRPLTGRAN_R9A-1,5,"","","","","","","","","","",""
+265390601,90e8d00d-b18e-4b05-b990-27383ab936e0,2025-03-14 09:08:10,2025-03-14,"","Dbh 8,5,4
+Count 25
+0.4
+Shade 2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0704283333,31.5491666667,9,,,,9,,open,false,,,red bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059,8,,,2025,25,0.4,2,,,,,,,,,,,,,
+265390621,bb29d7b1-b4e7-4a4d-ae10-7a0869f7067a,2025-03-14 10:13:06,2025-03-14,"","VRPLTGRAN_R10C-3
+Dbh 33.3
+Count 999
+Fraction 0.9
+Shade 2
+Basal 5",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.118305,31.5652933333,8,,,,8,,open,false,,,Marula,Sclerocarya birrea,marula,Plantae,340245,33.3,,,2025,999,0,2,VRPLTGRAN_R10C-3,5,,,,,,,,,,,
+265390635,987cbd37-2266-4ac5-85af-50a253012cf1,2025-03-14 11:40:25+02:00,2025-03-14,"","VRPLTGRAN_4-2
+Weeping wattle
+
+Dbh 18
+Crop count 14
+Crop fraction 0.3
+BAF 5
+Shade factor 2",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.08361415,31.6028354446,8,,,,8,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688,18,"",cm,2025,14,0.3,2,VRPLTGRAN_4-2,5,"","","","","","","","","","",""
+265390702,5347b353-d0dd-4777-8f5b-8a07fa76121e,2025-03-14 10:43:08,2025-03-14,"","VRPLTGRAN_R9B-5
+61.1
+999
+0.9
+2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.112055,31.594235,8,,,,8,,open,false,,,Marula,Sclerocarya birrea,marula,Plantae,340245,61.1,,,2025,999,0.9,2,VRPLTGRAN_R9B-5,5,,,,,,,,,,,
+265390775,12739d9f-498e-45e0-92be-fe0495b7a9b7,2025-03-14 11:15:23,2025-03-14,"","VRPLTGRAN_R9C-2
+16.5
+0
+0.3
+2",1,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.10158,31.5937933333,9,,,,9,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688,16.5,,,2025,0,0,2,VRPLTGRAN_R9C-2,5,,,,,,,,,,,
+265390799,59d8e19d-7d01-4414-a0d6-4565f73b1f62,2025-03-14 12:05:27,2025-03-14,"","VRPLTGRAN_2A-2
+Dbh 25
+0
+0.5
+2",0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552716667,31.594255,9,,,,9,,open,false,,,combretum apiculatum,Combretum apiculatum,red bushwillow,Plantae,340059,25,,,2025,0,0.5,2,VRPGRAN_2A-2,5,,,,,,,,,,,
+265390944,f4e7ee51-cf66-4560-bb55-a324df362be3,2025-03-14 10:41:47+02:00,2025-03-14,"","",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1123055,31.5944466667,5,,,,5,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062,7.2,"",cm,2025,0,.5,2,VRPLTGRAN_R9B-2,5,"","","","","","","","","","",""
+265390964,dbb21f0c-342e-42d0-a10d-685f8b6b62a6,2025-03-14 11:36:15+02:00,2025-03-14,"","VRPLTGRAN_4A-3
+
+Dbh 23.2
+Crop count 50 
+Crop fraction 0.6
+BAF5
+Shade factor 1",1,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0836266139,31.6026861308,4,,,,4,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688,23.2,"",cm,2025,50,0.6,1,VRPLTGRAN_4A-3,5,"","","","","","","","","","",""
+265391012,6aefeba4-573f-43d0-b8a0-d2b03936f4e6,2025-03-10 16:31:17+02:00,2025-03-10,"","22.1
+17.6
+21.8
+
+320 fruit count for 1/3 of tree
+
+Canopy type 2
+
+VRPNKUN_2-6
+
+Basal area factor 5
+",0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9952568686,31.5883731458,4,,,,4,,,false,,,Plants,Plantae,plants,Plantae,47126,22.1,"",cm,2025,320,0.33,2,VRPNKUN_2-6,5,17.6,21.8,"","","","","","","","",""
+265391029,be6bde0c-d06a-417d-bd7b-b52b265b4efd,2025-03-14 09:32:14+02:00,2025-03-14,"","9:30 am
+VRPLTGRAN_R11B-1
+Terminala (Silver Cluster Leaf)
+DBH_1: 7.1
+DBH_2: 3.1
+DNH_2: 3.2
+Fruit: 50
+Fraction: .2
+Class: 1
+BAF: 5",1,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1023055,31.54672,3,,,,3,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810,7.1,"",cm,2025,50,.5,1,VRPLTGRAN_R11B-1,5,3.2,3.1,"","","","","","","","",""
+265391261,c113a6ce-6b42-47c5-8e69-df7407fd9c97,2025-03-14 11:06:57+02:00,2025-03-14,"","VRPLTGRAN_R8B-2
+Weeping wattle
+
+Dbh 8.5
+Crop count 0
+Crop fraction 0.25
+BAF 5
+Shade factor 1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1024743535,31.5940372776,9,,,,9,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688,8.5,"",cm,2025,0,0.25,1,VRPLTGRAN_R8B-2,5,"","","","","","","","","","",""
+265391412,d7bb71bd-1a3a-4a5f-a22d-7007466d8ab0,2025-03-14 10:04:49+02:00,2025-03-14,"","10:03
+VRPLTGRAN_R10A-2
+Terminalia(Silver Cluster Leaf)
+DBH_1: 10
+Fruit: 0
+Fraction: .2
+Class:2
+BAF:5",1,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1183861667,31.5648533333,3,,,,3,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810,10,"",cm,2025,0,.2,2,VRPLTGRAN_R10A-2,5,"","","","","","","","","","",""
+265391519,8b170869-2f25-4a57-8f91-a49ad1316660,2025-03-14 10:07:47+02:00,2025-03-14,"","10:07
+VRPLTGRAN_R10B-1
+Marula
+DBH: 54.5
+Fruit: 999
+Fraction: 
+Class:1
+BAF:5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1182083333,31.56498,8,,,,8,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,54.5,"",cm,2025,999,1,1,VRPLTGRAN_R10B-1,5,"","","","","","","","","","",""
+265391724,395719c3-1e8a-4ad1-9f59-96fc0e8a9164,2025-03-14 10:15:55+02:00,2025-03-14,"","10:15
+VRPLPGRAN_R10C-1
+Red bush willow 
+DBH: 10.4
+Fruit: 32
+Fraction: .2
+Class: 2
+BAF:5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1184971667,31.565055,4,,,,4,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,10.4,"",cm,2025,32,.2,2,VRPLTGRAN_R10C-1,"","","","","","","","","","","",""
+265392364,a2538aa0-44a7-44b4-a829-9ec51bad1670,2025-03-12 11:08:16+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9868390915,31.621367126,1704,,,,1704,,open,false,,,"",Vachellia robusta,splendid thorn,Plantae,559229,"","",cm,2025,0,0.3,2,VRPLTSABIE_R9X-1,5,12,22,"","","","",5.5,"","","",""
+265394281,0fbeaf6d-a7fe-4dde-a809-2937ae9a8a77,2025-03-14 11:01:54+02:00,2025-03-14,"","VRPLTGRAN_R8A-1
+
+Weeping wattle
+
+Dbh 9.5
+Crop count 50
+Crop fraction 0.3
+BAF 5
+Shade factor 1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1022074078,31.5941496354,8,,,,8,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688,8.5,"",cm,2025,50,0.3,1,VRPLTGRAN_R8A-1,5,"","","","","","","","","","",""
+265394720,b921d9c7-c3f7-44ce-8696-e85147ef4db5,2025-03-14 10:36:23+02:00,2025-03-14,"","VRPLTGRAN_R9A-3
+Marula
+Dbh 85
+Crop count 999
+Crop fraction 0.25
+BAF 5
+Shade factor 1",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1120337172,31.5942047593,9,,,,9,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245,85,"",cm,2025,999,0.25,1,VRPLTGRAN_R9A-3,5,"","","","","","","","","","",""
+265394951,248f678c-896e-47d0-9ae9-23157a146b80,2025-03-14 10:13:20+02:00,2025-03-14,"","VRPLTGRAN_R10C-2
+Termenalia 
+
+Dbh 13.5
+Crop count 0
+Crop fraction 0.5
+BAF5
+Shade factor 1",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1184634422,31.5651071694,3,,,,3,,open,false,,,"",Terminalia sericea,silver terminalia,Plantae,336810,13.5,"",cm,2025,0,0.5,1,VRPLTGRAN_R10C-2,5,"","","","","","","","","","",""
+265395281,9cae928d-744e-4c7c-901d-dd7ea08663fb,2025-03-14 10:06:43+02:00,2025-03-14,"","VRPLTGRAN_R10B-2
+Silver clustered leaf
+
+Dbh 13
+Crop count 0
+Crop fraction 0.5
+Shade factor 1
+BAF 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.118188656,31.5650155323,7,,,,7,,open,false,,,"",Terminalia sericea,silver terminalia,Plantae,336810,13,"",cm,2025,0,0.5,1,VRPLTGRAN_R10B-2,5,"","","","","","","","","","",""
+265395497,07bb97fa-4b9b-482f-ac1b-c7d7da3f27f1,2025-03-14 10:01:06+02:00,2025-03-14,"","VRPLTGRAN_R10A-3
+Silver clustered leaf 
+
+Dbh 20, 11
+Crop count 0
+Crop fraction 0.4
+Shade factor 2
+BAF 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.118403079,31.5648406137,4,,,,4,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,20,"",cm,2025,0,0.4,2,VRPLTGRAN_R10A-3,5,11,"","","","","","","","","",""
+265395778,253d35a0-a221-493c-999f-cccfc4750b20,2025-03-14 09:29:50+02:00,2025-03-14,"","VRPLTGRAN_R11B-2
+Weeping wattle
+
+Dbh 13, 18, 15
+Crop count 10
+Crop fraction 0.4
+Shade factor 1
+BAF 5",0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1022284262,31.5466904728,9,,,,9,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688,18,"",cm,2025,10,0.4,1,VRPLTGRAN_R11B-2,5,15,13,"","","","","","","","",""
+265396308,7dbd7fdf-5b1b-4bf7-b8cb-0905c7ba042b,2025-03-14 09:03:01+02:00,2025-03-14,"","VRPLTGRAN_R12B-2
+
+Red bush willow
+
+Dbh 6, 9, 4
+Crop count 4
+Crop fraction 0.4",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0705636138,31.5489608774,8,,,,8,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059,9,"",cm,2025,4,0.4,1,VRPLTGRAN_R12B-2,5,6,4,"","","","","","","","",""
+265396775,beb5274c-0e8a-43ce-b483-632bf4029a38,2025-03-14 08:58:36+02:00,2025-03-14,"","VRPLTGRAN_R12-A2
+Dbh 13.5, 8.5, 7
+Crop count 0
+Crop fraction 0.3
+Shade factor - 1
+BAF 5
+",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.070681873,31.5489325379,6,,,,6,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599,13.5,"",cm,2025,0,0.3,1,VRPLTGRAN_R12-A2,5,8.5,7,"","","","","","","","",""
+265700632,70cccbe5-cf9b-456d-9d1e-175fb6f627a5,2025-03-16 08:57:16+02:00,2025-03-16,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.931152679,31.6990181358,3,,,,3,,open,false,,,"",Vachellia grandicornuta,Horned Thorn,Plantae,595949,28,"",cm,2025,100,.06,1,"","","","","","","","","","","","",""
+265700683,4d83d6bb-32c1-4758-bef8-db4a9a5618a6,2025-03-16 09:03:47+02:00,2025-03-16,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9381427467,31.7089189031,6,,,,6,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211,"","",cm,2025,100,.08,1,"","","","","","","","","","","","",""
+265700734,52289679-2d2a-4676-a123-72ad187bd28c,2025-03-16 09:47:59+02:00,2025-03-16,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9595078826,31.7424786184,3,,,,3,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211,41,"",cm,2025,100,.011,2,"","","","","","","","","","","","",""
+265700829,b1862f02-6f43-4306-9bb7-6274a00fce8f,2025-03-16 09:49:38+02:00,2025-03-16,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9593659351,31.7431424652,74,,,,74,,open,false,,,sjambok-pod,Cassia abbreviata,sjambok-pod,Plantae,147000,15,"",cm,2025,0,.2,2,"","","","","","","","","","","","",""
+265700864,79797f16-4ff2-463f-bb2f-7b20958f9d21,2025-03-16 09:55:34+02:00,2025-03-16,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.960771706,31.7460843455,5,,,,5,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214,62,"",cm,2025,100,.007,1,"","","","","","","","","","","","",""
+269324230,d9187ee3-da16-4269-9a47-8e3c4854350a,2025-03-12 08:31:11+02:00,2025-03-12,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9682268207,31.7496721748,11,,,,11,,open,false,,,Matumi,Breonadia salicina,Matumi,Plantae,429244,46.4,"",cm,2025,1600,1.0,3,VRPLTSABIE_R13Y-1,"","","","","","","","","","","",""
+269324550,b4ea1dd3-be9e-45bb-bb36-741688c135ba,2025-03-12 08:38:14+02:00,2025-03-12,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681610981,31.7496345978,7,,,,7,,open,false,,,Matumi,Breonadia salicina,Matumi,Plantae,429244,70.6,"",cm,2025,1050,0.2,1,VRPLTSABIE_R13Y-2,10,"","","","","","","","","","",""
+269324694,4fab1490-d62b-4b4d-aa41-191e9d00d75d,2025-03-12 08:47:13+02:00,2025-03-12,"","",1,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681081213,31.7495768283,9,,,,9,,open,false,,,Matumi,Breonadia salicina,Matumi,Plantae,429244,70,"",cm,2025,500,0.2,2,VRPLTSABIE_R13Y-3,10,"","","","","","","","","","",""
+269325468,a57ff244-071f-47b9-ba2c-6b0913f6bfea,2025-03-12 10:01:20+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651254539,31.6846231432,240,,,,240,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253,44.5,"",cm,2025,0,.20,2,VRPLTSABIE_R11Y-4,20,"","","","","","","","","","",""
+269325627,04553e9e-59ab-4723-bcec-e8982f07da20,2025-03-12 09:56:13+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9650702967,31.6847992528,199,,,,199,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253,58.4,"",cm,2025,4,.20,2,VRPLTSABIE_R11Y-2,20,"","","","","","","","","","",""
+269325701,c2a67bd8-c36a-4636-a00b-ee22242db62e,2025-03-12 09:18:43+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565096459,31.7263577415,9,,,,9,,open,false,,,"",Citharexylum spinosum,Spiny Fiddlewood,Plantae,160656,20.2,"",cm,2025,0,.10,4,VRPLTSABIE_R11Y-1,10,8.6,14.6,"","","","","","","","",""
+269325895,590bbe8b-1390-4adb-a43e-9b11e0e49890,2025-03-12 09:14:44+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565578228,31.7263467951,13,,,,13,,open,false,,,"",Kigelia africana,Sausage tree,Plantae,81491,69.0,"",cm,2025,0,.30,1,VRPLTSABIE_R12Y-1,10,"","","","","","","","","","",""
+269326753,9ea4e417-fd50-4c69-876f-1ff27b9ce379,2025-03-12 11:40:37+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906013974,31.6103174371,9,,,,9,,open,false,,,"",Euclea natalensis,Mountain Guarri,Plantae,430991,"","",cm,2025,0,.30,2,VRPLTSABIE_R8Y-5,213,"","","","","","",2.5,"","","",""
+269327016,0ac7e85d-592f-4c14-9d4c-d66ec6313a7c,2025-03-12 10:38:28+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9760704292,31.655995761,5,,,,5,,open,false,,,Sickle bush,Dichrostachys cinerea,aroma,Plantae,129706,4,"",cm,2025,12,0.8,1,VRPLTSABIE_R10-1,"","","","","","","",60,"","","",""
+269327531,117faca9-6df9-4b0f-bc72-c14a486bbc14,2025-03-12 10:43:01+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9760212119,31.6559536588,9,,,,9,,open,false,,,"",Vachellia exuvialis,Flaky thorn,Plantae,595947,8.2,"",cm,2025,0,0.5,1,VRPLTSABIE_R10Y-2,"","","","","","","",125,"","","",""
+269327823,19e01e27-e694-4df5-b8f1-b826b2d03326,2025-03-12 11:37:28+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906223552,31.6103592568,9,,,,9,,open,false,,,Euchlia,Euclea natalensis,Mountain Guarri,Plantae,430991,"","",cm,2025,0,.25,2,VRPLTSABIE_R8Y-3,213,"","","","","","",1.5,"","","",""
+270258008,6fa1a17b-893f-431c-8078-4072fb2bf23c,2025-03-12 10:47:39+02:00,2025-03-12,"","Crown diameter
+400 cm",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9760159785,31.6558376435,9,,,,9,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706,4,"",cm,2025,22,.05,2,VRPLTSABIE_R10Y-4,40,2.5,6,"","","","","","","","",""
+270258277,82df925d-0242-4e99-92fb-0b6ba09aa268,2025-03-12 11:10:26+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9868682879,31.6213347795,9,,,,9,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074,"","",cm,2025,0,.40,1,VRPLTSABIE_R9Y-4,213,"","","","","","",2.5,"","","",""
+270258645,718b4bac-9709-46da-a38f-6834885def68,2025-03-12 11:15:27+02:00,2025-03-12,"","",0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.986832041,31.6213535491,7,,,,7,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706,"","",cm,2025,0,.25,1,VRPLTSABIE_R8Y-1,213,"","","","","","",2.5,"","","",""
