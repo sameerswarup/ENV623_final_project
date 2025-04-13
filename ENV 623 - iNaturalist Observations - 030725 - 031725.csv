@@ -1,0 +1,1087 @@
+id,uuid,observed_on_string,observed_on,time_observed_at,time_zone,user_id,user_login,user_name,created_at,updated_at,quality_grade,license,url,image_url,sound_url,tag_list,description,num_identification_agreements,num_identification_disagreements,captive_cultivated,oauth_application_id,place_guess,latitude,longitude,positional_accuracy,private_place_guess,private_latitude,private_longitude,public_positional_accuracy,geoprivacy,taxon_geoprivacy,coordinates_obscured,positioning_method,positioning_device,species_guess,scientific_name,common_name,iconic_taxon_name,taxon_id
+264284518,0c82c216-c35c-4989-94f5-17d1370d4ff6,2025-03-07 07:29:17,2025-03-07,2025-03-07 05:29:17 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:01:20 UTC,2025-03-07 18:50:08 UTC,needs_id,,https://www.inaturalist.org/observations/264284518,https://static.inaturalist.org/photos/474732435/medium.jpeg,,"","Vrptshokwane_1-1
+Count 0
+Crop fraction 0.8
+Dbh A stem 3.8
+Crown class 2
+Crown width 4
+Basal area 213
+",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2700,,,,2700,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284556,9c025739-7e74-421a-b153-ea074bd94343,2025-03-07 07:37:00,2025-03-07,2025-03-07 05:37:00 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:01:34 UTC,2025-03-07 20:20:53 UTC,needs_id,,https://www.inaturalist.org/observations/264284556,https://static.inaturalist.org/photos/474732474/medium.jpeg,,"","Vrptshokwane_1-4
+Count 0
+Crop fraction 0.8
+Dbh A stem 7.5
+Crown class 2
+Crown width 2.5
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2781,,,,2781,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284580,ec2876fd-6e3c-4103-90f4-6076e5d389e7,2025-03-07 07:39:00,2025-03-07,2025-03-07 05:39:00 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:01:48 UTC,2025-03-07 20:20:25 UTC,needs_id,,https://www.inaturalist.org/observations/264284580,https://static.inaturalist.org/photos/474732507/medium.jpeg,,"","Vrptshokwane_1-6
+Count 0
+Crop fraction 0.8
+Dbh A stem 4.4
+Crown class 2
+Crown width 3
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004966667,31.725415,11,,,,11,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284608,7d20507a-82a4-41a4-b043-e3e35daf825f,2025-03-07 07:40:48,2025-03-07,2025-03-07 05:40:48 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:02:05 UTC,2025-03-07 20:18:58 UTC,needs_id,,https://www.inaturalist.org/observations/264284608,https://static.inaturalist.org/photos/474732543/medium.jpeg,,"","Vrptshokwane_1-7
+Count 0
+Crop fraction 0.8
+Dbh A stem 5.3
+Crown class 2
+Crown width 4
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004966667,31.725365,11,,,,11,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284628,10f5641b-ab48-44dd-9432-7a8ba07fcdad,2025-03-07 07:42:20,2025-03-07,2025-03-07 05:42:20 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:02:19 UTC,2025-03-07 20:18:29 UTC,needs_id,,https://www.inaturalist.org/observations/264284628,https://static.inaturalist.org/photos/474732626/medium.jpeg,,"","Vrptshokwane_1-9
+Count 0
+Crop fraction 0.8
+Dbh A stem 5.4
+Crown class 2
+Crown width 2.5
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.900445,31.7254133333,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284675,2da1268a-b2ad-41fc-ac22-89edf5d69103,2025-03-07 07:50:59,2025-03-07,2025-03-07 05:50:59 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:02:47 UTC,2025-04-11 14:42:14 UTC,research,,https://www.inaturalist.org/observations/264284675,https://static.inaturalist.org/photos/474732659/medium.jpeg,,"","Vrptshokwane_2-1
+Count 56
+Crop fraction 0.3
+Dbh A stem 3
+Crown class 2
+Basal area 5",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983666667,31.725995,7,,,,7,,open,false,,,Sweet Thorn,Vachellia karroo,Sweet Thorn,Plantae,502780
+264284718,d07c69a6-c2d3-418e-ba64-de52d966306c,2025-03-07 07:58:30,2025-03-07,2025-03-07 05:58:30 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:03:15 UTC,2025-03-07 18:15:07 UTC,needs_id,,https://www.inaturalist.org/observations/264284718,https://static.inaturalist.org/photos/474732721/medium.jpeg,,"","Vrptshokwane_2-4
+Count 0
+Crop fraction 0.1
+Dbh A stem 54.6
+Crown class 3
+Basal area 5
+
+Elephant damage on bark",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983,31.7259316667,6,,,,6,,open,false,,,knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+264284770,d032ac41-1804-4343-afb7-afb936cd7837,2025-03-07 08:02:02,2025-03-07,2025-03-07 06:02:02 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:03:52 UTC,2025-03-07 20:01:20 UTC,needs_id,,https://www.inaturalist.org/observations/264284770,https://static.inaturalist.org/photos/474732857/medium.jpeg,,"","Vrptshokwane_2-6
+Count 0
+Crop fraction 0.8
+Dbh A stem 13.5
+Crown class 3
+Crown width 3.5
+Basal area 213
+
+Toppled over but alive ",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2734,,,,2734,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284803,fd65e66e-e181-429a-a99e-16cabb810f0b,2025-03-07 08:03:56,2025-03-07,2025-03-07 06:03:56 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:04:12 UTC,2025-03-07 20:00:00 UTC,needs_id,,https://www.inaturalist.org/observations/264284803,https://static.inaturalist.org/photos/474732900/medium.jpeg,,"","Vrptshokwane_2-8
+Count 0
+Crop fraction 0.7
+Dbh A stem 5.7
+Crown class 2
+Crown width 7
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873635,31.6124429,2741,,,,2741,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284823,fbf300a1-2580-46f9-85d6-cfd84b67379e,2025-03-07 08:35:20,2025-03-07,2025-03-07 06:35:20 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:04:23 UTC,2025-03-07 18:24:28 UTC,needs_id,,https://www.inaturalist.org/observations/264284823,https://static.inaturalist.org/photos/474732951/medium.jpeg,,"","Vrptshokwane_3-2
+Count 999
+Crop fraction 0.9
+Dbh A stem 5
+Crown class 4
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715316667,31.7750816667,7,,,,7,,open,false,,,Blue Spikethorn,Gymnosporia glaucophylla,Blue Spikethorn,Plantae,586677
+264284875,e9ab0633-e1dd-43a1-9cc4-bee8898bf97d,2025-03-07 08:39:28,2025-03-07,2025-03-07 06:39:28 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:04:50 UTC,2025-04-11 14:42:31 UTC,research,,https://www.inaturalist.org/observations/264284875,https://static.inaturalist.org/photos/474733048/medium.jpeg,,"","Vrptshokwane_3-4
+Count 44
+Crop fraction 0.6
+Dbh A stem 15.2
+Crown class 3
+Basal area 5",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715716667,31.7750016667,5,,,,5,,open,false,,,red bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264284911,7abdc7c3-3dd4-4376-831a-31fca11c0de0,2025-03-07 08:44:21,2025-03-07,2025-03-07 06:44:21 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:05:03 UTC,2025-03-07 18:27:57 UTC,needs_id,,https://www.inaturalist.org/observations/264284911,https://static.inaturalist.org/photos/474733094/medium.jpeg,,"","Vrptshokwane_3-7
+Count 12
+Crop fraction 0.3
+Dbh A stem 6.2
+Crown class 3
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.871665,31.77511,5,,,,5,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264284939,839941c4-026d-4a04-a763-6d49142d71cb,2025-03-07 10:16:41,2025-03-07,2025-03-07 08:16:41 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:05:15 UTC,2025-03-07 19:58:39 UTC,needs_id,,https://www.inaturalist.org/observations/264284939,https://static.inaturalist.org/photos/474733149/medium.jpeg,,"","Vrptshokwane34_1-2
+Count 0
+Crop fraction 0.7
+Dbh A stem 4.4
+Crown class 3
+Crown width 5.5
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.77836,31.85126,4,,,,4,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264284972,c162fc2d-6392-491d-b6e3-4072209016e1,2025-03-07 10:21:40,2025-03-07,2025-03-07 08:21:40 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:05:28 UTC,2025-04-11 14:42:34 UTC,research,,https://www.inaturalist.org/observations/264284972,https://static.inaturalist.org/photos/474733208/medium.jpeg,,"","Vrptshokwane34_1-4
+Count 55
+Crop fraction 0.1
+Dbh A stem 4
+Crown class 2
+Crown width 5.5
+Basal area 213",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7781716667,31.8509616667,8,,,,8,,open,false,,,Snowberrytree,Flueggea virosa,snowberrytree,Plantae,340143
+264285030,02fb66d3-960a-47e6-a290-742c1ca78f69,2025-03-07 10:28:07,2025-03-07,2025-03-07 08:28:07 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:05:53 UTC,2025-03-08 07:34:37 UTC,needs_id,,https://www.inaturalist.org/observations/264285030,https://static.inaturalist.org/photos/474733293/medium.jpeg,,"","Vrptshokwane34_2-1
+Count 41
+Crop fraction 0.1
+Dbh A stem 12.7
+Crown class 2
+Crown width 6
+Basal area 213",2,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7783433333,31.8498966667,9,,,,9,,open,false,,,Snowberrytree,Flueggea virosa,snowberrytree,Plantae,340143
+264285088,0bfd442b-2031-4616-be21-d9fd98382502,2025-03-07 10:37:29,2025-03-07,2025-03-07 08:37:29 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:06:14 UTC,2025-03-07 18:39:02 UTC,needs_id,,https://www.inaturalist.org/observations/264285088,https://static.inaturalist.org/photos/474733358/medium.jpeg,,"","Vrptshokwane34_3-1
+Count 0
+Crop fraction 0.4
+Dbh A stem 12.4
+Crown class 1
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.77875,31.8487433333,8,,,,8,,open,false,,,vachellia nilotica,Vachellia nilotica,Egyptian acacia,Plantae,557826
+264285118,52da8406-be48-4685-aa47-98b3a756c626,2025-03-07 10:47:54,2025-03-07,2025-03-07 08:47:54 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:06:28 UTC,2025-04-11 14:42:39 UTC,research,,https://www.inaturalist.org/observations/264285118,https://static.inaturalist.org/photos/474733408/medium.jpeg,,"","Vrptshokwane34_4-1
+Count 550
+Crop fraction 0.3
+Dbh A stem 9.5
+Crown class 2
+Basal area 5",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7769066667,31.849835,9,,,,9,,open,false,,,russet bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062
+264285171,43e41566-a57e-473f-a897-ce6c81607727,2025-03-07 10:52:26,2025-03-07,2025-03-07 08:52:26 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:06:50 UTC,2025-03-07 19:57:40 UTC,needs_id,,https://www.inaturalist.org/observations/264285171,https://static.inaturalist.org/photos/474733466/medium.jpeg,,"","Vrptshokwane34_4-5
+Count 0
+Crop fraction 0.8
+Dbh A stem 2.3
+Crown class 2
+Crown width 2.5
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771316667,31.8496683333,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264285196,659007c3-46d9-4248-9287-110f9e67f54e,2025-03-07 10:54:25,2025-03-07,2025-03-07 08:54:25 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:07:03 UTC,2025-03-07 19:57:06 UTC,needs_id,,https://www.inaturalist.org/observations/264285196,https://static.inaturalist.org/photos/474733511/medium.jpeg,,"","Vrptshokwane34_4-7
+Count 0
+Crop fraction 0.7
+Dbh A stem 3.2
+Crown class 2
+Crown width 1.5
+Basal area 213",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771316667,31.84996,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264285244,4430d6b9-5311-4d82-af29-a6388d272b87,2025-03-07 11:26:10,2025-03-07,2025-03-07 09:26:10 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:07:20 UTC,2025-03-15 12:59:43 UTC,needs_id,,https://www.inaturalist.org/observations/264285244,https://static.inaturalist.org/photos/474733570/medium.jpeg,,"","Vrptshokwane34_5-1
+Count 74
+Crop fraction 0.3
+Dbh A stem 7.3
+Crown class 4
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.765485,31.7762483333,6,,,,6,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264285283,3eae9134-6748-4479-b744-81d08e70137f,2025-03-07 11:29:24,2025-03-07,2025-03-07 09:29:24 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:07:39 UTC,2025-03-15 12:59:16 UTC,needs_id,,https://www.inaturalist.org/observations/264285283,https://static.inaturalist.org/photos/474733636/medium.jpeg,,"","Vrptshokwane34_5-4
+Count 0
+Crop fraction 0.7
+Dbh A stem 4.1
+Crown class 4
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7654566667,31.7762233333,7,,,,7,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264285338,6f9a5eb5-5508-49f3-acc8-a69306b9edfd,2025-03-07 11:32:13,2025-03-07,2025-03-07 09:32:13 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:08:03 UTC,2025-03-15 12:57:48 UTC,needs_id,,https://www.inaturalist.org/observations/264285338,https://static.inaturalist.org/photos/474733686/medium.jpeg,,"","Vrptshokwane34_5-6
+Count 0
+Crop fraction 0.5
+Dbh A stem 8.4
+Crown class 4
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7653516667,31.7762233333,9,,,,9,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264285443,2e6cb0d2-06cb-4c52-885e-31b1da74825f,2025-03-07 11:51:37,2025-03-07,2025-03-07 09:51:37 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-07 13:08:45 UTC,2025-03-15 12:56:27 UTC,needs_id,,https://www.inaturalist.org/observations/264285443,https://static.inaturalist.org/photos/476002618/medium.jpeg,,"","Vrptshokwane34_6-1
+Count 0
+Crop fraction 0.9
+Dbh A stem 5.3
+Crown class 2
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7664566667,31.81761,4,,,,4,,open,false,,,Apple-Leaf,Philenoptera violacea,apple-leaf,Plantae,340211
+264286600,8708473e-3251-4ec9-894a-90487f4b3e25,2025-03-07 07:30:04+02:00,2025-03-07,2025-03-07 05:30:04 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:14:55 UTC,2025-03-08 08:23:33 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264286600,https://inaturalist-open-data.s3.amazonaws.com/photos/474734897/medium.jpg,,"","Vrptshokwane_1-2
+0,.7
+10,1
+5 crown width 
+213 baf ",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004094689,31.7254368575,7,,,,7,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264286653,a298bfc5-0bf4-4ac4-9b0d-b8380d797cc4,2025-03-07 07:36:11+02:00,2025-03-07,2025-03-07 05:36:11 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:15:13 UTC,2025-03-08 08:23:17 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264286653,https://inaturalist-open-data.s3.amazonaws.com/photos/474734929/medium.jpg,,"","Vrptshokewane_1-3
+0,.7
+8,1
+4 crown 
+213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9003947021,31.7254472768,6,,,,6,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264286720,c3afebfe-a6a5-4f04-96c5-24e061b3c3fb,2025-03-07 07:39:03+02:00,2025-03-07,2025-03-07 05:39:03 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:15:29 UTC,2025-03-08 08:23:02 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264286720,https://inaturalist-open-data.s3.amazonaws.com/photos/474734978/medium.jpg,,"","Vrptsokwane_1-5
+0,.8
+12,2
+3
+213",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9004150108,31.7254550504,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264286772,0d5fead3-8591-46fe-9310-3cbbdc551c99,2025-03-07 07:41:31+02:00,2025-03-07,2025-03-07 05:41:31 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:15:48 UTC,2025-04-11 14:43:36 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264286772,https://inaturalist-open-data.s3.amazonaws.com/photos/474735000/medium.jpg,,"","Vrptsokwane_1-8
+0,.9
+6,2
+4 cw 
+213
+
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9005367514,31.7252854072,6,,,,6,,open,false,,,Thorny Karee,Searsia gueinzii,Thorny Karee,Plantae,560135
+264286811,f873206e-4475-4f74-a3cd-64fc7b80d082,2025-03-07 07:43:37+02:00,2025-03-07,2025-03-07 05:43:37 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:16:01 UTC,2025-03-08 08:22:26 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264286811,https://inaturalist-open-data.s3.amazonaws.com/photos/474735029/medium.jpg,,"","Tsokewane_1-10
+0,.9
+12,1
+6.5 cw
+213
+
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9003688699,31.7253819948,8,,,,8,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264286979,3662f861-459b-472d-8f7a-fd10d708c3e4,2025-03-07 07:52:40+02:00,2025-03-07,2025-03-07 05:52:40 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:16:39 UTC,2025-03-08 08:22:01 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264286979,https://inaturalist-open-data.s3.amazonaws.com/photos/474735151/medium.jpg,,"","Tsockwane_2-2
+0,.9
+8,2
+4 cw
+213",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983940767,31.7260153486,9,,,,9,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264287038,868d75ab-fcf4-4ec3-8572-c658e556cdc5,2025-03-07 07:56:00+02:00,2025-03-07,2025-03-07 05:56:00 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:16:57 UTC,2025-04-11 14:43:44 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264287038,https://inaturalist-open-data.s3.amazonaws.com/photos/474735221/medium.jpg,,"","Tsockwan_2-3
+999,999
+21.1,21.6,2
+
+
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983983368,31.7259337707,6,,,,6,,open,false,,,apple-leaf,Philenoptera violacea,apple-leaf,Plantae,340211
+264287110,8f5607fa-2d40-4b5d-9c31-e2be84504684,2025-03-07 08:00:51+02:00,2025-03-07,2025-03-07 06:00:51 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:17:20 UTC,2025-04-11 14:43:49 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264287110,https://inaturalist-open-data.s3.amazonaws.com/photos/474735299/medium.jpg,,"","0,.2
+48,1
+Tsokwane-2-5",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8983814197,31.7258252706,3,,,,3,,open,false,,,Leadwood,Combretum imberbe,Leadwood,Plantae,340408
+264287243,178f6665-3a7f-4799-a536-3603763196d0,2025-03-07 08:02:36+02:00,2025-03-07,2025-03-07 06:02:36 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:17:45 UTC,2025-03-08 08:21:05 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287243,https://inaturalist-open-data.s3.amazonaws.com/photos/474735365/medium.jpg,,"","Tchowane2-7
+0,.9
+4,1
+213
+3.5 cr
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8985190597,31.7259560433,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264287306,7bc31c92-b1e5-4db0-b4c7-19f1e9fd2819,2025-03-07 08:04:17+02:00,2025-03-07,2025-03-07 06:04:17 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:18:04 UTC,2025-03-08 08:20:48 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287306,https://inaturalist-open-data.s3.amazonaws.com/photos/474735425/medium.jpg,,"","Tcockwane2-9
+0,1
+2,1
+1.5 cw
+213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8984998409,31.7260117636,8,,,,8,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264287343,12e83bd9-ea1c-411b-af25-30aaed56b1a0,2025-03-07 08:07:53+02:00,2025-03-07,2025-03-07 06:07:53 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:18:19 UTC,2025-03-08 08:20:31 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287343,https://inaturalist-open-data.s3.amazonaws.com/photos/474735489/medium.jpg,,"","Taickwane2-10
+0,1
+4,2
+4 cr
+213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8985227477,31.7259526067,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264287394,e52cc542-ddcf-4f79-bf17-7a8c96c0a057,2025-03-07 08:34:10+02:00,2025-03-07,2025-03-07 06:34:10 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:18:40 UTC,2025-03-08 17:52:44 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264287394,https://inaturalist-open-data.s3.amazonaws.com/photos/474735522/medium.jpg,,"","Tchockwane3-1
+999,999
+4,1
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715489032,31.7750267219,4,,,,4,,open,false,,,Common Spikethorn,Gymnosporia buxifolia,Common Spikethorn,Plantae,586670
+264287431,16cd7180-5557-4ef1-bb24-ae40ce6862b7,2025-03-07 08:36:41+02:00,2025-03-07,2025-03-07 06:36:41 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:18:52 UTC,2025-03-08 08:19:49 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287431,https://inaturalist-open-data.s3.amazonaws.com/photos/474735552/medium.jpg,,"","Tchockwane3-3
+100,.11
+9,7,8,1
+Baf 5",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715442042,31.7750038378,9,,,,9,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+264287465,278e47d4-e58d-45a4-bb74-8955f275fa08,2025-03-07 08:40:11+02:00,2025-03-07,2025-03-07 06:40:11 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:19:02 UTC,2025-03-27 10:46:32 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287465,https://inaturalist-open-data.s3.amazonaws.com/photos/474735607/medium.jpg,,"","Tchockwane3-5
+0,1
+3,2
+Bag 5
+",2,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8715546758,31.775012559,9,,,,9,,open,false,,,Bushwillows,Combretum,Bushwillows,Plantae,81496
+264287497,80706e17-3896-4e2f-a17b-dfe8f547fbe8,2025-03-07 08:41:18+02:00,2025-03-07,2025-03-07 06:41:18 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:19:14 UTC,2025-04-11 14:44:10 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264287497,https://inaturalist-open-data.s3.amazonaws.com/photos/474735668/medium.jpg,,"","Tscockwane3-6
+999,999
+67.4,1
+Baf 5
+
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.871567797,31.774967863,6,,,,6,,open,false,,,marula,Sclerocarya birrea,marula,Plantae,340245
+264287555,b247b2a7-4f64-48cb-bfb4-871c24995288,2025-03-07 08:44:25+02:00,2025-03-07,2025-03-07 06:44:25 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:19:27 UTC,2025-03-07 15:50:19 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287555,https://inaturalist-open-data.s3.amazonaws.com/photos/474735746/medium.jpg,,"","0,.8
+8,4",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8717227907,31.7748307069,9,,,,9,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+264287682,8f7ee738-8c1f-4876-b6eb-c7f60bcae361,2025-03-07 08:45:17+02:00,2025-03-07,2025-03-07 06:45:17 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:19:46 UTC,2025-03-07 15:51:17 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287682,https://inaturalist-open-data.s3.amazonaws.com/photos/474735793/medium.jpg,,"","0,1
+3,2
+
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.8717003352,31.7748192473,6,,,,6,,open,false,,,"",Flueggea virosa,snowberrytree,Plantae,340143
+264287853,5b849c1c-6832-4498-a914-81a1091dd4c5,2025-03-07 09:59:37+02:00,2025-03-07,2025-03-07 07:59:37 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:20:53 UTC,2025-03-07 15:55:58 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287853,https://inaturalist-open-data.s3.amazonaws.com/photos/474736001/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7845415597,31.8582130225,2,,,,2,,open,false,,,"",Cassia abbreviata,sjambok-pod,Plantae,147000
+264287978,c411a6ce-5838-44b2-9f34-0b7fff7614ce,2025-03-07 10:15:16+02:00,2025-03-07,2025-03-07 08:15:16 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:21:32 UTC,2025-03-07 15:58:00 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264287978,https://inaturalist-open-data.s3.amazonaws.com/photos/474736194/medium.jpg,,"","Tsokwane34-1-1
+0,.8
+20.4,1
+Baf 5",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7784681066,31.8511883194,3,,,,3,,open,false,,,"",Vachellia tortilis,umbrella thorn,Plantae,489563
+264288134,117f322d-a7d9-4a55-84ab-3feffe09ad33,2025-03-07 10:19:09+02:00,2025-03-07,2025-03-07 08:19:09 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:22:12 UTC,2025-03-07 15:59:59 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288134,https://inaturalist-open-data.s3.amazonaws.com/photos/474736247/medium.jpg,,"","Tsockwane34-1-3
+0,.8
+4,1
+2 cw
+213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.778327989,31.8513359177,5,,,,5,,open,false,,,Confetti Spikethorn,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+264288230,cda98105-ffb0-4783-8c29-5884f5a7ba17,2025-03-07 10:21:56+02:00,2025-03-07,2025-03-07 08:21:56 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:22:47 UTC,2025-03-07 16:01:27 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288230,https://inaturalist-open-data.s3.amazonaws.com/photos/474736361/medium.jpg,,"","Tsockwane34-1-6
+0,.95
+11,2
+4 cw
+213",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7782365699,31.8510453031,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264288312,518d033e-8e99-4d16-9116-99ba5960c930,2025-03-07 10:29:23+02:00,2025-03-07,2025-03-07 08:29:23 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:23:17 UTC,2025-03-07 16:06:27 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288312,https://inaturalist-open-data.s3.amazonaws.com/photos/474736414/medium.jpg,,"","Tcockwane34-2-2
+2,7
+35.1,2
+Baf 5
+
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7781499429,31.8499201164,4,,,,4,,open,false,,,"",Cassia abbreviata,sjambok-pod,Plantae,147000
+264288393,e2a7fef7-a56a-441e-b1f6-be730b2f1049,2025-03-07 10:32:24+02:00,2025-03-07,2025-03-07 08:32:24 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:23:41 UTC,2025-03-07 16:09:33 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288393,https://inaturalist-open-data.s3.amazonaws.com/photos/474736450/medium.jpg,,"","Tsochwane34-2-3
+0,.75
+24,1
+Baf 5
+
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7782847911,31.8496934769,7,,,,7,,open,false,,,"",Vachellia nilotica,Egyptian acacia,Plantae,557826
+264288440,732d2eae-82d6-4a44-8378-0f65f5088858,2025-03-07 10:40:40+02:00,2025-03-07,2025-03-07 08:40:40 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:23:55 UTC,2025-03-07 16:10:28 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288440,https://inaturalist-open-data.s3.amazonaws.com/photos/474736496/medium.jpg,,"","0,.5
+14,12,6,1
+Baf 5",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7788042762,31.8489647471,3,,,,3,,open,false,,,Egyptian Acacia,Vachellia nilotica,Egyptian acacia,Plantae,557826
+264288514,d682792b-fb5b-4f90-9c2c-138925af13d4,2025-03-07 10:48:31+02:00,2025-03-07,2025-03-07 08:48:31 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:24:17 UTC,2025-03-07 16:12:19 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288514,https://inaturalist-open-data.s3.amazonaws.com/photos/474736530/medium.jpg,,"","Tschockwane34-4-2
+0,.9
+4,2
+1.5 cw
+Baf 213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7769781109,31.849791538,4,,,,4,,open,false,,,Confetti Spikethorn,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+264288593,d1be9663-5d60-483a-a33b-8655362c7708,2025-03-07 10:50:16+02:00,2025-03-07,2025-03-07 08:50:16 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:24:36 UTC,2025-03-07 16:14:47 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288593,https://inaturalist-open-data.s3.amazonaws.com/photos/474736578/medium.jpg,,"","Tsockwane34-4-3
+0,.9
+3,1
+2 cw
+213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7769855568,31.8498341347,7,,,,7,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264288687,ffa5e5af-deab-4198-a7db-5e7025ca5b6f,2025-03-07 10:52:29+02:00,2025-03-07,2025-03-07 08:52:29 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:25:04 UTC,2025-03-07 16:19:01 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288687,https://inaturalist-open-data.s3.amazonaws.com/photos/474736660/medium.jpg,,"","Tsickwane34-4-4
+0,1
+12,1
+2 cw
+213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771442821,31.8498476968,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264288798,1cfb16bc-848c-45f7-a289-c595bffa1777,2025-03-07 10:54:29+02:00,2025-03-07,2025-03-07 08:54:29 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:25:42 UTC,2025-04-11 14:48:04 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264288798,https://inaturalist-open-data.s3.amazonaws.com/photos/474736692/medium.jpg,,"","Rsickwane34-4-6
+0,1
+11,1
+3 cw
+213
+
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7771309079,31.8498178413,3,,,,3,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+264288844,789db37a-0e07-4b0e-ac17-8dc5c52a0815,2025-03-07 10:56:20+02:00,2025-03-07,2025-03-07 08:56:20 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:25:58 UTC,2025-03-07 16:24:54 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288844,https://inaturalist-open-data.s3.amazonaws.com/photos/474736716/medium.jpg,,"","Tcockwane34-4-8
+0,1
+3,1
+2.5 cw 
+213
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7770924401,31.8497518078,4,,,,4,,open,false,,,Confetti Spikethorn,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+264288877,c13c4799-f484-4430-8882-84b4cba79b5e,2025-03-07 10:59:42+02:00,2025-03-07,2025-03-07 08:59:42 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:26:10 UTC,2025-03-07 16:25:29 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264288877,https://inaturalist-open-data.s3.amazonaws.com/photos/474736744/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7770975111,31.8505429756,3,,,,3,,open,false,,,Snowberrytree,Flueggea virosa,snowberrytree,Plantae,340143
+264289093,6ac0530b-9410-4c8c-b962-e0ee75a347c1,2025-03-07 11:27:26+02:00,2025-03-07,2025-03-07 09:27:26 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:27:15 UTC,2025-03-07 16:30:07 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264289093,https://inaturalist-open-data.s3.amazonaws.com/photos/474736892/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7653984191,31.7762816697,3,,,,3,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+264289250,49d4a2b7-31f5-4a67-88d6-5554f3812fae,2025-03-07 11:28:53+02:00,2025-03-07,2025-03-07 09:28:53 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:28:07 UTC,2025-03-07 16:34:44 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264289250,https://inaturalist-open-data.s3.amazonaws.com/photos/474736980/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7654451277,31.7762569093,6,,,,6,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264289333,2ac69b0f-95a5-4bbc-98d3-f0dc18e2003b,2025-03-07 11:30:14+02:00,2025-03-07,2025-03-07 09:30:14 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:28:40 UTC,2025-03-08 17:53:10 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264289333,https://inaturalist-open-data.s3.amazonaws.com/photos/474737074/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7654730285,31.7763159658,7,,,,7,,open,false,,,Small-leaf Sicklebush,Dichrostachys cinerea africana,Small-leaf Sicklebush,Plantae,349756
+264289421,285715c5-c218-4eb4-a425-ed5f5aff089c,2025-03-07 11:33:02+02:00,2025-03-07,2025-03-07 09:33:02 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:29:13 UTC,2025-04-11 14:48:21 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264289421,https://inaturalist-open-data.s3.amazonaws.com/photos/474737141/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7653599994,31.7764114192,4,,,,4,,open,false,,,knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+264289551,6ea2a0ce-7faa-4e1c-92d1-b22c6f1de4dc,2025-03-07 11:51:32+02:00,2025-03-07,2025-03-07 09:51:32 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:29:54 UTC,2025-04-11 14:48:24 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264289551,https://inaturalist-open-data.s3.amazonaws.com/photos/474737243/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7664120514,31.8177453429,3,,,,3,,open,false,,,apple-leaf,Philenoptera violacea,apple-leaf,Plantae,340211
+264289642,e8b74c99-d109-4418-b2bc-77945401f6ca,2025-03-07 11:57:36+02:00,2025-03-07,2025-03-07 09:57:36 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:30:28 UTC,2025-03-07 16:54:07 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264289642,https://inaturalist-open-data.s3.amazonaws.com/photos/474737311/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659562217,31.8184456738,3,,,,3,,open,false,,,Sjambok-Pod,Cassia abbreviata,sjambok-pod,Plantae,147000
+264289725,d9b483c3-d032-44ba-911c-85100bba4731,2025-03-07 11:58:55+02:00,2025-03-07,2025-03-07 09:58:55 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:30:58 UTC,2025-03-07 16:56:35 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264289725,https://inaturalist-open-data.s3.amazonaws.com/photos/474737390/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659597094,31.8184089803,4,,,,4,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264289814,df418cf4-0faa-491d-bc53-8538dd5689ae,2025-03-07 12:00:46+02:00,2025-03-07,2025-03-07 10:00:46 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:31:32 UTC,2025-04-11 14:48:29 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264289814,https://inaturalist-open-data.s3.amazonaws.com/photos/474737487/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659132786,31.818397458,5,,,,5,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810
+264289906,97ef86e1-281d-43a4-95fd-b3badcce0a3e,2025-03-07 12:02:35+02:00,2025-03-07,2025-03-07 10:02:35 UTC,Pretoria,54168,jimclark,"",2025-03-07 13:32:08 UTC,2025-04-11 14:48:31 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264289906,https://inaturalist-open-data.s3.amazonaws.com/photos/474737570/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659764473,31.8184610832,5,,,,5,,open,false,,,red bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+264539675,9a106d91-d160-498a-b0af-6acf6ae17f23,2025-03-08 16:36:35+02:00,2025-03-08,2025-03-08 14:36:35 UTC,Pretoria,54168,jimclark,"",2025-03-08 18:02:51 UTC,2025-03-08 18:05:13 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264539675,https://inaturalist-open-data.s3.amazonaws.com/photos/475023463/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9941955926,31.5956395772,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636
+264539897,d602d84c-996f-4026-9eb2-73b86ca39e9e,2025-03-08 16:38:50+02:00,2025-03-08,2025-03-08 14:38:50 UTC,Pretoria,54168,jimclark,"",2025-03-08 18:04:13 UTC,2025-03-08 18:07:06 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264539897,https://inaturalist-open-data.s3.amazonaws.com/photos/475024070/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9942661284,31.5956501791,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636
+264540101,a6e2e894-f585-4163-bc0b-aa5829035ecc,2025-03-08 16:41:21+02:00,2025-03-08,2025-03-08 14:41:21 UTC,Pretoria,54168,jimclark,"",2025-03-08 18:06:06 UTC,2025-03-08 18:08:14 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264540101,https://inaturalist-open-data.s3.amazonaws.com/photos/475024323/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9943771641,31.595708933,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636
+264540126,499a0d12-f40d-4139-997d-4c7106d4fcb7,2025-03-08 16:37:27+02:00,2025-03-08,2025-03-08 14:37:27 UTC,Pretoria,1836758,chantalu2,,2025-03-08 18:06:20 UTC,2025-03-08 18:06:49 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264540126,https://inaturalist-open-data.s3.amazonaws.com/photos/475024228/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9942520741,31.5956016234,3,,,,3,,open,false,,,"",Grewia hexamita,Giant Raisin,Plantae,586636
+264540196,b62dcf1e-8b75-4cee-a4d2-14cffa4fb8d6,2025-03-08 16:41:00+02:00,2025-03-08,2025-03-08 14:41:00 UTC,Pretoria,1836758,chantalu2,,2025-03-08 18:06:50 UTC,2025-03-08 18:07:22 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264540196,https://inaturalist-open-data.s3.amazonaws.com/photos/475024361/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9942196177,31.5955424547,470,,,,470,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+264540246,b18c204c-af8d-4b29-8dfc-a55c63c21252,2025-03-08 16:43:40+02:00,2025-03-08,2025-03-08 14:43:40 UTC,Pretoria,54168,jimclark,"",2025-03-08 18:07:14 UTC,2025-03-08 18:10:04 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264540246,https://inaturalist-open-data.s3.amazonaws.com/photos/475024842/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9944956647,31.5956128389,3,,,,3,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+264540282,5fe6883f-e5af-4405-a046-65e1476ada75,2025-03-08 16:47:54+02:00,2025-03-08,2025-03-08 14:47:54 UTC,Pretoria,1836758,chantalu2,,2025-03-08 18:07:23 UTC,2025-03-08 18:07:54 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264540282,https://inaturalist-open-data.s3.amazonaws.com/photos/475024493/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9945605728,31.5955250564,6,,,,6,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+264540368,1a6fa661-502c-4082-b189-c59a94e5ba68,2025-03-08 16:58:30+02:00,2025-03-08,2025-03-08 14:58:30 UTC,Pretoria,1836758,chantalu2,,2025-03-08 18:07:55 UTC,2025-03-08 18:08:25 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264540368,https://inaturalist-open-data.s3.amazonaws.com/photos/475024635/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9907631723,31.5905974884,1526,,,,1526,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+264540500,5f49a590-ae2f-473f-a846-9eedba542b1a,2025-03-08 16:45:25+02:00,2025-03-08,2025-03-08 14:45:25 UTC,Pretoria,54168,jimclark,"",2025-03-08 18:09:05 UTC,2025-03-10 07:27:11 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264540500,https://inaturalist-open-data.s3.amazonaws.com/photos/475487364/medium.jpg,,"","",0,0,false,3,"Camping Skukuza, Skukuza, Mpumalanga, ZA",-24.994518941,31.5955837562,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+264789522,ca0474f4-9a24-4f4b-9ea5-7f674f4bdd8b,2025-03-08 16:48:43+02:00,2025-03-08,2025-03-08 14:48:43 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:08:25 UTC,2025-03-10 11:09:25 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789522,https://inaturalist-open-data.s3.amazonaws.com/photos/475513911/medium.jpg,,"","",0,0,false,3,"Camping Skukuza, Skukuza, Mpumalanga, ZA",-24.9944672355,31.5955378195,224,,,,224,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+264789586,b434e0ce-9e44-4142-bf0a-a2be5cc237a6,2025-03-08 16:56:53+02:00,2025-03-08,2025-03-08 14:56:53 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:08:58 UTC,2025-04-12 02:39:09 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/264789586,https://inaturalist-open-data.s3.amazonaws.com/photos/475513963/medium.jpg,,"","",1,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9953721604,31.5929461364,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228
+264789624,8a87564d-17a2-47a5-8564-e761208848b8,2025-03-08 16:58:31+02:00,2025-03-08,2025-03-08 14:58:31 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:09:33 UTC,2025-03-10 11:10:33 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789624,https://inaturalist-open-data.s3.amazonaws.com/photos/475514056/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.995236664,31.5928077813,37,,,,37,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+264789672,d94b21e6-8fbd-4da9-8cc8-e41a8beae662,2025-03-10 10:52:39+02:00,2025-03-10,2025-03-10 08:52:39 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:10:24 UTC,2025-03-10 11:11:24 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789672,https://inaturalist-open-data.s3.amazonaws.com/photos/475514161/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0718390895,31.6089862492,3,,,,3,,open,false,,,"",Vachellia robusta,splendid thorn,Plantae,559229
+264789721,2a0f5c3d-3ab1-4d8b-99fa-e039d5806a48,2025-03-10 10:56:37+02:00,2025-03-10,2025-03-10 08:56:37 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:10:59 UTC,2025-03-10 11:12:00 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789721,https://inaturalist-open-data.s3.amazonaws.com/photos/475514254/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0718885028,31.6084578904,63,,,,63,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+264789748,410d1b79-c43e-40fd-b2f5-9ddc77d68f11,2025-03-10 11:00:11+02:00,2025-03-10,2025-03-10 09:00:11 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:11:34 UTC,2025-03-10 11:12:35 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789748,https://inaturalist-open-data.s3.amazonaws.com/photos/475514325/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.072059041,31.6081358036,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+264789791,0e38a6d2-b325-473b-9353-ad4d6f2f5e8a,2025-03-10 11:05:22+02:00,2025-03-10,2025-03-10 09:05:22 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:12:09 UTC,2025-03-10 11:13:10 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789791,https://inaturalist-open-data.s3.amazonaws.com/photos/475514373/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0722652089,31.6075874109,3,,,,3,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+264789816,03858263-d65a-4c3e-8299-2cffe5c8053b,2025-03-10 11:06:38+02:00,2025-03-10,2025-03-10 09:06:38 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:12:44 UTC,2025-03-10 11:13:45 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789816,https://inaturalist-open-data.s3.amazonaws.com/photos/475514423/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0722679165,31.6075850045,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+264789838,8933a8a3-17bd-4f49-b2be-0574a14d54ff,2025-03-10 11:09:05+02:00,2025-03-10,2025-03-10 09:09:05 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:13:19 UTC,2025-03-18 22:29:00 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789838,https://inaturalist-open-data.s3.amazonaws.com/photos/475514497/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0722510021,31.6075797176,10,,,,10,,open,false,,,Pod-mahogany,Afzelia quanzensis,Pod-mahogany,Plantae,340236
+264789904,affafa7a-5c1a-41b2-9942-d5b649aaa139,2025-03-10 11:12:35+02:00,2025-03-10,2025-03-10 09:12:35 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:14:12 UTC,2025-03-10 11:15:12 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789904,https://inaturalist-open-data.s3.amazonaws.com/photos/475514583/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0106349959,31.5667462198,2945,,,,2945,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+264789936,d38d4e5e-917b-42a5-b3e8-4b493cd2bfe6,2025-03-10 11:29:06+02:00,2025-03-10,2025-03-10 09:29:06 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:14:48 UTC,2025-03-10 11:15:48 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264789936,https://inaturalist-open-data.s3.amazonaws.com/photos/475514652/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0723902416,31.6083082371,3,,,,3,,open,false,,,"",Terminalia prunioides,Purplepod clusterleaf,Plantae,430533
+264790006,dff81cb1-6afe-4b42-84a0-7b278c331d6f,2025-03-10 11:30:49+02:00,2025-03-10,2025-03-10 09:30:49 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:15:23 UTC,2025-03-10 11:16:24 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264790006,https://inaturalist-open-data.s3.amazonaws.com/photos/475514744/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0723885651,31.6082719863,3,,,,3,,open,false,,,"",Euclea natalensis,Mountain Guarri,Plantae,430991
+264790071,ed275464-81f1-4ceb-bdf5-558c6778b68c,2025-03-10 11:36:17+02:00,2025-03-10,2025-03-10 09:36:17 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:15:57 UTC,2025-03-10 11:16:58 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264790071,https://inaturalist-open-data.s3.amazonaws.com/photos/475514821/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0723553302,31.6083736375,3,,,,3,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688
+264790157,7a01bb40-fb4c-4e5c-8a99-6bc86c4b2c89,2025-03-10 11:53:31+02:00,2025-03-10,2025-03-10 09:53:31 UTC,Pretoria,54168,jimclark,"",2025-03-10 11:16:33 UTC,2025-03-15 05:08:21 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/264790157,https://inaturalist-open-data.s3.amazonaws.com/photos/475514895/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.075019477,31.6028300766,3,,,,3,,open,false,,,Broad-Pod,Albizia forbesii,Broad-Pod,Plantae,579378
+265032694,c9ec4938-295f-4bf4-a1d4-ae9d683e8f08,2025-03-11 09:39:13+02:00,2025-03-11,2025-03-11 07:39:13 UTC,Pretoria,54168,jimclark,"",2025-03-12 10:04:24 UTC,2025-03-13 11:38:53 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265032694,https://inaturalist-open-data.s3.amazonaws.com/photos/475985826/medium.jpg,,"","100,.22
+.3,1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.989591255,31.7759712045,7,,,,7,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+265032741,f672bb1b-b80a-4d92-9bbe-2dd98951b713,2025-03-11 10:19:55+02:00,2025-03-11,2025-03-11 08:19:55 UTC,Pretoria,54168,jimclark,"",2025-03-12 10:05:04 UTC,2025-03-13 11:37:29 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265032741,https://inaturalist-open-data.s3.amazonaws.com/photos/475985905/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9894888606,31.7771087867,14,,,,14,,open,false,,,"",Flueggea virosa,snowberrytree,Plantae,340143
+265032762,1b4d5984-c2d3-404c-8529-09131d55630a,2025-03-11 13:24:25+02:00,2025-03-11,2025-03-11 11:24:25 UTC,Pretoria,54168,jimclark,"",2025-03-12 10:05:28 UTC,2025-03-13 11:36:17 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265032762,https://inaturalist-open-data.s3.amazonaws.com/photos/475985959/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2169131256,31.9299674843,3,,,,3,,open,false,,,"",Commiphora africana,Hairy Corkwood,Plantae,505821
+265032803,9e7fe537-e7a2-49c5-9a0f-e8b32104c80a,2025-03-11 13:31:07+02:00,2025-03-11,2025-03-11 11:31:07 UTC,Pretoria,54168,jimclark,"",2025-03-12 10:06:08 UTC,2025-03-13 11:35:28 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265032803,https://inaturalist-open-data.s3.amazonaws.com/photos/475986025/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2171667524,31.9298700358,2,,,,2,,open,false,,,"",Grewia villosa,Mallow Raisin,Plantae,431080
+265040874,a204da47-6a0d-4b26-93c5-143da03c958e,2025-03-12 10:44:12,2025-03-12,2025-03-12 08:44:12 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:21:41 UTC,2025-03-15 12:55:38 UTC,needs_id,,https://www.inaturalist.org/observations/265040874,https://static.inaturalist.org/photos/476001911/medium.jpeg,,"","VRP10R_2-3
+Dbh1 12
+Dbh2 8
+Dbh 3
+Crown width 4.5
+Count 23
+Fraction 0.5
+Shade 3",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9778346,31.6374011,4149,,,,4149,,open,false,,,Zambesi Gold,Rhigozum zambesiacum,Zambesi Gold,Plantae,593047
+265040944,bf0f8474-1744-4a23-9510-6de50c62fcf5,2025-03-12 11:38:07,2025-03-12,2025-03-12 09:38:07 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:22:30 UTC,2025-03-15 12:54:52 UTC,needs_id,,https://www.inaturalist.org/observations/265040944,https://static.inaturalist.org/photos/476002054/medium.jpeg,,"","VRP8R_1-4
+Crown width 3.5
+Dbh 18
+Count 0
+Fraction 0.4
+Basal 213
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906566667,31.610335,9,,,,9,,open,false,,,Leadwood,Combretum imberbe,Leadwood,Plantae,340408
+265040987,9f05c3d7-ffc2-4ebb-94b3-b17d6f6f4a64,2025-03-12 11:41:08,2025-03-12,2025-03-12 09:41:08 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:23:09 UTC,2025-03-15 12:50:13 UTC,needs_id,,https://www.inaturalist.org/observations/265040987,https://static.inaturalist.org/photos/476002131/medium.jpeg,,"","VRP8R_1-7
+Dbh 22
+Basal area 5
+Count 0
+Fraction 0.3
+Shade 3
+",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9904233333,31.610325,6,,,,6,,open,false,,,brown ivory,Phyllogeiton discolor,brown ivory,Plantae,1473181
+265041032,b498ed6e-010a-4272-a919-92820ea3577f,2025-03-12 12:13:35,2025-03-12,2025-03-12 10:13:35 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:23:40 UTC,2025-03-12 12:44:16 UTC,needs_id,,https://www.inaturalist.org/observations/265041032,https://static.inaturalist.org/photos/476002230/medium.jpeg,,"","VRP3R_1-1
+Dbh 19
+12.0
+12.1
+Count 0
+0.4
+Shade 4
+Basal 10
+",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3099,,,,3099,,open,false,,,river bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389
+265041065,dddd81cb-a5a8-4bb6-9286-114ea308cdde,2025-03-12 12:16:33,2025-03-12,2025-03-12 10:16:33 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:24:06 UTC,2025-03-15 12:45:10 UTC,needs_id,,https://www.inaturalist.org/observations/265041065,https://static.inaturalist.org/photos/476002333/medium.jpeg,,"","VRP3R_1-3
+Dbh 1 17.1
+Dbh2 18.9
+Dbh3 19.8
+Count 0
+Fraction 0.4
+Basal 10
+Shade 4",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9823933333,31.62861,8,,,,8,,open,false,,,river bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389
+265041239,d7ce4344-dc10-40a5-9caf-857964521ff4,2025-03-07 11:57:31,2025-03-07,2025-03-07 09:57:31 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:26:05 UTC,2025-03-18 07:31:24 UTC,research,,https://www.inaturalist.org/observations/265041239,https://static.inaturalist.org/photos/476002646/medium.jpeg,,"","Vrptshokwane34_7-1
+Count 0
+Crop fraction 0.7
+Dbh stem1 6.8
+Dbhstem2 4.2
+Crown class 2
+Crown width 7
+Basal area 5",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7658866667,31.8185416667,5,,,,5,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810
+265041260,cc4db372-7d84-4a88-a343-35aa30f481a1,2025-03-07 12:00:26,2025-03-07,2025-03-07 10:00:26 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:26:20 UTC,2025-03-18 07:31:22 UTC,research,,https://www.inaturalist.org/observations/265041260,https://static.inaturalist.org/photos/476002691/medium.jpeg,,"","Vrptshokwane34_7-4
+Count 0
+Crop fraction 0.7
+Dbh1 3.3
+Dbh2 4.4
+Crown class 2
+Basal area 5",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7659083333,31.8184383333,6,,,,6,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810
+265041277,45b53537-f9c5-42f1-8d69-24c1400288bc,2025-03-07 12:02:05,2025-03-07,2025-03-07 10:02:05 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:26:37 UTC,2025-03-15 12:41:00 UTC,needs_id,,https://www.inaturalist.org/observations/265041277,https://static.inaturalist.org/photos/476002720/medium.jpeg,,"","Vrptshokwane34_7-6
+Count 0
+Crop fraction 0.7
+Dbh1 5.5
+Dbh2 3.5
+Dbh3 4.2
+Crown class 2
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.7658966667,31.8184633333,9,,,,9,,open,false,,,combretum apiculatum,Combretum apiculatum,red bushwillow,Plantae,340059
+265041371,6e1bfcc1-8f12-437e-8370-4a1f232f62cf,2025-03-10 11:18:58,2025-03-10,2025-03-10 09:18:58 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:27:51 UTC,2025-03-15 12:31:17 UTC,needs_id,,https://www.inaturalist.org/observations/265041371,https://static.inaturalist.org/photos/476002932/medium.jpeg,,"","20 dbh
+2
+250
+0.2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0725366667,31.607285,7,,,,7,,open,false,,,combretum apiculatum,Combretum apiculatum,red bushwillow,Plantae,340059
+265041404,57ea9c50-17a1-4403-b2a6-3ae023dae1a3,2025-03-11 09:38:46,2025-03-11,2025-03-11 07:38:46 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:28:18 UTC,2025-04-12 07:51:39 UTC,research,,https://www.inaturalist.org/observations/265041404,https://static.inaturalist.org/photos/476003024/medium.jpeg,,"","Vrpnkuin_1-4
+Dbh 16.8
+Count 0
+Fraction 0.5
+Shade3
+Basal area 5",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9891866667,31.77601,9,,,,9,,open,false,,,false-marula,Lannea schweinfurthii,false-marula,Plantae,340118
+265041456,107be880-5ad3-48d1-895b-b9654a798d9b,2025-03-11 13:22:31,2025-03-11,2025-03-11 11:22:31 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:29:10 UTC,2025-03-15 12:29:33 UTC,needs_id,,https://www.inaturalist.org/observations/265041456,https://static.inaturalist.org/photos/476003211/medium.jpeg,,"","Browse37_1
+Dbh 6, 4, 2
+Count 0
+Shade 2
+Fraction 0.7",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.216775,31.9300016667,9,,,,9,,open,false,,,gymnospora senegalensis,Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+265041541,a01b4be6-aac0-4350-a919-6ebc9d751979,2025-03-11 13:26:39,2025-03-11,2025-03-11 11:26:39 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:29:49 UTC,2025-03-15 12:28:53 UTC,needs_id,,https://www.inaturalist.org/observations/265041541,https://static.inaturalist.org/photos/476003298/medium.jpeg,,"","Browse37_731
+Dbh 22, 13
+Count 0
+Shade 2
+Fraction 0.7",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2169633333,31.9298066667,7,,,,7,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+265041622,91af6c87-7cb1-4e8e-a63d-dd0866c49c95,2025-03-12 10:38:11,2025-03-12,2025-03-12 08:38:11 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:30:07 UTC,2025-03-15 12:26:57 UTC,needs_id,,https://www.inaturalist.org/observations/265041622,https://static.inaturalist.org/photos/476003337/medium.jpeg,,"","VRP10R_2_5
+Dbh100.9
+Count 7
+Fraction 0.1
+Shade 2
+Basal area 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.975905,31.6559166667,4,,,,4,,open,false,,,Brown Ivory,Phyllogeiton discolor,brown ivory,Plantae,1473181
+265041753,29b61562-0fb3-4d3b-a419-604ce6ec7f29,2025-03-12 12:18:58,2025-03-12,2025-03-12 10:18:58 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:31:35 UTC,2025-03-15 12:25:51 UTC,needs_id,,https://www.inaturalist.org/observations/265041753,https://static.inaturalist.org/photos/476003567/medium.jpeg,,"","VRP3R_1-5
+Dbh1 15.7
+Dbh2 13.2
+Dbh3 27.8
+
+Count 0
+Fraction 0.2
+Basal 10
+Shade 4",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3195,,,,3195,,open,false,,,River Bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389
+265041792,185a90b9-360c-454e-a8ae-4a05cc0fbb58,2025-03-12 12:21:26,2025-03-12,2025-03-12 10:21:26 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:32:02 UTC,2025-03-15 12:23:24 UTC,needs_id,,https://www.inaturalist.org/observations/265041792,https://static.inaturalist.org/photos/476003647/medium.jpeg,,"","VRP3R_1-6
+Dbh1 7.9
+Dbh2 7.2
+Dbh3 4.2
+Count 0
+Fraction 0.3
+Basal 10
+Shade 4",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9826433333,31.62865,9,,,,9,,open,false,,,River Bushwillow,Combretum erythrophyllum,river bushwillow,Plantae,135389
+265041863,1c56e95a-3acb-46b1-bb0a-efe15372fbb8,2025-03-12 12:38:36,2025-03-12,2025-03-12 10:38:36 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:32:52 UTC,2025-03-15 12:15:08 UTC,needs_id,,https://www.inaturalist.org/observations/265041863,https://static.inaturalist.org/photos/476003791/medium.jpeg,,"","VRP2R_1-2
+Dbh 29.0
+Count 0
+Fraction 0.4
+Basal 10
+Shade 3",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3099,,,,3099,,open,false,,,tamboti,Spirostachys africana,tamboti,Plantae,340253
+265041956,5f1aa521-d5d1-467a-8d24-86df2003e3b8,2025-03-12 12:41:40,2025-03-12,2025-03-12 10:41:40 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:34:25 UTC,2025-03-15 12:04:31 UTC,needs_id,,https://www.inaturalist.org/observations/265041956,https://static.inaturalist.org/photos/476004051/medium.jpeg,,"","VRP2R_1-1
+Dbh 33.2
+Count 0
+Fraction 0.2
+Basal 10
+Shade 3",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881103,31.6120863,3099,,,,3099,,open,false,,,tamboti,Spirostachys africana,tamboti,Plantae,340253
+265042226,bbfbbb30-000d-4d9c-8526-767f0388a406,2025-03-12 12:47:11,2025-03-12,2025-03-12 10:47:11 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-12 12:36:37 UTC,2025-03-15 12:03:29 UTC,needs_id,,https://www.inaturalist.org/observations/265042226,https://static.inaturalist.org/photos/476076524/medium.jpeg,,"","VRP2R_1-5
+Dbh 68.3
+Count 200
+Fraction 0.05
+Basal 10
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9873416667,31.6150916667,8,,,,8,,open,false,,,lead wood,Combretum imberbe,Leadwood,Plantae,340408
+265042666,ac973386-c694-4039-838e-6e921b198eff,2025-03-12 12:39:08+02:00,2025-03-12,2025-03-12 10:39:08 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 12:41:35 UTC,2025-03-15 12:05:38 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265042666,https://inaturalist-open-data.s3.amazonaws.com/photos/476005197/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.987325,31.6151466667,21,,,,21,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253
+265042913,324898d1-deb9-45b5-94b5-e9274bb1c01f,2025-03-11 13:19:32+02:00,2025-03-11,2025-03-11 11:19:32 UTC,Pretoria,1836758,chantalu2,,2025-03-12 12:44:37 UTC,2025-03-13 12:19:51 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265042913,https://inaturalist-open-data.s3.amazonaws.com/photos/476005653/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172813678,31.9303243677,3,,,,3,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+265042984,84a2b570-504a-47b3-ba8b-575ee8771fa4,2025-03-11 13:26:15+02:00,2025-03-11,2025-03-11 11:26:15 UTC,Pretoria,1836758,chantalu2,,2025-03-12 12:45:40 UTC,2025-03-13 12:18:49 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265042984,https://inaturalist-open-data.s3.amazonaws.com/photos/476005736/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2173073124,31.9302045821,3,,,,3,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+265043241,d022ca3b-ef16-40a6-b943-231a92ef5af3,2025-03-11 09:56:23+02:00,2025-03-11,2025-03-11 07:56:23 UTC,Pretoria,9009365,rmwilliams,,2025-03-12 12:49:19 UTC,2025-03-12 13:41:04 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043241,https://inaturalist-open-data.s3.amazonaws.com/photos/476007115/medium.jpg,,"","Number of tree might not be accurate, site is.",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.989222966,31.7761921854,4,,,,4,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+265043264,e87a5b5a-b9fb-49c2-aa5d-872f16b85dd1,2025-03-11 13:18:46+02:00,2025-03-11,2025-03-11 11:18:46 UTC,Pretoria,9010050,joshua89918,Joshua Dutton,2025-03-12 12:49:44 UTC,2025-03-12 13:14:02 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043264,https://inaturalist-open-data.s3.amazonaws.com/photos/476006413/medium.jpg,,"","FRP
+Browse 37
+Tag 14
+10099
+Stem diameter - 15.7
+Crop year - 2025
+Crop count 999
+0.8 fraction
+Tree type 2",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2169819972,31.9299208182,8,,,,8,,open,false,,,Knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+265043511,bf1d2753-f3d2-460e-a926-2881b127d4de,2025-03-12 09:14:19+02:00,2025-03-12,2025-03-12 07:14:19 UTC,Pretoria,9010050,joshua89918,Joshua Dutton,2025-03-12 12:52:09 UTC,2025-03-13 13:35:51 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043511,https://inaturalist-open-data.s3.amazonaws.com/photos/476006841/medium.jpg,,"","VRP12R_2-2
+
+DBH: 26.5
+Count: 0
+Fraction 0.3
+Type: 4
+Basal area 10",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566081685,31.7262774874,8,,,,8,,open,false,,,"",Euclea natalensis,Mountain Guarri,Plantae,430991
+265043657,edeec804-5afc-423c-ad9a-3d6c2fe42a44,2025-03-12 09:57:48+02:00,2025-03-12,2025-03-12 07:57:48 UTC,Pretoria,9010050,joshua89918,Joshua Dutton,2025-03-12 12:54:29 UTC,2025-03-13 12:59:57 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043657,https://inaturalist-open-data.s3.amazonaws.com/photos/476007564/medium.jpg,,"","110 cm for stem 1
+100 cm for stem 2
+0 fruit
+0.3 proportion 
+VRP11R_2-x
+Shade class 3
+
+FIX TAG
+VRP11R_2-x
+FIX VRP SIZE",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9652664562,31.6850192183,8,,,,8,,open,false,,,Pod-Mahogany,Afzelia quanzensis,Pod-mahogany,Plantae,340236
+265043658,89fb1664-0e85-4c86-a7ae-7107f874e8c8,2025-03-11 09:34:52+02:00,2025-03-11,2025-03-11 07:34:52 UTC,Pretoria,9009362,klmundy,,2025-03-12 12:54:30 UTC,2025-03-13 12:12:18 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043658,https://inaturalist-open-data.s3.amazonaws.com/photos/476007282/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9896866667,31.7760133333,2,,,,2,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+265043678,51ce993b-0e69-478c-8b94-f289e7058a32,2025-03-11 10:12:05+02:00,2025-03-11,2025-03-11 08:12:05 UTC,Pretoria,9009365,rmwilliams,,2025-03-12 12:54:48 UTC,2025-03-12 13:04:20 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043678,https://inaturalist-open-data.s3.amazonaws.com/photos/476007206/medium.jpg,,"","VRPNKUOUT_1-1
+14.8
+No seeds
+Canopy 3
+.5",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881698661,31.7770035972,4,,,,4,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265043712,54b09374-4f0f-447e-a543-c1ec98808ecc,2025-03-11 10:18:18+02:00,2025-03-11,2025-03-11 08:18:18 UTC,Pretoria,9009365,rmwilliams,,2025-03-12 12:55:29 UTC,2025-03-12 13:40:27 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043712,https://inaturalist-open-data.s3.amazonaws.com/photos/476008693/medium.jpg,,"","13.1
+VRPNKUOUT_1-2
+Canopy 1
+1,100
+50%",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881178327,31.7769642826,5,,,,5,,open,false,,,Russett Bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062
+265043993,5520d91d-66b2-45e5-a4c1-61558a8761df,2025-03-11 13:21:35+02:00,2025-03-11,2025-03-11 11:21:35 UTC,Pretoria,9009372,sameerswarup77,,2025-03-12 12:59:28 UTC,2025-03-12 13:05:05 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265043993,https://inaturalist-open-data.s3.amazonaws.com/photos/476008439/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.259999421,31.7981215532,9041,,,,9041,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265044013,469033bd-9a65-4e2a-82e3-ec15ce2f8019,2025-03-10 16:37:52+02:00,2025-03-10,2025-03-10 14:37:52 UTC,Pretoria,7296846,hanshi_chen,,2025-03-12 12:59:35 UTC,2025-03-13 11:34:39 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044013,https://inaturalist-open-data.s3.amazonaws.com/photos/476007944/medium.jpg,,"","In dormitory entrance of Skukuza
+Pretty sure the species is jackalberry because there is a label",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9952823317,31.5885031108,18,,,,18,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265044138,94955c09-831f-4404-ba54-9ba1c30e9653,2025-03-10 16:25:21+02:00,2025-03-10,2025-03-10 14:25:21 UTC,Pretoria,9010048,carolinehope19,,2025-03-12 13:01:14 UTC,2025-03-12 13:03:06 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044138,https://inaturalist-open-data.s3.amazonaws.com/photos/476008298/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9950174382,31.5882185052,4,,,,4,,open,false,,,"",Terminalia prunioides,Purplepod clusterleaf,Plantae,430533
+265044142,6c961c10-2cef-4560-8f82-7b00bf1dc785,2025-03-12 12:40:42+02:00,2025-03-12,2025-03-12 10:40:42 UTC,Pretoria,9009368,mhlangmuir,,2025-03-12 13:01:19 UTC,2025-03-13 12:43:59 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044142,https://inaturalist-open-data.s3.amazonaws.com/photos/476008087/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9874083472,31.6149584025,76,,,,76,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265044149,39043358-81fa-4fb4-a6e7-b04394e9af6c,2025-03-12 08:30:45+02:00,2025-03-12,2025-03-12 06:30:45 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 13:01:29 UTC,2025-03-15 12:07:16 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044149,https://inaturalist-open-data.s3.amazonaws.com/photos/476098272/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968505,31.7498216667,5,,,,5,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265044259,0c426270-aab1-4698-a771-9fdc107a1aad,2025-03-11 10:05:12+02:00,2025-03-11,2025-03-11 08:05:12 UTC,Pretoria,1032137,l3v,,2025-03-12 13:03:04 UTC,2025-03-12 13:24:23 UTC,needs_id,,https://www.inaturalist.org/observations/265044259,https://static.inaturalist.org/photos/476011278/medium.jpg,,"","VRPNKUOUT_10-2
+Crown width .8m",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9894916667,31.7773883333,3,,,,3,,open,false,,,Russet Bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062
+265044267,c4896100-33cf-40c2-a541-0e9f8e69e5c9,2025-03-11 09:38:36+02:00,2025-03-11,2025-03-11 07:38:36 UTC,Pretoria,9010055,jdnowacek02,,2025-03-12 13:03:13 UTC,2025-03-15 12:06:24 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044267,https://inaturalist-open-data.s3.amazonaws.com/photos/476008606/medium.jpg,,"","Diameters
+
+15.8
+11.0
+
+Combretum with fruit
+
+Fruit estimate 300 total
+
+Canopy rating 2
+
+Basal area factor 5
+
+VRPNKUN_2-7",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9898963825,31.7757454281,4,,,,4,,,false,,,"",Combretum,Bushwillows,Plantae,81496
+265044368,187d8418-b4fc-48c0-831a-deb74a24984f,2025-03-11 13:17:22+02:00,2025-03-11,2025-03-11 11:17:22 UTC,Pretoria,2227512,nleeheberling21,,2025-03-12 13:05:06 UTC,2025-03-15 04:50:01 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044368,https://inaturalist-open-data.s3.amazonaws.com/photos/476008947/medium.jpg,,"","BROWSE_2117
+",1,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.217195,31.9300966667,4,,,,4,,open,false,,,knobthorn,Senegalia nigrescens,knobthorn,Plantae,594427
+265044531,005aa5d3-f48a-46a0-a3aa-c2acb7ff0e8e,2025-03-12 11:38:19+02:00,2025-03-12,2025-03-12 09:38:19 UTC,Pretoria,9009368,mhlangmuir,,2025-03-12 13:07:23 UTC,2025-03-15 12:11:05 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044531,https://inaturalist-open-data.s3.amazonaws.com/photos/476009136/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9905758902,31.6103761621,13,,,,13,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+265044686,d95e6638-97b3-465b-b4a1-292ba64c8845,2025-03-11 10:09:44+02:00,2025-03-11,2025-03-11 08:09:44 UTC,Pretoria,9009369,brynn_rotbart,Brynn Rotbart,2025-03-12 13:08:59 UTC,2025-03-12 13:23:05 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044686,https://inaturalist-open-data.s3.amazonaws.com/photos/476011138/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9896583333,31.7772216667,4,,,,4,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265044688,fc791a47-af0c-4ff3-b4ce-ddaf506c13d2,2025-03-11 13:29:34+02:00,2025-03-11,2025-03-11 11:29:34 UTC,Pretoria,1032137,l3v,,2025-03-12 13:08:59 UTC,2025-03-12 13:22:23 UTC,needs_id,,https://www.inaturalist.org/observations/265044688,https://static.inaturalist.org/photos/476009537/medium.jpg,,"",BROWSE_37-9,0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.2170783333,31.9298583333,4,,,,4,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265044774,80f8b514-036a-4ab6-85fb-d5a4307e9e15,2025-03-11 10:26:26+02:00,2025-03-11,2025-03-11 08:26:26 UTC,Pretoria,7296846,hanshi_chen,,2025-03-12 13:10:06 UTC,2025-03-13 12:11:23 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044774,https://inaturalist-open-data.s3.amazonaws.com/photos/476009560/medium.jpg,,"",VRPNKUOUT_1-3,0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9881056568,31.7772063109,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062
+265044806,d17ed878-a522-4ee7-8374-bab2f50f0f2b,2025-03-10 16:41:25+02:00,2025-03-10,2025-03-10 14:41:25 UTC,Pretoria,9009368,mhlangmuir,,2025-03-12 13:10:16 UTC,2025-04-12 07:55:14 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265044806,https://inaturalist-open-data.s3.amazonaws.com/photos/476009637/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9951490786,31.5884628153,12,,,,12,,open,false,,,Sausage tree,Kigelia africana,Sausage tree,Plantae,81491
+265044898,31379723-ad16-436d-9b45-7f2d29ab5a12,2025-03-11 13:21:38+02:00,2025-03-11,2025-03-11 11:21:38 UTC,Pretoria,7296846,hanshi_chen,,2025-03-12 13:11:00 UTC,2025-03-13 12:26:37 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265044898,https://inaturalist-open-data.s3.amazonaws.com/photos/476011662/medium.jpg,,"","Tag 2122
+BROWSE_31-2122",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2168892105,31.9299263519,3,,,,3,,open,false,,,Unknown,Senegalia nigrescens,knobthorn,Plantae,594427
+265045033,c4e97f34-453c-413c-89d8-4731a0cad778,2025-03-11 10:03:31+02:00,2025-03-11,2025-03-11 08:03:31 UTC,Pretoria,9009368,mhlangmuir,,2025-03-12 13:13:15 UTC,2025-03-12 13:31:25 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265045033,https://inaturalist-open-data.s3.amazonaws.com/photos/476010144/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9886034965,31.7772522174,13,,,,13,,open,false,,,Senegalia nigrescens,Senegalia nigrescens,knobthorn,Plantae,594427
+265045096,251832ee-12d4-439e-9436-65332a598dda,2025-03-11 09:31:53+02:00,2025-03-11,2025-03-11 07:31:53 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-12 13:14:04 UTC,2025-03-12 13:21:15 UTC,needs_id,,https://www.inaturalist.org/observations/265045096,https://static.inaturalist.org/photos/476011037/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Limpopo, ZA",-23.9295457,31.4605914,81484,,,,81484,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265045209,55d1654c-a071-4a77-a645-3252fd4bdb9c,2025-03-11 13:19:18+02:00,2025-03-11,2025-03-11 11:19:18 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-12 13:15:47 UTC,2025-03-12 13:22:11 UTC,needs_id,,https://www.inaturalist.org/observations/265045209,https://static.inaturalist.org/photos/476011119/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Limpopo, ZA",-23.9295457,31.4605914,81484,,,,81484,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265045285,61c83f25-cd3b-481a-8470-d8888d7f3c2e,2025-03-11 09:31:54+02:00,2025-03-11,2025-03-11 07:31:54 UTC,Pretoria,1032137,l3v,,2025-03-12 13:16:59 UTC,2025-03-12 13:19:54 UTC,needs_id,,https://www.inaturalist.org/observations/265045285,https://static.inaturalist.org/photos/476010712/medium.jpg,,"",VRPNKUIN_10-3,0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9893883333,31.77668,1,,,,1,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265045486,bb5e584a-2096-4c44-b724-853336b24268,2025-03-11 13:20:36+02:00,2025-03-11,2025-03-11 11:20:36 UTC,Pretoria,9009368,mhlangmuir,,2025-03-12 13:19:44 UTC,2025-03-12 13:22:15 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265045486,https://inaturalist-open-data.s3.amazonaws.com/photos/476011006/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2171684011,31.930265848,395,,,,395,,open,false,,,Dichrostachys cinerea,Dichrostachys cinerea,aroma,Plantae,129706
+265045597,edad5dd0-9b4a-40e5-8f28-99b7881cc31d,2025-03-11 10:15:54+02:00,2025-03-11,2025-03-11 08:15:54 UTC,Pretoria,1032137,l3v,,2025-03-12 13:21:41 UTC,2025-03-12 13:24:53 UTC,needs_id,,https://www.inaturalist.org/observations/265045597,https://static.inaturalist.org/photos/476011328/medium.jpg,,"","VRPNKUOUT_10-7
+Crown width 1.2
+",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9895033333,31.7774133333,15,,,,15,,open,false,,,Russet Bushwillow,Combretum hereroense,russet bushwillow,Plantae,340062
+265045650,309ab3df-1393-4d0c-bf17-cdd18e7b8957,2025-03-12 08:42:09+02:00,2025-03-12,2025-03-12 06:42:09 UTC,Pretoria,9009368,mhlangmuir,,2025-03-12 13:22:16 UTC,2025-03-15 14:19:15 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265045650,https://inaturalist-open-data.s3.amazonaws.com/photos/476011391/medium.jpg,,"","",2,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9683164525,31.7495013981,18,,,,18,,open,false,,,"roses, elms, figs, and allies",Rosales,"roses, elms, figs, and allies",Plantae,47132
+265045735,0986b639-9631-4ca7-aae7-7133ddd3e0ac,2025-03-11 13:31:59+02:00,2025-03-11,2025-03-11 11:31:59 UTC,Pretoria,9009369,brynn_rotbart,Brynn Rotbart,2025-03-12 13:23:19 UTC,2025-03-12 13:27:39 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265045735,https://inaturalist-open-data.s3.amazonaws.com/photos/476011664/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.2172283333,31.92988,3,,,,3,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265046232,2175e133-0ea5-4fc3-b3da-fe02001d2977,2025-03-12 08:46:25+02:00,2025-03-12,2025-03-12 06:46:25 UTC,Pretoria,1032137,l3v,,2025-03-12 13:28:30 UTC,2025-03-13 12:42:45 UTC,needs_id,,https://www.inaturalist.org/observations/265046232,https://static.inaturalist.org/photos/476012319/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9682133333,31.7494883333,41,,,,41,,open,false,,,Natal Mahogany,Trichilia emetica,Natal mahogany,Plantae,595643
+265089456,3fd73252-46b0-44ea-ab70-e343de3f846a,2025-03-12 12:19:22+02:00,2025-03-12,2025-03-12 10:19:22 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:33:45 UTC,2025-03-15 12:05:32 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265089456,https://inaturalist-open-data.s3.amazonaws.com/photos/476094395/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9824916667,31.6285783333,8,,,,8,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265089607,b7bd2eb1-6dc7-4174-af93-9d4cb891bd0a,2025-03-12 12:14:45+02:00,2025-03-12,2025-03-12 10:14:45 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:35:21 UTC,2025-03-15 12:05:43 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265089607,https://inaturalist-open-data.s3.amazonaws.com/photos/476094690/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.990545,31.60225,3509,,,,3509,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265089702,837a75d3-7c61-4846-b990-a55215f96d83,2025-03-12 11:40:59+02:00,2025-03-12,2025-03-12 09:40:59 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:36:29 UTC,2025-03-15 12:40:52 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265089702,https://inaturalist-open-data.s3.amazonaws.com/photos/476094923/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9905366667,31.61033,4,,,,4,,open,false,,,"",Euclea divinorum,Magic Gwarrie,Plantae,343032
+265089771,7f609919-43b3-40a0-9dd6-9a51006493b8,2025-03-12 11:37:33+02:00,2025-03-12,2025-03-12 09:37:33 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:37:23 UTC,2025-03-15 12:05:52 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265089771,https://inaturalist-open-data.s3.amazonaws.com/photos/476095062/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.99057,31.6104033333,3,,,,3,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211
+265089875,6e6fa718-7553-444d-bd22-aa5249d5c91b,2025-03-12 11:12:37+02:00,2025-03-12,2025-03-12 09:12:37 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:38:27 UTC,2025-03-15 12:05:56 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265089875,https://inaturalist-open-data.s3.amazonaws.com/photos/476095248/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.986809753,31.621408062,4,,,,4,,,false,,,"",Gymnosporia,Spikethorns,Plantae,185532
+265090000,2fbf9092-166c-4ad9-8e1f-a168dea41601,2025-03-12 10:39:14+02:00,2025-03-12,2025-03-12 08:39:14 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:40:02 UTC,2025-03-15 12:10:57 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090000,https://inaturalist-open-data.s3.amazonaws.com/photos/476095502/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.976105,31.656155,3040,,,,3040,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265090071,09b2eb61-b294-4968-b136-c0a153cf8c7d,2025-03-12 10:36:02+02:00,2025-03-12,2025-03-12 08:36:02 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:40:53 UTC,2025-03-31 05:18:37 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090071,https://inaturalist-open-data.s3.amazonaws.com/photos/476095674/medium.jpg,,"","",2,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9761083333,31.656145,3,,,,3,,open,false,,,dicots,Magnoliopsida,dicots,Plantae,47124
+265090182,7c7cd712-3483-4364-bb6a-62cd6e1a7ed9,2025-03-12 10:05:05+02:00,2025-03-12,2025-03-12 08:05:05 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:42:16 UTC,2025-03-13 12:32:20 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090182,https://inaturalist-open-data.s3.amazonaws.com/photos/476095902/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9653216667,31.6853116667,3,,,,3,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253
+265090291,ac474013-6721-405a-b8ce-858e03e46434,2025-03-12 09:58:43+02:00,2025-03-12,2025-03-12 07:58:43 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:43:22 UTC,2025-03-15 12:11:30 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090291,https://inaturalist-open-data.s3.amazonaws.com/photos/476096096/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651866667,31.685295,4,,,,4,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253
+265090505,f31d8f5e-3092-4de0-af28-89d5da1856e5,2025-03-12 09:56:11+02:00,2025-03-12,2025-03-12 07:56:11 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:45:06 UTC,2025-03-15 12:11:34 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090505,https://inaturalist-open-data.s3.amazonaws.com/photos/476096535/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651667988,31.6853014659,4,,,,4,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211
+265090608,18bb1f62-485e-4dbe-a109-91da5230433a,2025-03-12 09:53:32+02:00,2025-03-12,2025-03-12 07:53:32 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:46:21 UTC,2025-03-15 12:12:10 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090608,https://inaturalist-open-data.s3.amazonaws.com/photos/476096698/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9653033333,31.6852383333,9,,,,9,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265090828,6588500f-2601-4488-a465-19e1f7bf9fb3,2025-03-12 09:52:48+02:00,2025-03-12,2025-03-12 07:52:48 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:47:54 UTC,2025-03-15 12:12:18 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090828,https://inaturalist-open-data.s3.amazonaws.com/photos/476097002/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9653083333,31.685245,13,,,,13,,open,false,,,"",Combretum imberbe,Leadwood,Plantae,340408
+265090955,4075c354-5598-4373-8346-94a0ea4dbaa8,2025-03-12 09:28:33+02:00,2025-03-12,2025-03-12 07:28:33 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:48:56 UTC,2025-03-15 12:12:04 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265090955,https://inaturalist-open-data.s3.amazonaws.com/photos/476097273/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565366667,31.7265383333,16,,,,16,,open,false,,,"",Trichilia emetica,Natal mahogany,Plantae,595643
+265091100,30d311c7-6875-4dfe-985d-7790adb21eb0,2025-03-12 09:25:00+02:00,2025-03-12,2025-03-12 07:25:00 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:50:15 UTC,2025-03-15 12:11:56 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091100,https://inaturalist-open-data.s3.amazonaws.com/photos/476097593/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565716667,31.7264916667,11,,,,11,,open,false,,,"",Trichilia emetica,Natal mahogany,Plantae,595643
+265091218,99913fa8-50cf-466c-84ad-1cf221de38ef,2025-03-12 09:19:45+02:00,2025-03-12,2025-03-12 07:19:45 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:51:21 UTC,2025-03-31 05:18:04 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091218,https://inaturalist-open-data.s3.amazonaws.com/photos/476097732/medium.jpg,,"","",2,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566033333,31.7266116667,4,,,,4,,open,false,,,dicots,Magnoliopsida,dicots,Plantae,47124
+265091304,5542c60b-a88b-46a2-ab3a-d2b2ff92a0b0,2025-03-12 09:21:27+02:00,2025-03-12,2025-03-12 07:21:27 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:52:24 UTC,2025-03-15 12:11:51 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091304,https://inaturalist-open-data.s3.amazonaws.com/photos/476097939/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565666667,31.726575,5,,,,5,,open,false,,,"",Breonadia salicina,Matumi,Plantae,429244
+265091417,0aab918b-2a17-4894-b564-d6f9a90f7a4b,2025-03-12 09:10:22+02:00,2025-03-12,2025-03-12 07:10:22 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:53:45 UTC,2025-03-15 12:15:03 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091417,https://inaturalist-open-data.s3.amazonaws.com/photos/476692845/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566466667,31.7266033333,27,,,,27,,open,false,,,"",Breonadia salicina,Matumi,Plantae,429244
+265091537,7790fe6c-3d2a-4778-81e1-202cdb8a6fab,2025-03-12 08:36:08+02:00,2025-03-12,2025-03-12 06:36:08 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:54:53 UTC,2025-03-15 12:07:20 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091537,https://inaturalist-open-data.s3.amazonaws.com/photos/476098529/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9684249996,31.749655,20,,,,20,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265091640,f2c44be6-63bd-4935-8a78-ad19668ff788,2025-03-12 08:39:39+02:00,2025-03-12,2025-03-12 06:39:39 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:55:51 UTC,2025-03-15 12:07:25 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091640,https://inaturalist-open-data.s3.amazonaws.com/photos/476098792/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968455,31.7498033333,4,,,,4,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265091809,6b1e6806-c225-482f-a876-8e7b927bfc40,2025-03-12 08:48:21+02:00,2025-03-12,2025-03-12 06:48:21 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:57:12 UTC,2025-03-15 12:07:29 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091809,https://inaturalist-open-data.s3.amazonaws.com/photos/476098982/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9683916667,31.749555,20,,,,20,,open,false,,,"",Breonadia salicina,Matumi,Plantae,429244
+265091900,e88315b3-cb20-4c2d-954b-e6cd65edd1fc,2025-03-12 09:14:41+02:00,2025-03-12,2025-03-12 07:14:41 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-12 20:58:05 UTC,2025-03-15 12:11:40 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265091900,https://inaturalist-open-data.s3.amazonaws.com/photos/476099190/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9566283333,31.72682,4,,,,4,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265148770,ec6f86a4-728d-4f3c-bdfe-41ed41debe22,2025-03-13 08:31:05+02:00,2025-03-13,2025-03-13 06:31:05 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:17:30 UTC,2025-03-13 11:27:31 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265148770,https://inaturalist-open-data.s3.amazonaws.com/photos/476215818/medium.jpg,,"","30,.75
+1.7,4
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681593492,31.749435426,3,,,,3,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+265148796,f6746324-eda6-4052-9ead-3cc66ba87a99,2025-03-13 08:32:27+02:00,2025-03-13,2025-03-13 06:32:27 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:17:56 UTC,2025-03-13 11:26:35 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265148796,https://inaturalist-open-data.s3.amazonaws.com/photos/476215875/medium.jpg,,"","0,.1
+101.8,3
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681522386,31.7494242125,2,,,,2,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265148820,211d9763-dfdc-4214-aeaa-d3d4ed50c2a2,2025-03-13 09:15:21+02:00,2025-03-13,2025-03-13 07:15:21 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:18:36 UTC,2025-04-12 10:03:02 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265148820,https://inaturalist-open-data.s3.amazonaws.com/photos/476215914/medium.jpg,,"","100,.13
+14,2",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9661996588,31.685527945,3,,,,3,,open,false,,,Horned Thorn,Vachellia grandicornuta,Horned Thorn,Plantae,595949
+265148833,a3181533-7445-47c5-a16b-dfce8da7ad41,2025-03-13 09:23:50+02:00,2025-03-13,2025-03-13 07:23:50 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:19:02 UTC,2025-03-13 11:25:11 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265148833,https://inaturalist-open-data.s3.amazonaws.com/photos/476215947/medium.jpg,,"","0,.2
+12,2
+
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651496997,31.6847589892,9,,,,9,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253
+265148856,82c319ad-7b78-4967-af91-f840e538131f,2025-03-13 09:26:24+02:00,2025-03-13,2025-03-13 07:26:24 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:19:24 UTC,2025-03-13 11:24:22 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265148856,https://inaturalist-open-data.s3.amazonaws.com/photos/476216016/medium.jpg,,"","0,.6
+9,1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.965092619,31.6844661255,5,,,,5,,open,false,,,"",Vachellia karroo,Sweet Thorn,Plantae,502780
+265148891,a74387e5-27ed-42c4-80b2-1a9a5a7c26c1,2025-03-13 09:32:05+02:00,2025-03-13,2025-03-13 07:32:05 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:20:00 UTC,2025-04-12 10:03:05 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265148891,https://inaturalist-open-data.s3.amazonaws.com/photos/476216084/medium.jpg,,"","100,.08
+21,2
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9650037358,31.68519074,3,,,,3,,open,false,,,Horned Thorn,Vachellia grandicornuta,Horned Thorn,Plantae,595949
+265148950,7a3e6704-fe8e-481b-a7ec-7424ad04aaa2,2025-03-13 09:42:24+02:00,2025-03-13,2025-03-13 07:42:24 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:20:36 UTC,2025-03-13 11:22:26 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265148950,https://inaturalist-open-data.s3.amazonaws.com/photos/476216117/medium.jpg,,"","100,1
+16,2 ",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.976658386,31.6566046071,3,,,,3,,open,false,,,"",Vachellia grandicornuta,Horned Thorn,Plantae,595949
+265148970,3c07ae5f-6011-4c32-a6ad-e9b84382f5a0,2025-03-13 09:52:16+02:00,2025-03-13,2025-03-13 07:52:16 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:20:55 UTC,2025-04-12 10:03:09 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265148970,https://inaturalist-open-data.s3.amazonaws.com/photos/476216145/medium.jpg,,"","7,.7
+2.4,2
+",1,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.976034737,31.6563407612,8,,,,8,,open,false,,,aroma,Dichrostachys cinerea,aroma,Plantae,129706
+265148986,214dda81-e957-4d8d-b946-b0817e10da32,2025-03-13 10:25:09+02:00,2025-03-13,2025-03-13 08:25:09 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:21:18 UTC,2025-04-12 10:03:10 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265148986,https://inaturalist-open-data.s3.amazonaws.com/photos/476216185/medium.jpg,,"","70,.25
+11,10,1
+",1,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9871845078,31.6211476364,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228
+265149008,741449ed-c42c-43eb-86f3-52956dbea008,2025-03-13 10:27:41+02:00,2025-03-13,2025-03-13 08:27:41 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:21:48 UTC,2025-03-13 10:22:48 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265149008,https://inaturalist-open-data.s3.amazonaws.com/photos/476216230/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9871056607,31.6212403317,7,,,,7,,open,false,,,"",Combretum erythrophyllum,river bushwillow,Plantae,135389
+265149104,32538219-e2e0-4f03-a566-4aaae6caf7e3,2025-03-13 10:29:38+02:00,2025-03-13,2025-03-13 08:29:38 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:22:32 UTC,2025-03-13 10:25:10 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265149104,https://inaturalist-open-data.s3.amazonaws.com/photos/476216303/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9870396824,31.6212389154,4,,,,4,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+265149175,11b95ce1-61f7-4267-84aa-8cf3452c544d,2025-03-13 10:31:31+02:00,2025-03-13,2025-03-13 08:31:31 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:24:13 UTC,2025-03-13 10:25:13 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265149175,https://inaturalist-open-data.s3.amazonaws.com/photos/476216440/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9868819623,31.62146712,631,,,,631,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+265149231,1d61789d-1022-481d-97e1-19cd9d13ac97,2025-03-13 10:35:41+02:00,2025-03-13,2025-03-13 08:35:41 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:24:58 UTC,2025-03-13 10:25:58 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265149231,https://inaturalist-open-data.s3.amazonaws.com/photos/476216510/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9873361364,31.6211389192,3,,,,3,,open,false,,,"",Grewia villosa,Mallow Raisin,Plantae,431080
+265149255,c966f511-142f-4301-a9f9-961f50f7aa59,2025-03-13 10:46:08+02:00,2025-03-13,2025-03-13 08:46:08 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:25:41 UTC,2025-04-12 10:03:21 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265149255,https://inaturalist-open-data.s3.amazonaws.com/photos/476216595/medium.jpg,,"","",1,0,false,3,"Kruger National Park, Mpumalanga, ZA",-24.9905678211,31.6106655635,3,,,,3,,open,false,,,aroma,Dichrostachys cinerea,aroma,Plantae,129706
+265149327,61dbbaca-7020-4ea4-af24-e1e53e5366d1,2025-03-13 10:49:34+02:00,2025-03-13,2025-03-13 08:49:34 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:26:31 UTC,2025-03-13 10:28:38 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265149327,https://inaturalist-open-data.s3.amazonaws.com/photos/476216691/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-24.9905473776,31.6103032597,3,,,,3,,open,false,,,"",Phyllogeiton discolor,brown ivory,Plantae,1473181
+265149454,06676606-5b3b-45a7-b4bc-5cea83bb5b73,2025-03-13 11:17:54+02:00,2025-03-13,2025-03-13 09:17:54 UTC,Pretoria,54168,jimclark,"",2025-03-13 10:27:39 UTC,2025-03-13 10:28:40 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265149454,https://inaturalist-open-data.s3.amazonaws.com/photos/476216798/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9822252151,31.6286477721,226,,,,226,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+265152998,1acb7c25-4dd4-4bc3-8939-f270032a49a6,2025-03-13 11:34:54+02:00,2025-03-13,2025-03-13 09:34:54 UTC,Pretoria,7296846,hanshi_chen,,2025-03-13 11:29:31 UTC,2025-03-13 11:38:53 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265152998,https://inaturalist-open-data.s3.amazonaws.com/photos/476224935/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9872944767,31.615375471,4,,,,4,,open,false,,,Sausage,Kigelia africana,Sausage tree,Plantae,81491
+265153047,06e2c945-2058-4ee4-ac64-311d7812d516,2025-03-13 08:32:33+02:00,2025-03-13,2025-03-13 06:32:33 UTC,Pretoria,7296846,hanshi_chen,,2025-03-13 11:30:34 UTC,2025-03-13 11:32:57 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265153047,https://inaturalist-open-data.s3.amazonaws.com/photos/476224271/medium.jpg,,"","brown ivory
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9679904276,31.7494304798,4,,,,4,,open,false,,,unknow,Phyllogeiton discolor,brown ivory,Plantae,1473181
+265153684,a456e6ba-08c2-4931-a004-73fe56e0642f,2025-03-13 11:32:40+02:00,2025-03-13,2025-03-13 09:32:40 UTC,Pretoria,7296846,hanshi_chen,,2025-03-13 11:39:55 UTC,2025-03-13 11:43:06 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265153684,https://inaturalist-open-data.s3.amazonaws.com/photos/476225471/medium.jpg,,"",Male,0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9872429747,31.6152390725,9,,,,9,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265153985,fec6c046-6f6f-45f6-90f3-5959b42efde2,2025-03-13 11:18:22+02:00,2025-03-13,2025-03-13 09:18:22 UTC,Pretoria,7296846,hanshi_chen,,2025-03-13 11:44:20 UTC,2025-03-13 11:45:13 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265153985,https://inaturalist-open-data.s3.amazonaws.com/photos/476226122/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9823044672,31.6286517639,3,,,,3,,open,false,,,"",Euclea divinorum,Magic Gwarrie,Plantae,343032
+265154047,dbd44632-d3e3-4bd5-a7f9-dc8d66114fcc,2025-03-13 11:14:42+02:00,2025-03-13,2025-03-13 09:14:42 UTC,Pretoria,7296846,hanshi_chen,,2025-03-13 11:45:28 UTC,2025-04-12 10:07:46 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265154047,https://inaturalist-open-data.s3.amazonaws.com/photos/476226331/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9822531071,31.6285854766,86,,,,86,,open,false,,,tamboti,Spirostachys africana,tamboti,Plantae,340253
+265154202,b8f0d54a-6312-4b89-b704-d6d7948e3a89,2025-03-13 10:45:16+02:00,2025-03-13,2025-03-13 08:45:16 UTC,Pretoria,7296846,hanshi_chen,,2025-03-13 11:48:13 UTC,2025-03-13 11:51:38 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265154202,https://inaturalist-open-data.s3.amazonaws.com/photos/476226610/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906864133,31.6103314534,1126,,,,1126,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706
+265154473,0e908151-2513-4264-8aa0-c1e2ff9d40f2,2025-03-13 10:29:20+02:00,2025-03-13,2025-03-13 08:29:20 UTC,Pretoria,7296846,hanshi_chen,,2025-03-13 11:52:13 UTC,2025-03-13 11:55:10 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265154473,https://inaturalist-open-data.s3.amazonaws.com/photos/476227330/medium.jpg,,"",5th plots,0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9871953654,31.6211138139,451,,,,451,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+265155308,0506159e-9cc1-4ff4-8f07-6d7d9218c0b1,2025-03-13 08:26:28,2025-03-13,2025-03-13 06:26:28 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:03:25 UTC,2025-03-14 05:36:06 UTC,needs_id,,https://www.inaturalist.org/observations/265155308,https://static.inaturalist.org/photos/476228426/medium.jpeg,,"","Dbh 67.7
+Count 540
+Fraction 0.3
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968425,31.750015,154,,,,154,,open,false,,,batumi,Breonadia salicina,Matumi,Plantae,429244
+265155342,c5236312-42eb-45d8-93f5-82018f6cc088,2025-03-13 08:33:03,2025-03-13,2025-03-13 06:33:03 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:03:40 UTC,2025-03-14 05:34:25 UTC,needs_id,,https://www.inaturalist.org/observations/265155342,https://static.inaturalist.org/photos/476228464/medium.jpeg,,"","Dbh 44.3
+Dbh2 40.2
+Count 30
+Fraction 0.3
+Shade 3",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.968015,31.7493833333,8,,,,8,,open,false,,,brown Ivory,Phyllogeiton discolor,brown ivory,Plantae,1473181
+265155429,1dd03040-5daf-45bc-93ee-cef4cba567db,2025-03-13 08:52:09,2025-03-13,2025-03-13 06:52:09 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:04:46 UTC,2025-03-14 05:34:44 UTC,needs_id,,https://www.inaturalist.org/observations/265155429,https://static.inaturalist.org/photos/476228622/medium.jpeg,,"","Dbh 3
+Count 0
+Fraction 0.9
+Shade 3",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9570333333,31.7270283333,8,,,,8,,open,false,,,Magic Gwarrie,Euclea divinorum,Magic Gwarrie,Plantae,343032
+265155436,c40c74c9-a6a2-436a-9348-60159d5937a9,2025-03-13 09:20:05,2025-03-13,2025-03-13 07:20:05 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:05:05 UTC,2025-03-14 05:33:45 UTC,needs_id,,https://www.inaturalist.org/observations/265155436,https://static.inaturalist.org/photos/476228654/medium.jpeg,,"","Dbh 5, 3, 4
+Count 0
+Fraction 0.4
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.964935,31.6851333333,9,,,,9,,open,false,,,dychrostachus,Dichrostachys cinerea,aroma,Plantae,129706
+265155463,ff88ea5d-b90e-49ba-bf68-843578bd11e9,2025-03-13 09:22:22,2025-03-13,2025-03-13 07:22:22 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:05:26 UTC,2025-03-14 05:33:01 UTC,needs_id,,https://www.inaturalist.org/observations/265155463,https://static.inaturalist.org/photos/476228725/medium.jpeg,,"","Dbh 2, 1, 0.5
+Count 0
+Fraction 0.5
+Shade 3",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651116667,31.684915,9,,,,9,,open,false,,,snowberry,Flueggea virosa,snowberrytree,Plantae,340143
+265155502,d2a3b0e4-661a-4f53-a867-df82091978ad,2025-03-13 09:23:28,2025-03-13,2025-03-13 07:23:28 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:05:55 UTC,2025-03-14 05:31:23 UTC,needs_id,,https://www.inaturalist.org/observations/265155502,https://static.inaturalist.org/photos/476228791/medium.jpeg,,"","Dbh 2,2,1.5
+Count 0
+Fraction 0.5
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651016667,31.68487,9,,,,9,,open,false,,,snowberry,Flueggea virosa,snowberrytree,Plantae,340143
+265155517,f322245e-0e8c-4ab8-912b-c841ce63dbc4,2025-03-13 09:25:26,2025-03-13,2025-03-13 07:25:26 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:06:28 UTC,2025-03-14 05:29:34 UTC,needs_id,,https://www.inaturalist.org/observations/265155517,https://static.inaturalist.org/photos/476228826/medium.jpeg,,"","Dbh 3
+Count 0
+Fraction 0.3
+Shade 4",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9652233333,31.684875,9,,,,9,,open,false,,,,Spirostachys africana,tamboti,Plantae,340253
+265155637,c9f32eba-a01f-4a8e-a3e0-2d029ecc935e,2025-03-13 09:47:18,2025-03-13,2025-03-13 07:47:18 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:08:29 UTC,2025-03-14 05:30:04 UTC,needs_id,,https://www.inaturalist.org/observations/265155637,https://static.inaturalist.org/photos/476229081/medium.jpeg,,"","Dbh 33.7
+Count 108
+Fraction 0.2
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9761516667,31.6561216667,9,,,,9,,open,false,,,terminalia pruneides,Terminalia prunioides,Purplepod clusterleaf,Plantae,430533
+265155704,ed9d3af9-1a7d-414c-9d82-eb5830809ba4,2025-03-13 09:51:18,2025-03-13,2025-03-13 07:51:18 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:09:05 UTC,2025-03-14 05:28:30 UTC,needs_id,,https://www.inaturalist.org/observations/265155704,https://static.inaturalist.org/photos/476229205/medium.jpeg,,"","Tiny leaf vachellia
+Dbh 11
+Count 0
+Fraction 0.6
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9763183333,31.65605,7,,,,7,,open,false,,,Sweet Thorn,Vachellia karroo,Sweet Thorn,Plantae,502780
+265155841,204f7ca2-e1c4-4a1e-adfc-2cdd0e6ef931,2025-03-13 10:34:25,2025-03-13,2025-03-13 08:34:25 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:10:33 UTC,2025-03-14 05:26:19 UTC,needs_id,,https://www.inaturalist.org/observations/265155841,https://static.inaturalist.org/photos/476229492/medium.jpeg,,"","Dbh 3
+Count 0
+Fraction 0.3
+Shade 3",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.987305,31.621135,102,,,,102,,open,false,,,euclea Natalensis,Euclea natalensis,Mountain Guarri,Plantae,430991
+265155867,3932d139-349d-4bad-aed7-4cf19c9f134d,2025-03-13 10:46:11,2025-03-13,2025-03-13 08:46:11 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:11:09 UTC,2025-03-14 05:26:46 UTC,needs_id,,https://www.inaturalist.org/observations/265155867,https://static.inaturalist.org/photos/476229542/medium.jpeg,,"","Dbh 0.5
+Count 70
+0.1
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9913639,31.605311,2588,,,,2588,,open,false,,,sandpaper grewia,Grewia flavescens,Sandpaper Raisin,Plantae,431075
+265155887,0dde8220-896b-4f2a-9e1f-2546c55b4fa2,2025-03-13 10:49:31,2025-03-13,2025-03-13 08:49:31 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:11:35 UTC,2025-03-14 05:25:15 UTC,needs_id,,https://www.inaturalist.org/observations/265155887,https://static.inaturalist.org/photos/476229585/medium.jpeg,,"","Dbh 4
+Count 2
+Fraction 0.1
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9908166667,31.6103733333,8,,,,8,,open,false,,,Twotone Raisin,Euclea crispa,Blue Gwarrie,Plantae,558688
+265156002,57b9c232-308c-47c5-a63f-0d68bf110be1,2025-03-13 11:35:21,2025-03-13,2025-03-13 09:35:21 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-13 12:12:36 UTC,2025-03-14 05:24:42 UTC,needs_id,,https://www.inaturalist.org/observations/265156002,https://static.inaturalist.org/photos/476229692/medium.jpeg,,"","Count 550
+Fraction 0.1
+Shade 2
+Dbh 74.5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.98706,31.615365,8,,,,8,,open,false,,,jackal berry,Diospyros mespiliformis,jackalberry,Plantae,340214
+265156006,692ec1bf-2d30-4f7c-afb4-541a9db6980d,2025-03-11 13:23:51+02:00,2025-03-11,2025-03-11 11:23:51 UTC,Pretoria,9009362,klmundy,,2025-03-13 12:12:39 UTC,2025-03-13 12:15:01 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265156006,https://inaturalist-open-data.s3.amazonaws.com/photos/476229828/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Limpopo, ZA",-23.9295457,31.4605914,81484,,,,81484,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265158377,758cbcac-3ca3-4e72-a6ee-1056fae8261c,2025-03-13 08:56:47+02:00,2025-03-13,2025-03-13 06:56:47 UTC,Pretoria,9009365,rmwilliams,,2025-03-13 12:45:59 UTC,2025-03-13 12:46:49 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265158377,https://inaturalist-open-data.s3.amazonaws.com/photos/476233964/medium.jpg,,"","Euclea 
+Canopy 2
+.4
+No seeds
+1.8",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9569650227,31.7266146094,5,,,,5,,open,false,,,"",Euclea divinorum,Magic Gwarrie,Plantae,343032
+265158491,ed5f2fd5-aaca-4999-8c8f-9ff8be2bb04a,2025-03-13 09:22:52+02:00,2025-03-13,2025-03-13 07:22:52 UTC,Pretoria,9009365,rmwilliams,,2025-03-13 12:48:07 UTC,2025-04-12 10:14:21 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265158491,https://inaturalist-open-data.s3.amazonaws.com/photos/476234280/medium.jpg,,"","Canopy 1
+No seeds
+20.3",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9650431657,31.6848502681,9,,,,9,,open,false,,,Bushveld Gardenia,Gardenia volkensii,Bushveld Gardenia,Plantae,431063
+265158677,e968483f-52fb-479e-a2d9-e5c0e82d2cc9,2025-03-13 09:49:44+02:00,2025-03-13,2025-03-13 07:49:44 UTC,Pretoria,9009365,rmwilliams,,2025-03-13 12:50:44 UTC,2025-03-13 12:51:29 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265158677,https://inaturalist-open-data.s3.amazonaws.com/photos/476234595/medium.jpg,,"","13.4
+Seeds
+Canopy 1
+.5
+60",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9760408094,31.6561955586,8,,,,8,,open,false,,,Horned thorn,Vachellia grandicornuta,Horned Thorn,Plantae,595949
+265158849,536b37ee-bd4e-4a70-a52b-f6228b110977,2025-03-13 10:27:15+02:00,2025-03-13,2025-03-13 08:27:15 UTC,Pretoria,9009365,rmwilliams,,2025-03-13 12:53:19 UTC,2025-03-13 12:54:03 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265158849,https://inaturalist-open-data.s3.amazonaws.com/photos/476234964/medium.jpg,,"","Canopy 2
+No seeds
+8",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.9871606613,31.6211683397,7,,,,7,,open,false,,,"",Gymnosporia senegalensis,confetti spikethorn,Plantae,340106
+265159021,6655a019-6df7-4aa9-961e-17c10db3d3fb,2025-03-13 10:45:06+02:00,2025-03-13,2025-03-13 08:45:06 UTC,Pretoria,9009365,rmwilliams,,2025-03-13 12:55:35 UTC,2025-03-13 12:56:23 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265159021,https://inaturalist-open-data.s3.amazonaws.com/photos/476235327/medium.jpg,,"","Canopy 2
+No seeds 
+5 cm",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-24.9907153007,31.6105874442,6,,,,6,,,false,,,Snowberry,Symphoricarpos albus,Common Snowberry,Plantae,48523
+265159117,a0e974f7-e94d-4376-a46f-61a44d74b1d2,2025-03-13 11:15:15+02:00,2025-03-13,2025-03-13 09:15:15 UTC,Pretoria,9009365,rmwilliams,,2025-03-13 12:57:16 UTC,2025-03-13 12:58:01 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265159117,https://inaturalist-open-data.s3.amazonaws.com/photos/476235553/medium.jpg,,"",".2
+Canopy 2
+No seeds",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9821848283,31.6286451649,4,,,,4,,open,false,,,"",Grewia flavescens,Sandpaper Raisin,Plantae,431075
+265161603,85477b6b-1cae-45ec-a0c9-1011ffdd0db9,2025-03-13 08:31:36+02:00,2025-03-13,2025-03-13 06:31:36 UTC,Pretoria,2227512,nleeheberling21,,2025-03-13 13:32:25 UTC,2025-03-15 04:48:14 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265161603,https://inaturalist-open-data.s3.amazonaws.com/photos/476240583/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.968095,31.7493616667,4,,,,4,,open,false,,,"",Phyllogeiton discolor,brown ivory,Plantae,1473181
+265264743,e0aaed15-364d-4253-9996-53cd9b18009a,2025-03-13 11:16:36+02:00,2025-03-13,2025-03-13 09:16:36 UTC,Pretoria,2227512,nleeheberling21,,2025-03-14 10:36:14 UTC,2025-03-15 04:47:49 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265264743,https://inaturalist-open-data.s3.amazonaws.com/photos/476445274/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Bushbuckridge, Mpumalanga, ZA",-24.9823133333,31.6285783333,4,,,,4,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706
+265363359,fa1d90f4-027b-4f17-b256-5ebd0923ac5f,2025-03-14 05:59:54+02:00,2025-03-14,2025-03-14 03:59:54 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:52:36 UTC,2025-03-15 09:35:36 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363359,https://inaturalist-open-data.s3.amazonaws.com/photos/476638016/medium.jpg,,"","55,.9
+.8,2",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0551978266,31.5948001296,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+265363428,6437cac6-b0d6-4aae-b5f5-c543822dfa79,2025-03-14 06:02:06+02:00,2025-03-14,2025-03-14 04:02:06 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:52:51 UTC,2025-04-12 14:46:13 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265363428,https://inaturalist-open-data.s3.amazonaws.com/photos/476638048/medium.jpg,,"","0,.6
+6,2
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552706647,31.5945674453,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228
+265363448,3fdd5bf4-2a15-44b7-91c0-11cc5fc33e77,2025-03-14 06:06:36+02:00,2025-03-14,2025-03-14 04:06:36 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:53:07 UTC,2025-03-15 09:34:20 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363448,https://inaturalist-open-data.s3.amazonaws.com/photos/476638071/medium.jpg,,"","0,.6
+11,1
+",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0552249063,31.5942353428,3,,,,3,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688
+265363507,34dab293-c0ef-4a52-a73a-96fdb9ba9cf4,2025-03-14 06:20:16+02:00,2025-03-14,2025-03-14 04:20:16 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:53:49 UTC,2025-03-15 09:33:24 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363507,https://inaturalist-open-data.s3.amazonaws.com/photos/476638129/medium.jpg,,"","100,.11
+68,1",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0650208304,31.5995354019,4,,,,4,,open,false,,,"",Afzelia quanzensis,Pod-mahogany,Plantae,340236
+265363545,9a7fc976-0d5d-4380-96ad-f70467fa3464,2025-03-14 06:26:01+02:00,2025-03-14,2025-03-14 04:26:01 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:54:07 UTC,2025-04-12 14:46:21 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265363545,https://inaturalist-open-data.s3.amazonaws.com/photos/476638152/medium.jpg,,"","28,.4
+7,7,6,1",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0831942633,31.6020027828,3,,,,3,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688
+265363560,c00627cc-25dc-44e0-b833-42d50c45eaa1,2025-03-14 06:30:37+02:00,2025-03-14,2025-03-14 04:30:37 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:54:22 UTC,2025-03-15 09:30:36 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363560,https://inaturalist-open-data.s3.amazonaws.com/photos/476638182/medium.jpg,,"","0,.3
+6,4,1
+
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0832770765,31.6023435071,4,,,,4,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599
+265363573,709ec392-38e2-4fe6-8dc8-f8fa25a816db,2025-03-14 06:54:25+02:00,2025-03-14,2025-03-14 04:54:25 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:54:37 UTC,2025-03-15 09:29:57 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363573,https://inaturalist-open-data.s3.amazonaws.com/photos/476638212/medium.jpg,,"","100,.07
+18,1
+
+",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1019108082,31.5933180571,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062
+265363585,dc4ec888-5860-4af5-bbd9-3a74b29f3328,2025-03-14 06:56:12+02:00,2025-03-14,2025-03-14 04:56:12 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:54:52 UTC,2025-03-15 09:29:15 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363585,https://inaturalist-open-data.s3.amazonaws.com/photos/476638263/medium.jpg,,"","0,.3
+11,2",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1021832554,31.5938780364,5,,,,5,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599
+265363633,df161153-4825-4b72-9350-0ef2dcb0668d,2025-03-14 07:38:33+02:00,2025-03-14,2025-03-14 05:38:33 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:55:14 UTC,2025-03-15 09:28:34 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363633,https://inaturalist-open-data.s3.amazonaws.com/photos/476638301/medium.jpg,,"","0,.9
+8,2",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1185600693,31.5648239292,3,,,,3,,open,false,,,"",Vachellia nilotica,Egyptian acacia,Plantae,557826
+265363657,16427a59-9ae6-4f79-a53a-2094ccaa2299,2025-03-14 08:22:03+02:00,2025-03-14,2025-03-14 06:22:03 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:55:42 UTC,2025-03-15 09:27:38 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363657,https://inaturalist-open-data.s3.amazonaws.com/photos/476638376/medium.jpg,,"","0,.8
+5,2",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1020666511,31.5470841348,4,,,,4,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599
+265363704,2c0b4998-7b44-4836-82d9-bff1ef376758,2025-03-14 08:43:53+02:00,2025-03-14,2025-03-14 06:43:53 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:56:24 UTC,2025-03-15 09:26:56 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363704,https://inaturalist-open-data.s3.amazonaws.com/photos/476638448/medium.jpg,,"","0,.95
+8,1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0706680538,31.5491966252,5,,,,5,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+265363725,82343696-cef7-4414-a42c-8223b80f98de,2025-03-14 08:45:11+02:00,2025-03-14,2025-03-14 06:45:11 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:56:43 UTC,2025-04-12 14:46:34 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265363725,https://inaturalist-open-data.s3.amazonaws.com/photos/476638479/medium.jpg,,"","0,.8
+8,2",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0706919842,31.5491264686,3,,,,3,,open,false,,,aroma,Dichrostachys cinerea,aroma,Plantae,129706
+265363799,5eb4d4ca-fa3f-40ac-966e-81f24abe1f71,2025-03-14 08:48:20+02:00,2025-03-14,2025-03-14 06:48:20 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:57:08 UTC,2025-03-15 09:25:27 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363799,https://inaturalist-open-data.s3.amazonaws.com/photos/476638529/medium.jpg,,"","0,.95
+2,1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0708851409,31.5490614375,3,,,,3,,open,false,,,"",Flueggea virosa,snowberrytree,Plantae,340143
+265363817,56acba72-9a56-40a9-91c6-857467e35770,2025-03-14 08:58:03+02:00,2025-03-14,2025-03-14 06:58:03 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:57:24 UTC,2025-03-15 09:06:31 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363817,https://inaturalist-open-data.s3.amazonaws.com/photos/476638567/medium.jpg,,"","999,0
+8,8,7,2
+Vrpltgran_r12a-1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1550931615,31.4804747463,3,,,,30003,,obscured,true,,,"",Balanites maughamii,greenthorn,Plantae,340261
+265363846,35698ef0-b30e-4717-91d4-9dfd35538fb0,2025-03-14 09:25:40+02:00,2025-03-14,2025-03-14 07:25:40 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:57:56 UTC,2025-04-12 14:46:41 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265363846,https://inaturalist-open-data.s3.amazonaws.com/photos/476638643/medium.jpg,,"","Vrpltgran-r11a-1
+0,.7
+15.9,1
+5 baf
+",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1024794603,31.5466703221,4,,,,4,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688
+265363873,ed898e43-e71a-4575-be34-6eef3e455929,2025-03-14 10:02:45+02:00,2025-03-14,2025-03-14 08:02:45 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:58:30 UTC,2025-04-12 14:46:42 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265363873,https://inaturalist-open-data.s3.amazonaws.com/photos/476638710/medium.jpg,,"","999,0
+53.6,1
+Vrpltgran-r10a-4",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1183797745,31.5649069101,3,,,,3,,open,false,,,marula,Sclerocarya birrea,marula,Plantae,340245
+265363901,fe00a9b1-757a-44eb-b90f-caa3d1684bfa,2025-03-14 10:06:40+02:00,2025-03-14,2025-03-14 08:06:40 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:58:49 UTC,2025-03-27 10:45:27 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363901,https://inaturalist-open-data.s3.amazonaws.com/photos/476638755/medium.jpg,,"","0,.8
+9,7,3,1
+Beltran-r10b-3",2,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1185531604,31.5648626042,242,,,,242,,open,false,,,Bushwillows,Combretum,Bushwillows,Plantae,81496
+265363917,228f9f09-6eaa-40ba-89ce-838d16925097,2025-03-14 10:15:10+02:00,2025-03-14,2025-03-14 08:15:10 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:59:03 UTC,2025-03-15 05:20:48 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363917,https://inaturalist-open-data.s3.amazonaws.com/photos/476638792/medium.jpg,,"","0,.9
+7.8,2
+
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1184225222,31.5649707802,3,,,,3,,open,false,,,"",Vachellia tortilis,umbrella thorn,Plantae,489563
+265363956,498838f8-0d38-435e-90c6-3df2f321392c,2025-03-14 10:38:30+02:00,2025-03-14,2025-03-14 08:38:30 UTC,Pretoria,54168,jimclark,"",2025-03-15 04:59:33 UTC,2025-03-15 05:19:57 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265363956,https://inaturalist-open-data.s3.amazonaws.com/photos/476638926/medium.jpg,,"","999,0
+52.3,1
+Vrpltgran r9a-2
+
+",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0132300814,31.4996114013,1761,,,,1761,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265364055,1f9dc12f-8ad0-4d3b-ab38-c158b4838b65,2025-03-14 11:03:03+02:00,2025-03-14,2025-03-14 09:03:03 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:00:22 UTC,2025-03-15 05:18:57 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265364055,https://inaturalist-open-data.s3.amazonaws.com/photos/476639031/medium.jpg,,"","0,.6
+7,2
+
+",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1021844376,31.5940927343,4,,,,4,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599
+265364094,acfd928f-a100-4cdc-bb89-712db7be2334,2025-03-14 11:04:59+02:00,2025-03-14,2025-03-14 09:04:59 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:00:41 UTC,2025-04-12 14:46:51 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265364094,https://inaturalist-open-data.s3.amazonaws.com/photos/476639098/medium.jpg,,"","0,.7
+9,2",1,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.102059748,31.5941929445,3,,,,3,,open,false,,,buffalo-thorn,Ziziphus mucronata,buffalo-thorn,Plantae,340228
+265364129,63eec42b-5544-414b-b5b6-dee79429510a,2025-03-14 11:14:43+02:00,2025-03-14,2025-03-14 09:14:43 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:01:02 UTC,2025-03-15 05:17:49 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265364129,https://inaturalist-open-data.s3.amazonaws.com/photos/476639181/medium.jpg,,"","Vrpltgran-r9c-1
+0,.8
+6.3,1
+",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1018689073,31.5939530193,3,,,,3,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+265364199,024e8ede-8167-4da3-a9e3-c0b907f797b4,2025-03-14 11:39:06+02:00,2025-03-14,2025-03-14 09:39:06 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:01:50 UTC,2025-03-15 05:16:45 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265364199,https://inaturalist-open-data.s3.amazonaws.com/photos/476639268/medium.jpg,,"","0,.7
+13,2
+Vrpltgran4b-1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0835530088,31.6027970519,3,,,,3,,open,false,,,"",Vachellia nilotica,Egyptian acacia,Plantae,557826
+265364219,988054a2-897b-4691-a799-502e8133af4f,2025-03-14 11:44:27+02:00,2025-03-14,2025-03-14 09:44:27 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:02:09 UTC,2025-03-15 05:15:41 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265364219,https://inaturalist-open-data.s3.amazonaws.com/photos/476639300/medium.jpg,,"","3,.6
+11,10,101",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0834897781,31.6026502843,5,,,,5,,open,false,,,"",Vangueria infausta,wild-medlar,Plantae,340324
+265364298,af77d16e-f20e-4da8-9526-2d771c810459,2025-03-14 11:49:24+02:00,2025-03-14,2025-03-14 09:49:24 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:02:56 UTC,2025-03-15 05:14:48 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265364298,https://inaturalist-open-data.s3.amazonaws.com/photos/476639465/medium.jpg,,"","2,.6
+8,7,4,2
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0833335705,31.6023290064,6,,,,6,,open,false,,,"",Vangueria infausta,wild-medlar,Plantae,340324
+265364354,d2911f9c-bba3-4568-912b-64133e406d18,2025-03-14 12:03:25+02:00,2025-03-14,2025-03-14 10:03:25 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:03:48 UTC,2025-03-15 05:13:55 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265364354,https://inaturalist-open-data.s3.amazonaws.com/photos/476639538/medium.jpg,,"","0,.95
+.4,2",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552196615,31.5943755023,3,,,,3,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+265364364,747d60c1-70a9-4a8e-904c-e0932db2d19d,2025-03-14 12:05:07+02:00,2025-03-14,2025-03-14 10:05:07 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:04:01 UTC,2025-04-12 14:47:01 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265364364,https://inaturalist-open-data.s3.amazonaws.com/photos/476639550/medium.jpg,,"","6,.5
+11,2",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552145066,31.59423762,3,,,,3,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810
+265364402,e5439bd6-fc48-4e69-afd8-3a2567646d57,2025-03-14 12:10:45+02:00,2025-03-14,2025-03-14 10:10:45 UTC,Pretoria,54168,jimclark,"",2025-03-15 05:04:39 UTC,2025-03-15 05:12:38 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265364402,https://inaturalist-open-data.s3.amazonaws.com/photos/476639729/medium.jpg,,"","0,.8
+2.2,2
+
+",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0553673679,31.5943032496,254,,,,254,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+265387119,ea46e809-e758-4ede-9d8a-3e9038b84029,2025-03-15 13:08:53+02:00,2025-03-15,2025-03-15 11:08:53 UTC,Pretoria,54168,jimclark,"",2025-03-15 11:12:34 UTC,2025-04-12 15:22:22 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265387119,https://inaturalist-open-data.s3.amazonaws.com/photos/476683027/medium.jpg,,"","",1,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9953561214,31.5884739712,21,,,,21,,open,false,,,Fried-egg flower,Oncoba spinosa,Fried-egg flower,Plantae,340332
+265389409,f85bd939-e32d-4f6e-9912-375bd412802c,2025-03-14 12:25:37+02:00,2025-03-14,2025-03-14 10:25:37 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-15 11:44:38 UTC,2025-03-15 11:58:09 UTC,needs_id,,https://www.inaturalist.org/observations/265389409,https://static.inaturalist.org/photos/476687834/medium.jpg,,"","Baccelia something 
+Diameter: 12.2
+Crop count: 0
+Fraction 0.33
+Shading: 3
+LTRGRAN_1A-1
+BAF 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0470724315,31.5888367265,4,,,,4,,open,false,,,Blue Thorn,Senegalia erubescens,Blue Thorn,Plantae,594421
+265389422,fbfdaf08-fb0d-4034-aa3e-bb58f80e1793,2025-03-14 09:26:07+02:00,2025-03-14,2025-03-14 07:26:07 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-15 11:44:46 UTC,2025-03-15 11:56:29 UTC,needs_id,,https://www.inaturalist.org/observations/265389422,https://static.inaturalist.org/photos/476687337/medium.jpg,,"","Weeping waddle
+Diameter: 7.7, 5.9, 3.2
+Crop count: 0
+Crop fraction: 0.3
+TreeID: VRPLTGRAN_R11A-2
+BAF: 5
+Canopy class: 1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.102417242,31.5467079633,4,,,,4,,open,false,,,Weeping Wattle,Peltophorum africanum,Weeping wattle,Plantae,138688
+265389444,bff37844-a26a-458d-a720-7f71f83bf901,2025-03-14 09:30:51+02:00,2025-03-14,2025-03-14 07:30:51 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-15 11:45:02 UTC,2025-03-15 12:00:58 UTC,needs_id,,https://www.inaturalist.org/observations/265389444,https://static.inaturalist.org/photos/476687403/medium.jpg,,"","Cambridum epiculatum 
+Diameter: 22.4, 25.5
+Canopy class: 1
+Crop count: 0
+Crop faction: .25
+TreeID: VRPLTGRAN_R11-B3
+BAF: 5",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1023533693,31.5468581635,4,,,,4,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+265389494,0e0f4224-b39c-4ac6-9117-8eeacacf228e,2025-03-14 11:02:36+02:00,2025-03-14,2025-03-14 09:02:36 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-15 11:45:23 UTC,2025-03-15 12:02:33 UTC,needs_id,,https://www.inaturalist.org/observations/265389494,https://static.inaturalist.org/photos/476687489/medium.jpg,,"","Cambridum epiculatum
+Diameter: 9.3
+Crop count: 0
+Crop fraction: 0.7
+Shade: 1
+BAF: 5
+LTGRANR8A-2",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1022775937,31.5942429006,3,,,,3,,open,false,,,Red Bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+265389527,a8bb6a7b-a328-4a4f-888c-4945deb15d48,2025-03-14 11:07:13+02:00,2025-03-14,2025-03-14 09:07:13 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-15 11:45:39 UTC,2025-03-15 12:15:00 UTC,needs_id,,https://www.inaturalist.org/observations/265389527,https://static.inaturalist.org/photos/476687534/medium.jpg,,"","Jackleberry 
+Diameter: 52.7
+Crop count: 0
+Fraction: 0.4
+Shade: 1
+BAF 5
+LTGRANR8B-1",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1025515143,31.5939205326,4,,,,4,,open,false,,,Jackalberry,Diospyros mespiliformis,jackalberry,Plantae,340214
+265389543,d07b6616-4f66-43a7-9c2c-d3c0da1b52a6,2025-03-14 11:35:30+02:00,2025-03-14,2025-03-14 09:35:30 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-15 11:45:56 UTC,2025-03-15 12:24:02 UTC,needs_id,,https://www.inaturalist.org/observations/265389543,https://static.inaturalist.org/photos/476687579/medium.jpg,,"","??
+Diameter: 7.9, 8.1, 7
+Crop count: 5
+Crop fraction: 0.8
+Shade: 1
+BAF: 5
+LTGRAN4A-4",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0835085729,31.6026544773,4,,,,4,,open,false,,,Wild-Medlar,Vangueria infausta,wild-medlar,Plantae,340324
+265389584,55cfa935-2a58-41f8-ae8a-928d0ec57bea,2025-03-14 09:04:57+02:00,2025-03-14,2025-03-14 07:04:57 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:46:37 UTC,2025-03-15 12:39:45 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265389584,https://inaturalist-open-data.s3.amazonaws.com/photos/476687716/medium.jpg,,"","9:04 am
+VRPLTGRAN_R12B-2
+Aroma
+DBH_1: 6.1
+DBH_2: 4.2
+DBH_3: 12.5
+Fruit: 0
+Fraction: .2
+Class: 3
+BAF: 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0705778333,31.5491866667,3,,,,3,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706
+265389597,856d6392-fe81-4cc7-95a9-a8a6d5788aae,2025-03-14 12:09:06+02:00,2025-03-14,2025-03-14 10:09:06 UTC,Pretoria,8215526,sophie_valkenberg,Sophie Valkenberg,2025-03-15 11:46:48 UTC,2025-03-15 12:26:10 UTC,needs_id,,https://www.inaturalist.org/observations/265389597,https://static.inaturalist.org/photos/476687741/medium.jpg,,"","Silver cluster leaf terminalia eriselia
+Diameter: 5.5, 3
+Crop count: 0
+Crop fraction: 0.5
+Shade: 1
+LTGRAN_2B-1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0554533812,31.5942326504,2,,,,2,,open,false,,,Silver Terminalia,Terminalia sericea,silver terminalia,Plantae,336810
+265389669,6d23e7bc-a31d-45b5-a0f1-b2f07220a89c,2025-03-10 16:27:07+02:00,2025-03-10,2025-03-10 14:27:07 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:47:31 UTC,2025-03-15 11:48:03 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265389669,https://inaturalist-open-data.s3.amazonaws.com/photos/476687838/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.995455,31.5884716667,19,,,,19,,open,false,,,"",Terminalia prunioides,Purplepod clusterleaf,Plantae,430533
+265389727,eceafb66-eb5f-4adb-a779-65132839f8ad,2025-03-11 09:41:51+02:00,2025-03-11,2025-03-11 07:41:51 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:48:04 UTC,2025-03-15 12:02:43 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265389727,https://inaturalist-open-data.s3.amazonaws.com/photos/476687993/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9895125106,31.7760030954,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062
+265389823,b39be1d6-13d4-43f6-88e9-c898577d994f,2025-03-11 10:10:26+02:00,2025-03-11,2025-03-11 08:10:26 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:49:12 UTC,2025-03-15 11:50:10 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265389823,https://inaturalist-open-data.s3.amazonaws.com/photos/476688071/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.989405,31.7772383333,7,,,,7,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062
+265389882,dd367148-8138-465c-9d14-8ef0ee93f234,2025-03-11 13:20:21+02:00,2025-03-11,2025-03-11 11:20:21 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:50:11 UTC,2025-03-15 11:51:30 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265389882,https://inaturalist-open-data.s3.amazonaws.com/photos/476688232/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172971703,31.9300009869,4,,,,4,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265389940,e5f32c74-1a32-4b8f-9d10-b1e619d1a176,2025-03-11 13:22:32+02:00,2025-03-11,2025-03-11 11:22:32 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:51:31 UTC,2025-03-15 11:52:12 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265389940,https://inaturalist-open-data.s3.amazonaws.com/photos/476688383/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172915964,31.9300786033,7,,,,7,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706
+265389996,d5dac153-8631-439b-abc0-80d28241535c,2025-03-11 13:31:04+02:00,2025-03-11,2025-03-11 11:31:04 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:52:13 UTC,2025-03-15 11:53:13 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265389996,https://inaturalist-open-data.s3.amazonaws.com/photos/476688486/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.2172853891,31.9302142247,3,,,,3,,open,false,,,"",Senegalia nigrescens,knobthorn,Plantae,594427
+265390014,7b1bfc8b-c3a0-4ca0-8ab2-5d0e5417ec5c,2025-03-11 09:44:08+02:00,2025-03-11,2025-03-11 07:44:08 UTC,Pretoria,9010055,jdnowacek02,,2025-03-15 11:52:30 UTC,2025-03-15 11:54:43 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390014,https://inaturalist-open-data.s3.amazonaws.com/photos/476688530/medium.jpg,,"","Diameters
+
+12.0
+10.1
+14.0
+
+Canopy type 2
+
+Combretum with fruit
+
+Total fruit estimate 2000
+
+VRPNKUN_2-7
+
+Basal area factor 5",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9898224593,31.7757334058,3,,,,3,,,false,,,"",Combretum,Bushwillows,Plantae,81496
+265390067,77327553-5c31-40b9-8eec-1aa985711cd6,2025-03-12 08:46:53+02:00,2025-03-12,2025-03-12 06:46:53 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:53:15 UTC,2025-03-15 12:39:50 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390067,https://inaturalist-open-data.s3.amazonaws.com/photos/476688618/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-24.96827,31.7495533333,3,,,,3,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253
+265390118,2af1b4d6-e414-407c-8886-40cb467d4607,2025-03-14 09:01:49+02:00,2025-03-14,2025-03-14 07:01:49 UTC,Pretoria,1032137,l3v,,2025-03-15 11:54:00 UTC,2025-03-15 12:02:19 UTC,needs_id,,https://www.inaturalist.org/observations/265390118,https://static.inaturalist.org/photos/476690487/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0705695,31.549105,7,,,,7,,open,false,,,"",Terminalia sericea,silver terminalia,Plantae,336810
+265390128,4f4ac75d-0178-41c6-aeb8-ade949e0cd67,2025-03-14 12:05:39+02:00,2025-03-14,2025-03-14 10:05:39 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:54:13 UTC,2025-03-15 13:34:03 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390128,https://inaturalist-open-data.s3.amazonaws.com/photos/476688762/medium.jpg,,"","12:05
+VRPLTGRAN_2A-1
+Buffalo Thorn
+DBH: 13.4
+Fruit:
+Fraction
+Class:1
+BAF: 5",2,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552971667,31.5943866667,4,,,,4,,open,false,,,dicots,Magnoliopsida,dicots,Plantae,47124
+265390234,01cfeba7-b57f-4552-b7bf-3fb37d5cd01d,2025-03-14 12:10:55+02:00,2025-03-14,2025-03-14 10:10:55 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:54:52 UTC,2025-03-15 12:49:19 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390234,https://inaturalist-open-data.s3.amazonaws.com/photos/476688880/medium.jpg,,"","12:11
+VRPLTGRAN_2B-2
+Red Bushwillow
+DBH: 12.7
+Fruit: 0
+Fraction: .3
+Class: 1
+BAF: 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0554971667,31.5940616667,11,,,,11,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+265390254,ec6df72f-030d-4d34-9b72-bfd3a4ac46b3,2025-03-14 12:25:45+02:00,2025-03-14,2025-03-14 10:25:45 UTC,Pretoria,9009362,klmundy,,2025-03-15 11:55:08 UTC,2025-03-15 12:37:48 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390254,https://inaturalist-open-data.s3.amazonaws.com/photos/476689011/medium.jpg,,"","VRPLTGRAN_1-2
+
+Dbh 8.5, 6.5
+Shade factor 3
+Crop count 0
+Crop fraction 0.3
+BAF 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.047098369,31.5887739591,8,,,,8,,open,false,,,"",Senegalia erubescens,Blue Thorn,Plantae,594421
+265390346,6c95a706-dd0d-465e-aff4-410c8321966e,2025-03-14 10:00:12+02:00,2025-03-14,2025-03-14 08:00:12 UTC,Pretoria,1032137,l3v,,2025-03-15 11:55:57 UTC,2025-03-15 11:58:34 UTC,needs_id,,https://www.inaturalist.org/observations/265390346,https://static.inaturalist.org/photos/476689379/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1184305,31.5647866667,5,,,,5,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265390354,3ef62482-fe01-4735-b596-de0e617e5da9,2025-03-14 11:38:05+02:00,2025-03-14,2025-03-14 09:38:05 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:56:00 UTC,2025-03-15 12:47:00 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390354,https://inaturalist-open-data.s3.amazonaws.com/photos/476689216/medium.jpg,,"","11:38
+VRPLTGRAN_4A-1
+False Marula
+DBH: 58.3
+Fruit: 0
+Fraction: .2
+Class: 2
+BAF: 5",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0835611667,31.602555,4,,,,4,,open,false,,,"",Lannea schweinfurthii,false-marula,Plantae,340118
+265390462,b21deac3-a0c1-4656-8e51-0b495cc331fe,2025-03-14 12:28:01+02:00,2025-03-14,2025-03-14 10:28:01 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:57:13 UTC,2025-03-15 12:47:18 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390462,https://inaturalist-open-data.s3.amazonaws.com/photos/476689455/medium.jpg,,"","12:28 
+VRPLTGRAN_1A-3
+Unknown
+DBH: 9.9
+Fruit: 0
+Fraction: .2
+Class: 3
+BAF: 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.0308388333,31.5307466667,3234,,,,3234,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706
+265390539,716d0537-82c1-4b8a-8520-e36ec3a065ea,2025-03-14 10:42:59+02:00,2025-03-14,2025-03-14 08:42:59 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:58:05 UTC,2025-03-15 12:47:36 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390539,https://inaturalist-open-data.s3.amazonaws.com/photos/476689745/medium.jpg,,"","10:43
+VRPLTGRAN_R9B-1
+Russet Bush Willow 
+DBH: 7.9
+Fruit: 0
+Fraction: .3
+Class: .2
+BAF: .5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1123166667,31.5944216667,4,,,,4,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062
+265390597,7d795a03-4bcd-4b7e-8a4e-da6f07e5e8a4,2025-03-14 10:37:19+02:00,2025-03-14,2025-03-14 08:37:19 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 11:58:50 UTC,2025-03-15 12:47:54 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390597,https://inaturalist-open-data.s3.amazonaws.com/photos/476689965/medium.jpg,,"","10:37
+VRPLPGRAN_R9A-1
+Rudder Bushwillow
+DBH_1: 13.5
+DBH_2: 16.1
+Fruit: 0
+Fraction: .3
+Class: 1
+BAF: 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1119471667,31.594325,16,,,,16,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062
+265390601,90e8d00d-b18e-4b05-b990-27383ab936e0,2025-03-14 09:08:10,2025-03-14,2025-03-14 07:08:10 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-15 11:58:52 UTC,2025-03-15 13:06:44 UTC,needs_id,,https://www.inaturalist.org/observations/265390601,https://static.inaturalist.org/photos/476689889/medium.jpeg,,"","Dbh 8,5,4
+Count 25
+0.4
+Shade 2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0704283333,31.5491666667,9,,,,9,,open,false,,,red bushwillow,Combretum apiculatum,red bushwillow,Plantae,340059
+265390621,bb29d7b1-b4e7-4a4d-ae10-7a0869f7067a,2025-03-14 10:13:06,2025-03-14,2025-03-14 08:13:06 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-15 11:59:08 UTC,2025-03-15 13:05:22 UTC,needs_id,,https://www.inaturalist.org/observations/265390621,https://static.inaturalist.org/photos/476690032/medium.jpeg,,"","VRPLTGRAN_R10C-3
+Dbh 33.3
+Count 999
+Fraction 0.9
+Shade 2
+Basal 5",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.118305,31.5652933333,8,,,,8,,open,false,,,Marula,Sclerocarya birrea,marula,Plantae,340245
+265390635,987cbd37-2266-4ac5-85af-50a253012cf1,2025-03-14 11:40:25+02:00,2025-03-14,2025-03-14 09:40:25 UTC,Pretoria,9009362,klmundy,,2025-03-15 11:59:17 UTC,2025-03-15 12:37:43 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265390635,https://inaturalist-open-data.s3.amazonaws.com/photos/476690078/medium.jpg,,"","VRPLTGRAN_4-2
+Weeping wattle
+
+Dbh 18
+Crop count 14
+Crop fraction 0.3
+BAF 5
+Shade factor 2",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.08361415,31.6028354446,8,,,,8,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688
+265390702,5347b353-d0dd-4777-8f5b-8a07fa76121e,2025-03-14 10:43:08,2025-03-14,2025-03-14 08:43:08 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-15 11:59:58 UTC,2025-03-15 13:03:56 UTC,needs_id,,https://www.inaturalist.org/observations/265390702,https://static.inaturalist.org/photos/476690187/medium.jpeg,,"","VRPLTGRAN_R9B-5
+61.1
+999
+0.9
+2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.112055,31.594235,8,,,,8,,open,false,,,Marula,Sclerocarya birrea,marula,Plantae,340245
+265390775,12739d9f-498e-45e0-92be-fe0495b7a9b7,2025-03-14 11:15:23,2025-03-14,2025-03-14 09:15:23 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-15 12:00:40 UTC,2025-04-12 15:28:33 UTC,research,,https://www.inaturalist.org/observations/265390775,https://static.inaturalist.org/photos/476690365/medium.jpeg,,"","VRPLTGRAN_R9C-2
+16.5
+0
+0.3
+2",1,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.10158,31.5937933333,9,,,,9,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688
+265390799,59d8e19d-7d01-4414-a0d6-4565f73b1f62,2025-03-14 12:05:27,2025-03-14,2025-03-14 10:05:27 UTC,Pretoria,7118055,kira_shanice,Kira Shanice Meyer,2025-03-15 12:01:00 UTC,2025-03-15 13:01:50 UTC,needs_id,,https://www.inaturalist.org/observations/265390799,https://static.inaturalist.org/photos/476690445/medium.jpeg,,"","VRPLTGRAN_2A-2
+Dbh 25
+0
+0.5
+2",0,0,false,2,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0552716667,31.594255,9,,,,9,,open,false,,,combretum apiculatum,Combretum apiculatum,red bushwillow,Plantae,340059
+265390944,f4e7ee51-cf66-4560-bb55-a324df362be3,2025-03-14 10:41:47+02:00,2025-03-14,2025-03-14 08:41:47 UTC,Pretoria,1032137,l3v,,2025-03-15 12:02:29 UTC,2025-03-15 12:04:20 UTC,needs_id,,https://www.inaturalist.org/observations/265390944,https://static.inaturalist.org/photos/476690788/medium.jpg,,"","",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1123055,31.5944466667,5,,,,5,,open,false,,,"",Combretum hereroense,russet bushwillow,Plantae,340062
+265390964,dbb21f0c-342e-42d0-a10d-685f8b6b62a6,2025-03-14 11:36:15+02:00,2025-03-14,2025-03-14 09:36:15 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:02:42 UTC,2025-04-12 15:28:44 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265390964,https://inaturalist-open-data.s3.amazonaws.com/photos/476690817/medium.jpg,,"","VRPLTGRAN_4A-3
+
+Dbh 23.2
+Crop count 50 
+Crop fraction 0.6
+BAF5
+Shade factor 1",1,0,false,3,"Kruger National Park, Nkomazi, Mpumalanga, ZA",-25.0836266139,31.6026861308,4,,,,4,,open,false,,,Weeping wattle,Peltophorum africanum,Weeping wattle,Plantae,138688
+265391012,6aefeba4-573f-43d0-b8a0-d2b03936f4e6,2025-03-10 16:31:17+02:00,2025-03-10,2025-03-10 14:31:17 UTC,Pretoria,9010055,jdnowacek02,,2025-03-15 12:03:18 UTC,2025-03-15 12:05:34 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265391012,https://inaturalist-open-data.s3.amazonaws.com/photos/476691051/medium.jpg,,"","22.1
+17.6
+21.8
+
+320 fruit count for 1/3 of tree
+
+Canopy type 2
+
+VRPNKUN_2-6
+
+Basal area factor 5
+",0,0,false,3,"Kruger National Park, Skukuza, Mpumalanga, ZA",-24.9952568686,31.5883731458,4,,,,4,,,false,,,Plants,Plantae,plants,Plantae,47126
+265391029,be6bde0c-d06a-417d-bd7b-b52b265b4efd,2025-03-14 09:32:14+02:00,2025-03-14,2025-03-14 07:32:14 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 12:03:29 UTC,2025-04-12 15:28:47 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265391029,https://inaturalist-open-data.s3.amazonaws.com/photos/476691486/medium.jpg,,"","9:30 am
+VRPLTGRAN_R11B-1
+Terminala (Silver Cluster Leaf)
+DBH_1: 7.1
+DBH_2: 3.1
+DNH_2: 3.2
+Fruit: 50
+Fraction: .2
+Class: 1
+BAF: 5",1,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1023055,31.54672,3,,,,3,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810
+265391261,c113a6ce-6b42-47c5-8e69-df7407fd9c97,2025-03-14 11:06:57+02:00,2025-03-14,2025-03-14 09:06:57 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:06:01 UTC,2025-03-15 12:08:59 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265391261,https://inaturalist-open-data.s3.amazonaws.com/photos/476691489/medium.jpg,,"","VRPLTGRAN_R8B-2
+Weeping wattle
+
+Dbh 8.5
+Crop count 0
+Crop fraction 0.25
+BAF 5
+Shade factor 1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1024743535,31.5940372776,9,,,,9,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688
+265391412,d7bb71bd-1a3a-4a5f-a22d-7007466d8ab0,2025-03-14 10:04:49+02:00,2025-03-14,2025-03-14 08:04:49 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 12:07:48 UTC,2025-04-12 15:29:11 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265391412,https://inaturalist-open-data.s3.amazonaws.com/photos/476691808/medium.jpg,,"","10:03
+VRPLTGRAN_R10A-2
+Terminalia(Silver Cluster Leaf)
+DBH_1: 10
+Fruit: 0
+Fraction: .2
+Class:2
+BAF:5",1,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1183861667,31.5648533333,3,,,,3,,open,false,,,silver terminalia,Terminalia sericea,silver terminalia,Plantae,336810
+265391519,8b170869-2f25-4a57-8f91-a49ad1316660,2025-03-14 10:07:47+02:00,2025-03-14,2025-03-14 08:07:47 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 12:09:04 UTC,2025-03-15 12:19:24 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265391519,https://inaturalist-open-data.s3.amazonaws.com/photos/476692129/medium.jpg,,"","10:07
+VRPLTGRAN_R10B-1
+Marula
+DBH: 54.5
+Fruit: 999
+Fraction: 
+Class:1
+BAF:5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1182083333,31.56498,8,,,,8,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265391724,395719c3-1e8a-4ad1-9f59-96fc0e8a9164,2025-03-14 10:15:55+02:00,2025-03-14,2025-03-14 08:15:55 UTC,Pretoria,9009380,justin67118,Justin Maynard,2025-03-15 12:11:13 UTC,2025-03-15 12:18:19 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265391724,https://inaturalist-open-data.s3.amazonaws.com/photos/476692436/medium.jpg,,"","10:15
+VRPLPGRAN_R10C-1
+Red bush willow 
+DBH: 10.4
+Fruit: 32
+Fraction: .2
+Class: 2
+BAF:5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1184971667,31.565055,4,,,,4,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+265392364,a2538aa0-44a7-44b4-a829-9ec51bad1670,2025-03-12 11:08:16+02:00,2025-03-12,2025-03-12 09:08:16 UTC,Pretoria,9009363,feeprice,Fiona Price,2025-03-15 12:17:36 UTC,2025-03-15 12:18:37 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265392364,https://inaturalist-open-data.s3.amazonaws.com/photos/476693544/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9868390915,31.621367126,1704,,,,1704,,open,false,,,"",Vachellia robusta,splendid thorn,Plantae,559229
+265394281,0fbeaf6d-a7fe-4dde-a809-2937ae9a8a77,2025-03-14 11:01:54+02:00,2025-03-14,2025-03-14 09:01:54 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:38:17 UTC,2025-03-15 12:40:22 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265394281,https://inaturalist-open-data.s3.amazonaws.com/photos/476697514/medium.jpg,,"","VRPLTGRAN_R8A-1
+
+Weeping wattle
+
+Dbh 9.5
+Crop count 50
+Crop fraction 0.3
+BAF 5
+Shade factor 1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1022074078,31.5941496354,8,,,,8,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688
+265394720,b921d9c7-c3f7-44ce-8696-e85147ef4db5,2025-03-14 10:36:23+02:00,2025-03-14,2025-03-14 08:36:23 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:40:59 UTC,2025-03-15 12:43:05 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265394720,https://inaturalist-open-data.s3.amazonaws.com/photos/476698075/medium.jpg,,"","VRPLTGRAN_R9A-3
+Marula
+Dbh 85
+Crop count 999
+Crop fraction 0.25
+BAF 5
+Shade factor 1",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.1120337172,31.5942047593,9,,,,9,,open,false,,,"",Sclerocarya birrea,marula,Plantae,340245
+265394951,248f678c-896e-47d0-9ae9-23157a146b80,2025-03-14 10:13:20+02:00,2025-03-14,2025-03-14 08:13:20 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:43:33 UTC,2025-03-15 12:45:39 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265394951,https://inaturalist-open-data.s3.amazonaws.com/photos/476698601/medium.jpg,,"","VRPLTGRAN_R10C-2
+Termenalia 
+
+Dbh 13.5
+Crop count 0
+Crop fraction 0.5
+BAF5
+Shade factor 1",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1184634422,31.5651071694,3,,,,3,,open,false,,,"",Terminalia sericea,silver terminalia,Plantae,336810
+265395281,9cae928d-744e-4c7c-901d-dd7ea08663fb,2025-03-14 10:06:43+02:00,2025-03-14,2025-03-14 08:06:43 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:46:40 UTC,2025-03-15 12:48:09 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265395281,https://inaturalist-open-data.s3.amazonaws.com/photos/476699280/medium.jpg,,"","VRPLTGRAN_R10B-2
+Silver clustered leaf
+
+Dbh 13
+Crop count 0
+Crop fraction 0.5
+Shade factor 1
+BAF 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.118188656,31.5650155323,7,,,,7,,open,false,,,"",Terminalia sericea,silver terminalia,Plantae,336810
+265395497,07bb97fa-4b9b-482f-ac1b-c7d7da3f27f1,2025-03-14 10:01:06+02:00,2025-03-14,2025-03-14 08:01:06 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:48:50 UTC,2025-03-15 12:50:44 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265395497,https://inaturalist-open-data.s3.amazonaws.com/photos/476699812/medium.jpg,,"","VRPLTGRAN_R10A-3
+Silver clustered leaf 
+
+Dbh 20, 11
+Crop count 0
+Crop fraction 0.4
+Shade factor 2
+BAF 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.118403079,31.5648406137,4,,,,4,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+265395778,253d35a0-a221-493c-999f-cccfc4750b20,2025-03-14 09:29:50+02:00,2025-03-14,2025-03-14 07:29:50 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:51:15 UTC,2025-03-15 12:54:50 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265395778,https://inaturalist-open-data.s3.amazonaws.com/photos/476700303/medium.jpg,,"","VRPLTGRAN_R11B-2
+Weeping wattle
+
+Dbh 13, 18, 15
+Crop count 10
+Crop fraction 0.4
+Shade factor 1
+BAF 5",0,0,false,3,"Kruger National Park, Mpumalanga, ZA",-25.1022284262,31.5466904728,9,,,,9,,open,false,,,"",Peltophorum africanum,Weeping wattle,Plantae,138688
+265396308,7dbd7fdf-5b1b-4bf7-b8cb-0905c7ba042b,2025-03-14 09:03:01+02:00,2025-03-14,2025-03-14 07:03:01 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:54:58 UTC,2025-03-15 12:58:23 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265396308,https://inaturalist-open-data.s3.amazonaws.com/photos/476701429/medium.jpg,,"","VRPLTGRAN_R12B-2
+
+Red bush willow
+
+Dbh 6, 9, 4
+Crop count 4
+Crop fraction 0.4",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.0705636138,31.5489608774,8,,,,8,,open,false,,,"",Combretum apiculatum,red bushwillow,Plantae,340059
+265396775,beb5274c-0e8a-43ce-b483-632bf4029a38,2025-03-14 08:58:36+02:00,2025-03-14,2025-03-14 06:58:36 UTC,Pretoria,9009362,klmundy,,2025-03-15 12:58:46 UTC,2025-03-20 17:19:26 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265396775,https://inaturalist-open-data.s3.amazonaws.com/photos/476702067/medium.jpg,,"","VRPLTGRAN_R12-A2
+Dbh 13.5, 8.5, 7
+Crop count 0
+Crop fraction 0.3
+Shade factor - 1
+BAF 5
+",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-25.070681873,31.5489325379,6,,,,6,,open,false,,,"",Combretum zeyheri,Largefruit Bushwillow,Plantae,553599
+265700632,70cccbe5-cf9b-456d-9d1e-175fb6f627a5,2025-03-16 08:57:16+02:00,2025-03-16,2025-03-16 06:57:16 UTC,Pretoria,54168,jimclark,"",2025-03-17 14:21:36 UTC,2025-03-17 14:31:08 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265700632,https://inaturalist-open-data.s3.amazonaws.com/photos/477299853/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.931152679,31.6990181358,3,,,,3,,open,false,,,"",Vachellia grandicornuta,Horned Thorn,Plantae,595949
+265700683,4d83d6bb-32c1-4758-bef8-db4a9a5618a6,2025-03-16 09:03:47+02:00,2025-03-16,2025-03-16 07:03:47 UTC,Pretoria,54168,jimclark,"",2025-03-17 14:22:06 UTC,2025-03-17 14:31:22 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265700683,https://inaturalist-open-data.s3.amazonaws.com/photos/477299940/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9381427467,31.7089189031,6,,,,6,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211
+265700734,52289679-2d2a-4676-a123-72ad187bd28c,2025-03-16 09:47:59+02:00,2025-03-16,2025-03-16 07:47:59 UTC,Pretoria,54168,jimclark,"",2025-03-17 14:22:39 UTC,2025-03-17 14:31:56 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265700734,https://inaturalist-open-data.s3.amazonaws.com/photos/477300041/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9595078826,31.7424786184,3,,,,3,,open,false,,,"",Philenoptera violacea,apple-leaf,Plantae,340211
+265700829,b1862f02-6f43-4306-9bb7-6274a00fce8f,2025-03-16 09:49:38+02:00,2025-03-16,2025-03-16 07:49:38 UTC,Pretoria,54168,jimclark,"",2025-03-17 14:23:09 UTC,2025-04-12 23:58:29 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/265700829,https://inaturalist-open-data.s3.amazonaws.com/photos/477300124/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9593659351,31.7431424652,74,,,,74,,open,false,,,sjambok-pod,Cassia abbreviata,sjambok-pod,Plantae,147000
+265700864,79797f16-4ff2-463f-bb2f-7b20958f9d21,2025-03-16 09:55:34+02:00,2025-03-16,2025-03-16 07:55:34 UTC,Pretoria,54168,jimclark,"",2025-03-17 14:23:36 UTC,2025-03-17 14:34:21 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/265700864,https://inaturalist-open-data.s3.amazonaws.com/photos/477300192/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.960771706,31.7460843455,5,,,,5,,open,false,,,"",Diospyros mespiliformis,jackalberry,Plantae,340214
+269324230,d9187ee3-da16-4269-9a47-8e3c4854350a,2025-03-12 08:31:11+02:00,2025-03-12,2025-03-12 06:31:11 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:20:31 UTC,2025-04-08 19:30:02 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/269324230,https://inaturalist-open-data.s3.amazonaws.com/photos/484232406/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9682268207,31.7496721748,11,,,,11,,open,false,,,Matumi,Breonadia salicina,Matumi,Plantae,429244
+269324550,b4ea1dd3-be9e-45bb-bb36-741688c135ba,2025-03-12 08:38:14+02:00,2025-03-12,2025-03-12 06:38:14 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:22:27 UTC,2025-04-08 19:30:11 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/269324550,https://inaturalist-open-data.s3.amazonaws.com/photos/484233154/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681610981,31.7496345978,7,,,,7,,open,false,,,Matumi,Breonadia salicina,Matumi,Plantae,429244
+269324694,4fab1490-d62b-4b4d-aa41-191e9d00d75d,2025-03-12 08:47:13+02:00,2025-03-12,2025-03-12 06:47:13 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:23:13 UTC,2025-04-08 19:30:17 UTC,research,CC-BY-NC,https://www.inaturalist.org/observations/269324694,https://inaturalist-open-data.s3.amazonaws.com/photos/484233364/medium.jpg,,"","",1,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9681081213,31.7495768283,9,,,,9,,open,false,,,Matumi,Breonadia salicina,Matumi,Plantae,429244
+269325468,a57ff244-071f-47b9-ba2c-6b0913f6bfea,2025-03-12 10:01:20+02:00,2025-03-12,2025-03-12 08:01:20 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:27:53 UTC,2025-04-08 18:28:35 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269325468,https://inaturalist-open-data.s3.amazonaws.com/photos/484234817/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9651254539,31.6846231432,240,,,,240,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253
+269325627,04553e9e-59ab-4723-bcec-e8982f07da20,2025-03-12 09:56:13+02:00,2025-03-12,2025-03-12 07:56:13 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:28:45 UTC,2025-04-08 18:29:07 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269325627,https://inaturalist-open-data.s3.amazonaws.com/photos/484235027/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9650702967,31.6847992528,199,,,,199,,open,false,,,"",Spirostachys africana,tamboti,Plantae,340253
+269325701,c2a67bd8-c36a-4636-a00b-ee22242db62e,2025-03-12 09:18:43+02:00,2025-03-12,2025-03-12 07:18:43 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:29:18 UTC,2025-04-08 18:29:53 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269325701,https://inaturalist-open-data.s3.amazonaws.com/photos/484235191/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565096459,31.7263577415,9,,,,9,,open,false,,,"",Citharexylum spinosum,Spiny Fiddlewood,Plantae,160656
+269325895,590bbe8b-1390-4adb-a43e-9b11e0e49890,2025-03-12 09:14:44+02:00,2025-03-12,2025-03-12 07:14:44 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:30:21 UTC,2025-04-08 18:30:51 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269325895,https://inaturalist-open-data.s3.amazonaws.com/photos/484235600/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9565578228,31.7263467951,13,,,,13,,open,false,,,"",Kigelia africana,Sausage tree,Plantae,81491
+269326753,9ea4e417-fd50-4c69-876f-1ff27b9ce379,2025-03-12 11:40:37+02:00,2025-03-12,2025-03-12 09:40:37 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:35:10 UTC,2025-04-08 18:35:39 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269326753,https://inaturalist-open-data.s3.amazonaws.com/photos/484237185/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906013974,31.6103174371,9,,,,9,,open,false,,,"",Euclea natalensis,Mountain Guarri,Plantae,430991
+269327016,0ac7e85d-592f-4c14-9d4c-d66ec6313a7c,2025-03-12 10:38:28+02:00,2025-03-12,2025-03-12 08:38:28 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:36:50 UTC,2025-04-08 18:37:34 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269327016,https://inaturalist-open-data.s3.amazonaws.com/photos/484237728/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9760704292,31.655995761,5,,,,5,,open,false,,,Sickle bush,Dichrostachys cinerea,aroma,Plantae,129706
+269327531,117faca9-6df9-4b0f-bc72-c14a486bbc14,2025-03-12 10:43:01+02:00,2025-03-12,2025-03-12 08:43:01 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:40:34 UTC,2025-04-08 18:41:02 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269327531,https://inaturalist-open-data.s3.amazonaws.com/photos/484238748/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9760212119,31.6559536588,9,,,,9,,open,false,,,"",Vachellia exuvialis,Flaky thorn,Plantae,595947
+269327823,19e01e27-e694-4df5-b8f1-b826b2d03326,2025-03-12 11:37:28+02:00,2025-03-12,2025-03-12 09:37:28 UTC,Pretoria,9010047,grahamgaither,,2025-04-08 18:42:09 UTC,2025-04-08 18:42:37 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/269327823,https://inaturalist-open-data.s3.amazonaws.com/photos/484239160/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9906223552,31.6103592568,9,,,,9,,open,false,,,Euchlia,Euclea natalensis,Mountain Guarri,Plantae,430991
+270258008,6fa1a17b-893f-431c-8078-4072fb2bf23c,2025-03-12 10:47:39+02:00,2025-03-12,2025-03-12 08:47:39 UTC,Pretoria,9010047,grahamgaither,,2025-04-13 19:07:50 UTC,2025-04-13 19:08:32 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/270258008,https://inaturalist-open-data.s3.amazonaws.com/photos/486014036/medium.jpg,,"","Crown diameter
+400 cm",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9760159785,31.6558376435,9,,,,9,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706
+270258277,82df925d-0242-4e99-92fb-0b6ba09aa268,2025-03-12 11:10:26+02:00,2025-03-12,2025-03-12 09:10:26 UTC,Pretoria,9010047,grahamgaither,,2025-04-13 19:08:49 UTC,2025-04-13 19:09:36 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/270258277,https://inaturalist-open-data.s3.amazonaws.com/photos/486014632/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.9868682879,31.6213347795,9,,,,9,,open,false,,,"",Grewia bicolor,Twotone Raisin,Plantae,431074
+270258645,718b4bac-9709-46da-a38f-6834885def68,2025-03-12 11:15:27+02:00,2025-03-12,2025-03-12 09:15:27 UTC,Pretoria,9010047,grahamgaither,,2025-04-13 19:10:04 UTC,2025-04-13 19:10:34 UTC,needs_id,CC-BY-NC,https://www.inaturalist.org/observations/270258645,https://inaturalist-open-data.s3.amazonaws.com/photos/486015204/medium.jpg,,"","",0,0,false,3,"Kruger National Park, ZA-MP-EH, ZA-MP, ZA",-24.986832041,31.6213535491,7,,,,7,,open,false,,,"",Dichrostachys cinerea,aroma,Plantae,129706
