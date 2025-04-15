@@ -85,6 +85,36 @@ print(sum(deployments_dat$num_elephants_f21, na.rm = TRUE))
 
 ```
 
+```{r site-data}
+# check if latitude and longitude is the same between deployments
+deployments_dat |>
+  group_by(placename) |>
+  summarise(
+    n_long = n_distinct(longitude),
+    n_lat = n_distinct(latitude)
+  ) |>
+  filter(n_long > 1 | n_lat > 1)
+
+# For the days, each site's deployments had exactly the same number of days so the code works correctly.
+# DO NOT CHANGE THE ORDER OF THIS PLS
+site_dat <- deployments_dat |>
+  group_by(placename, longitude, latitude) |>
+  summarise(
+    num_deployments = n(),
+    total_days = sum(days, na.rm = TRUE),
+    total_days_f21 = num_deployments*(19),
+    days = min(days, na.rm = TRUE),
+    days_f21 = 19,
+    total_counts = sum(counts, na.rm = TRUE),
+    total_counts_f21 = sum(counts_f21, na.rm = TRUE),
+    norm_counts = total_counts / total_days,
+    norm_counts_f21 = total_counts_f21 / total_days_f21,
+    .groups = "drop"
+  )
+
+```
+
+
 ```{r}
 # rm(e_dat_filtered)
 testing_e_dat <- read.csv("./wildlife_insights_data/images_2009198.csv")
