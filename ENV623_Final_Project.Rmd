@@ -141,5 +141,8 @@ tree_final <- tree_data %>%
 
 ```{r}
 #Mixed effects model: Tree Diameter ~ Elephant Presence + Site + Soil type + Temperature + Precipitation
+# Variable effects: Soil Type, 
+
+
 ```
 
