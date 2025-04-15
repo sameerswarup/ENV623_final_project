@@ -252,6 +252,42 @@ tree_final <- tree_data %>%
               left_join(pet_clean, by = c("latitude_1_dp", "longitude_1_dp"))
 ```
 
+```{r}
+# Final Dataframe
+site_dat <- site_dat |>
+  mutate(placename = toupper(placename))
+
+tree_final <- tree_final |>
+  mutate(site_name = toupper(site_name))
+
+d <- tree_final |>
+  left_join(site_dat, by = c("site_name" = "placename"))
+
+d <- d[, c("field.stemdiameter", "site_name", "avg_2023_03_prec", "avg_2023_03_temp", "avg_2023_03_pet", "norm_counts", "norm_counts_f21")]
+
+d <- d |>
+  filter(!is.na(norm_counts))
+
+# Create Dummies
+site_dummies <- model.matrix(~ site_name - 1, data = d)
+colnames(site_dummies) <- sub("^site_name", "", colnames(site_dummies))
+
+# Drop first column to prevent multicollinearity (Currently it is LTGRAN_10R)
+site_dummies <- site_dummies[, -1, drop = FALSE]
+d <- cbind(d, as.data.frame(site_dummies))
+site_covs <- colnames(site_dummies)
+
+# Remove unnecessary column
+d <- select(d, -site_name)
+
+# DEFINE REGRESSION VAR NAMES
+W <- c("avg_2023_03_prec", "avg_2023_03_temp", "avg_2023_03_pet", site_covs)
+Y <- "field.stemdiameter"
+X <- "norm_counts"
+
+```
+
+
 ```{r lasso-model}
 # Y ~ X + W
 # Y: Tree Diameter
