@@ -70,7 +70,9 @@ iNat <- read.csv("./ENV 623 - iNaturalist Observations.csv")
 #Select rows where crown diameter is NA so it is only trees
 tree_data <- iNat %>%
              filter(is.na(field.crownradius)) %>%
-             select(latitude, longitude, species_guess, scientific_name, common_name, field.stemdiameter, field.treeidentifier)
+             select(latitude, longitude, species_guess, scientific_name, common_name, field.stemdiameter, field.treeidentifier) %>%
+             mutate(latitude = round(latitude, 1),
+                    longitude = round(longitude, 1))
 ```
 
 ```{r}
@@ -89,7 +91,12 @@ prec_clean <- prec_df %>%
   mutate(
     longitude = as.numeric(longitude),
     latitude = as.numeric(latitude)
-  )
+  ) %>%
+  select(latitude, longitude, `2023_03`) %>%
+  mutate(latitude = round(latitude, 1),
+                    longitude = round(longitude, 1)) %>%
+  group_by(latitude, longitude) %>%
+  summarise(avg_2023_03_prec = mean(`2023_03`, na.rm = TRUE))
 
 ```
 
@@ -109,9 +116,22 @@ temp_clean <- temp_df %>%
   mutate(
     longitude = as.numeric(longitude),
     latitude = as.numeric(latitude)
-  )
+  ) %>%
+  select(latitude, longitude, `2023_03`) %>%
+  mutate(latitude = round(latitude, 1),
+                    longitude = round(longitude, 1)) %>%
+  group_by(latitude, longitude) %>%
+  summarise(avg_2023_03_temp = mean(`2023_03`, na.rm = TRUE))
 
 ```
+
+```{r}
+#Left join temp, prec to tree data on lat and long 
+tree_final <- tree_data %>%
+              left_join(prec_clean, by = c("latitude", "longitude")) %>%
+              left_join(temp_clean, by = c("latitude", "longitude"))
+```
+
 
 ```{r}
 #Mixed effects model: Tree Diameter ~ Elephant Presence + Site + Soil type + Temperature + Precipitation
