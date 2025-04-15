@@ -82,7 +82,8 @@ tree_data <- iNat %>%
 ```{r}
 #Left join deployments to tree data to get sites
 tree_w_sites <- tree_data %>%
-                left_join(deployments_dat, by = c("longitude"))
+                left_join(deployments_dat, by = c("longitude")) %>%
+                filter(!is.na(placename))
 ```
 
 
