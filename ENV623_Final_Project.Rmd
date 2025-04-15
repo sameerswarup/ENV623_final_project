@@ -19,6 +19,7 @@ library(readxl)
 library(tidyr)
 library(tibble)
 library(hdm)
+library(stringr)
 
 load("./climate_data/monthlyClimateKruger.rdata")
 ```
@@ -115,20 +116,26 @@ iNat <- read.csv("./ENV 623 - iNaturalist Observations.csv")
 ```
 
 ```{r}
+#Define function to translate site name to placename
+translate_code <- function(codes) {
+  # Match: VRP<prefix>_<optional R><number><optional R>
+  matches <- str_match(codes, "VRP(.*?)(?:_R|_)?(\\d+)(R)?")
+  
+  prefix <- matches[, 2]       # text after VRP
+  number <- matches[, 3]       # digits
+  paste0(prefix, "_", number, "R")
+}
+```
+
+```{r}
 #Filter to relevant columns and only trees
 #Select rows where crown diameter is NA so it is only trees
 tree_data <- iNat %>%
              filter(is.na(field.crownradius)) %>%
              select(latitude, longitude, species_guess, scientific_name, common_name, field.stemdiameter, field.treeidentifier) %>%
-             mutate(longitude = round(longitude, 4))
+             mutate(field.treeidentifier = toupper(field.treeidentifier)) %>%
+             mutate(site_name = translate_code(field.treeidentifier))
 ```
-
-```{r}
-#Left join deployments to tree data to get sites
-tree_w_sites <- tree_data %>%
-                left_join(deployments_dat, by = c("longitude"))
-```
-
 
 ```{r}
 #Read in and clean monthly precipitation data
@@ -147,11 +154,11 @@ prec_clean <- prec_df %>%
     longitude = as.numeric(longitude),
     latitude = as.numeric(latitude)
   ) %>%
-  select(latitude, longitude, `2023_03`) %>%
-  mutate(latitude = round(latitude, 1),
-                    longitude = round(longitude, 1)) %>%
-  group_by(latitude, longitude) %>%
-  summarise(avg_2023_03_prec = mean(`2023_03`, na.rm = TRUE))
+  mutate(latitude_1_dp = round(latitude, 1),
+                    longitude_1_dp = round(longitude, 1)) %>%
+  group_by(latitude_1_dp, longitude_1_dp) %>%
+  summarise(avg_2023_03_prec = mean(`2023_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2023_03_prec)
 
 ```
 
@@ -172,19 +179,47 @@ temp_clean <- temp_df %>%
     longitude = as.numeric(longitude),
     latitude = as.numeric(latitude)
   ) %>%
-  select(latitude, longitude, `2023_03`) %>%
-  mutate(latitude = round(latitude, 1),
-                    longitude = round(longitude, 1)) %>%
-  group_by(latitude, longitude) %>%
-  summarise(avg_2023_03_temp = mean(`2023_03`, na.rm = TRUE))
+  mutate(latitude_1_dp = round(latitude, 1),
+                    longitude_1_dp = round(longitude, 1)) %>%
+  group_by(latitude_1_dp, longitude_1_dp) %>%
+  summarise(avg_2023_03_temp = mean(`2023_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2023_03_temp)
+
+```
+
+```{r}
+#Read in and clean monthly temperature data
+pet_df <- as.data.frame(pet)
+
+pet_df <- pet_df %>%
+  rownames_to_column(var = "location")
+
+pet_clean <- pet_df %>%
+  mutate(
+    location = gsub("^E", "", location),        # remove leading 'E'
+    location = gsub("_N=|_N", "_", location)    # convert '_N=26' or '_N26' into '_26'
+  ) %>%
+  separate(location, into = c("longitude", "latitude"), sep = "_") %>%
+  mutate(
+    longitude = as.numeric(longitude),
+    latitude = as.numeric(latitude)
+  ) %>%
+  mutate(latitude_1_dp = round(latitude, 1),
+                    longitude_1_dp = round(longitude, 1)) %>%
+  group_by(latitude_1_dp, longitude_1_dp) %>%
+  summarise(avg_2023_03_pet = mean(`2023_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2023_03_pet)
 
 ```
 
 ```{r}
 #Left join temp, prec to tree data on lat and long 
 tree_final <- tree_data %>%
-              left_join(prec_clean, by = c("latitude", "longitude")) %>%
-              left_join(temp_clean, by = c("latitude", "longitude"))
+              mutate(latitude_1_dp = round(latitude, 1),
+                    longitude_1_dp = round(longitude, 1)) %>%
+              left_join(prec_clean, by = c("latitude_1_dp", "longitude_1_dp")) %>%
+              left_join(temp_clean, by = c("latitude_1_dp", "longitude_1_dp")) %>%
+              left_join(pet_clean, by = c("latitude_1_dp", "longitude_1_dp"))
 ```
 
 ```{r lasso-model}
