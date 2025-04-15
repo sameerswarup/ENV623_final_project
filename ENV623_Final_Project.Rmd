@@ -146,6 +146,31 @@ temp_clean <- temp_df %>%
 ```
 
 ```{r}
+#Read in and clean monthly temperature data
+pet_df <- as.data.frame(pet)
+
+pet_df <- pet_df %>%
+  rownames_to_column(var = "location")
+
+pet_clean <- pet_df %>%
+  mutate(
+    location = gsub("^E", "", location),        # remove leading 'E'
+    location = gsub("_N=|_N", "_", location)    # convert '_N=26' or '_N26' into '_26'
+  ) %>%
+  separate(location, into = c("longitude", "latitude"), sep = "_") %>%
+  mutate(
+    longitude = as.numeric(longitude),
+    latitude = as.numeric(latitude)
+  ) %>%
+  select(latitude, longitude, `2023_03`) %>%
+  mutate(latitude = round(latitude, 1),
+                    longitude = round(longitude, 1)) %>%
+  group_by(latitude, longitude) %>%
+  summarise(avg_2023_03_pet = mean(`2023_03`, na.rm = TRUE))
+
+```
+
+```{r}
 #Left join temp, prec to tree data on lat and long 
 tree_final <- tree_data %>%
               left_join(prec_clean, by = c("latitude", "longitude")) %>%
