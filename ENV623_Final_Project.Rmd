@@ -18,11 +18,14 @@ library(dplyr)
 library(readxl)
 library(tidyr)
 library(tibble)
+
+load("./climate_data/monthlyClimateKruger.rdata")
 ```
 
 ```{r import-elephant}
 
 e_dat <- read.csv("./wildlife_insights_data/images_2009198.csv")
+deployments_dat <- read.csv("./wildlife_insights_data/deployments.csv")
 
 e_dat |>
   summarise(
@@ -36,6 +39,13 @@ e_dat |>
 # Proboscidae is sufficent to guarantee African elephant, and
 # As we can see, some datapoints are not sufficiently labeled
 e_dat <- e_dat[e_dat$order == "Proboscidea", ]
+
+site_counts <- e_dat |>
+  count(deployment_id)
+
+deployments_dat <- deployments_dat |>
+  left_join(site_counts, by = "deployment_id") |>
+  mutate(n = coalesce(n, 0))
 ```
 
 ```{r}
@@ -47,8 +57,6 @@ e_dat <- e_dat[e_dat$order == "Proboscidea", ]
 
 ```{r}
 table(e_dat$deployment_id)
-
-deployments_dat <- read.csv("./wildlife_insights_data/deployments.csv")
 
 table(deployments_dat$start_date)
 
