@@ -1,0 +1,1216 @@
+---
+title: |
+  | 
+  | *Kruger project: Small mammal data*
+  <font size="4"> Duke University </font>
+author: '[Jim Clark](http://sites.nicholas.duke.edu/clarklab/)'
+date: '`r Sys.Date()`'
+output:
+  html_document:
+    toc: yes
+    toc_depth: '3'
+    df_print: paged
+  word_document:
+    toc: yes
+    toc_depth: 3
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: yes
+    df_print: paged
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+subtitle: env/bio 323/623
+fontsize: 24pt
+---
+
+```{r colfmt, echo=F}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+ebreak <- "--------------------------- ===== ---------------------------"
+makeSpace <- function(){
+  outputFormat = knitr::opts_knit$get("rmarkdown.pandoc.to")
+  if(outputFormat == 'latex')
+    "\\bigskip"
+  else if(outputFormat == 'html')
+    "<br>"
+  else
+    "<br>"
+}
+colFmt = function(x,color){
+  outputFormat = knitr::opts_knit$get("rmarkdown.pandoc.to")
+  if(outputFormat == 'latex')
+    paste("\\textcolor{",color,"}{",x,"}",sep="")
+  else if(outputFormat == 'html')
+    paste("<font color='",color,"'>",x,"</font>",sep="")
+  else
+    x
+}
+```
+
+
+<style>
+h1 { /* Header 1 */
+  font-size: 28px;
+  color: #003c30;
+}
+h2 { /* Header 2 */
+    font-size: 20px;
+  color: #003c30;
+}
+h3 { /* Header 3 */
+  font-size: 16px;
+  color: #003c30;
+}
+
+p.abstract {
+color: #e5f5e0;
+text-align:left;
+background-color: #00441b;
+padding: 10px;
+border: 1px solid #00441b;
+margin-left: 200px;
+border-radius: 5px;
+font-family: georgia;
+font-style:italic;
+font-size:110%;
+}
+p.comment {
+color: #0c2c84;
+background-color: #e5f5f9;
+padding: 10px;
+border: 1px solid #e5f5f9;
+margin-left: 2px;
+border-radius: 5px;
+font-family: sans-serif;
+}
+p.exer {
+color: #cc4c02;
+background-color: #fff7ec;
+padding: 10px;
+border: 1px solid #cc4c02;
+margin-left: 2px;
+border-radius: 5px;
+font-family: sans-serif;
+font-size: 100%;
+}
+ol {
+  background-color: #fff7ec;
+  color: #b15928;
+  margin-left: 50px;
+  margin-right: 150px;
+  font-size: 100%;
+}
+li {
+  color: #b15928;
+  font-family: sans-serif;
+}
+</style>
+
+
+
+`r makeSpace()`
+
+
+
+```{r, out.height = 240, out.width="40%", fig.align = "center", fig.show="hold", fig.cap = "**Most commonly observed rodent species in Sherman traps at KNP in the 2025 campaign**, clockwise from top left: South African pouched mouse, African pygmy mouse, bushveld gerbil, and Natal multimammat mouse. All images from wikipedia.", echo = F}
+knitr::include_graphics( c( "rodents2025/southAfricanPouchMouse.jpg", "rodents2025/pygmyMouse.jpg",  "rodents2025/natalMultimammatMouse.jpg", "rodents2025/bushveldGerbil.jpg"    ) )
+```
+
+
+`r makeSpace()`
+
+
+
+<p class="abstract">
+One of the most important things to know about a population is its density, i.e., numbers per area. Change in density over time gives us population growth rate, a key consideration for conservation planning. For animals, density estimation is complicated by movement. Individuals may remain near activity centers. Or they may move through sample areas. Observations must last long enough to get an accurate count, but not so long that the same individuals are observed repeatedly.  Capture-recapture designs track marked individuals. Models have progressed to the point where movement can be estimated as part of model fitting across a grid of sample locations. This movement kernel becomes part of the detection function. 
+</p>
+
+  
+`r makeSpace()`
+
+[Class schedule and syllabus](https://sites.nicholas.duke.edu/clarklab/files/2025/03/scheduleENV623-323_2025.pdf)
+
+`r makeSpace()`
+
+These functions are needed for this vignette:
+
+```{r, eval = F}
+mpath <- ''
+source('clarkFunctions2025.r')
+source('captureRecaptureFunctions.R')
+```
+
+
+```{r , echo=F, message=FALSE, cache=FALSE}
+source('/Users/jimclark/Documents/Classes/clarkFunctions2025.r')
+#source('/Volumes/research/clark/clark.unix/makeMast/predictionMastFunctions.R')
+source("/Volumes/research/clark/clark.unix/smallMammals/captureRecaptureFunctions.R")
+path2data <- "/Users/jimclark/Documents/Classes/ENV623L:323L/krugerData/"
+load( paste( path2data, "herbivoreCensus.rdata", sep=""), verbose = F )
+
+mpath <- ''
+
+library(kableExtra)
+library(dplyr)
+library( gjam )
+
+# map locations
+camps <- matrix( c( 31.85197, -24.78357,
+                    31.58710, -24.99301,
+                    31.89293, -25.35747,
+                    31.24611, -25.16250,
+                    31.91439, -25.11803,
+                    31.45072, -25.42249), ncol = 2, byrow = T,
+                 dimnames = list( c('Tshokwane', 'Skukuza', 'Croc Bridge',
+                                    'Pretoriuskop', 'Lower Sabie',
+                                    'Berg-en-Dal'), c('lon','lat') ) )
+```
+
+# For next time
+
+Execute the analysis of our small data and answer questions at the end for discussion next time.
+
+# Project questions
+
+One of the biggest challenges with field studies involves articulating an important question that can be answered with the data collected. Imagine that each of the studies would be studied using data we could collect. In groups, select a topic and prepare a summary for small mammals, birds, or tree fecundity:
+
+1.	State the following:
+  +	What’s the question
+  +	Why it’s important (a few citations needed)
+  +	What you will do
+  +	Anticipated results (alternatives must be meaningful/informative)
+  
+2.	describe a model in words:
+  +	Describe an observation
+  +	Describe the predictors that can be paired with each observation
+  +	Describe a model
+  
+
+
+`r makeSpace()`
+
+# Problem and goals
+
+To estimate abundance of small mammals we will implement a Bayesian capture-recapture analysis for trap data. We aim to estimate population densities. This is the first step in an analysis of associations with environment and species traits.
+
+# Resources
+
+We will implement a recent hierarchical capture-recapture model on data we collected this year and last at Kruger National Park.
+
+## Reading
+
+ - [Hooten et al., *Multistage hierarchical capture–recapture models*](https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2799)
+ 
+ - [Clark, Why species tell more about traits than traits about species: predictive analysis](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.1453)
+ 
+## Code
+
+  - `captureRecaptureFunction.R`
+  
+  - `scr.stg.1.R`
+  
+  - `scr.stg.2.P.R`
+
+## Data
+
+ - `rodentDataAll.rdata`: raw data for capture-recapture analysis
+ 
+ - `rodentDensityFiles2025.rdata`: density estimates from capture-recapture analysis for species and trait analysis
+ 
+ 
+  
+```{r, out.width="80%", fig.align = "center", fig.show="hold", fig.cap = "*Rodents were sampled at the Riparian and Granites sites.*", echo = F}
+knitr::include_graphics( 'granitesRiparianPlots.png' )
+```
+
+
+`r makeSpace()`
+
+<p class="comment">
+**Recall**: Technical material in this class is intended for those who are interested in underlying methods. Others can simply skim technical sections for the broad ideas.
+</p>
+
+
+`r makeSpace()`
+
+# Data analysis
+
+The models we implement are mostly Bayesian. For an overview of **Bayesian analysis** taught in my course **ENV/BIO665 Bayesian analysis for environmental data** you can skim [this page](https://rpubs.com/jimclark/1135570). The model we use for rodent recaptures uses the binomial distribution. For those interested in the underlying model it is described in this box:
+
+
+<p class="comment">
+**The binomial distribution** describes the number of successes (or failures) $y$ that arise from $n$ trials where the probability assigned to each draw is a parameter $p$,
+\begin{equation}
+y \sim binom( n, p )
+\end{equation}
+This equation says "$y$ is distributed as a binomial with parameters $n$ and $p$". In the rodent analysis, the binomial also appears in another way: I know an individual is present if I observe it at least once in $J$ trap nights. This is one minus the probability of not observing it $J$ times, or $(1 - p)^J$. Suppose there are $N$ individuals. Here is notation for the binomial probability of observing an $y$ individuals at least once,
+\begin{equation}
+\left[ y | N, p \right] = binom( N, 1 - (1 - p)^J )
+\end{equation}
+The bracket notation on the left indicates an unspecified distribution with parameters $N$ and $p$. Conversely, I could miss it entirely with probability $(1 - p)^J$.
+</p>
+
+
+`r makeSpace()`
+
+
+Here are examples of the binomial distribution: 
+
+```{r, fig.cap = '**The binomial distribution.** For these parameter values we could expect to observe most of the $M = 20$ individuals in the $J = 3$ observation times.', fig.align = 'center'}
+par( mfrow = c( 1, 2 ), bty = 'n', las = 1 )
+n  <- 12
+p  <- .5
+y  <- 0:n
+py <- dbinom( y, n, p )
+plot( y, py, type = 'h', lwd = 5, ylab = '[y|n, p]', main = 'no. successes in n trials')
+
+N  <- 20
+J  <- 3
+y  <- 0:N
+py <- dbinom( y, N, 1 - (1 - p)^J )
+plot( y, py, type = 'h', lwd = 5, ylab = '[y|N, J, p]', main = 'no. detected from N total in J trials')
+```
+
+
+
+`r makeSpace()`
+
+
+<p class="comment">
+**What makes the capture-recapture model hierarchical?**. The binomial distribution, $y \sim binom( n, p )$ is typically used as a model for data when $n$ is known to estimate the unknown parameter $p$. If I flip a coin $n = 12$ times and I obtain $y = 8$, then the (maximum likelihood) estimate of $p$ is $y/n = 8/12$. 
+In the detection model used here,
+\begin{equation}
+\left[ y | N, p \right] = binom( N, 1 - (1 - p)^J )
+\end{equation}
+both $N$ and $p$ are unknown. We cannot identify both parameters because an observed outcome $y$ could be explained by changing either $N$ or $p$. Identifying both parameters requires a second model for parameters $N$ and $p$. In the model we apply $p$ is a function of distance from an activity center. In bracket notation this hierachical structure is
+\begin{equation}
+\left[ y | N, p \right] = [y | N, p ] \times [ p | \beta_0, \beta_1, \mathbf{x} ] \times [ N | M, \psi ]
+\end{equation}
+</p>
+
+
+`r makeSpace()`
+
+
+The model for parameter $p$ at right is a movement function, or **kernel**, for distances between trap locations $\mathbf{x}$. It has a shape that is determined by the fitted parameters $(\beta_0, \beta_1)$. The model for $N$ and $p$ are shown with examples below. 
+
+
+# Parallel processing
+
+Fitting hierarchical Bayes models usually requires simulation, which can be slow. A large part of modern statistical modeling is devoted to algorithm development that can speed computation. Sometimes a problem can be structured to allow for multiple threads that are processed simultaneously, in parallel, using multiple cores, or CPUs. This is **parallel processing**.
+
+For Hooten et al's model we will need some packages that will allow parallel processing:
+
+```{r}
+library( foreach )
+library( doParallel )
+```
+  
+Like most hierarchical Bayesian models, I will simulate a posterior distribution of parameters. In Hooten's model this can be done in two separate stages. The second stage uses parallel processing.
+
+
+# Small mammal data
+
+
+The rodent data are fitted in two steps, first is a data model for the capture-recapture design. This gives an estimate of population density. The second step quantifies the associations between abundances and environmental predictors.
+
+## Capture-recapture design
+
+Capture-recapture data consist of sequential sampling where captured individuals are marked before release. On subsequent sampling bouts any recaptured individuals have a history of previous capture(s) potentially at other sites. The grid design implemented by our OTS colleagues can offer insight into movement, as when an individual is captured some distance from previous captures. We will implement a Bayesian hierarchical model that imputes individuals that were not captured based on detection [Hooten et al., 2023](https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2799). Without getting into technical details, we can outline the broad concept.
+
+Consider a population of $N$ individuals within an area where trapping will occur. We need to estimate $N$, which might be as high as an upper limit we set at $M$. The number of individuals trapped is $n$, so the true number is at least $n$ and potentially much larger than $n$. We choose $M$ to be large enough that the true value is less than $M$. We assign probabilities to the true population size $n \le N \le M$.
+
+<p class="comment"> **The unobserved individuals** have a different binomial distribution,
+\begin{equation}
+N^u \sim binom \left( M - n, \frac{\psi (1 - p)^J}{\psi (1 - p)^J + 1 - \psi} \right)
+\end{equation}
+The numerator in the binomial parameter is the probability of being in the population ($\psi$) and being unobserved on $J$ occasions. The denominator is a normalizer that includes the same quantity plus the probability of non-membership, $1 - \psi$. The total population for the grid is taken as
+\begin{equation}
+N = n + N^u
+\end{equation}
+The observed number of individuals is binomial, depending on the number of traps and repeated observations. For a single trap deployed $J$ times the number of detections is
+\begin{equation}
+y_i \sim binom( J, p )
+\end{equation}
+where $p$ is the probability of detection. 
+</p>
+
+
+```{r, echo = F, eval = F}
+
+
+# DONT DO THIS
+
+
+tmp <- read.csv( 'rodents2024unique.csv' )
+species <- tmp$Species.scribed
+species[ nchar( tmp$species.verified ) > 0 ] <- 
+  tmp$species.verified[ nchar( tmp$species.verified ) > 0 ]
+species <- .replaceString( species, 'spp', 'UNKN' )
+species <- .replaceString( species, 'Aethemys', 'Aethomys' )
+species <- .replaceString( species, 'Mastemus', 'Mastomys' )
+species <- .replaceString( species, 'Aethmus', 'Aethomys' )
+
+
+code8 <- columnSplit( species, ' ' )
+genus <- code8[,1]
+code8[,1] <- substr( tolower( code8[,1] ), 1, 8 )
+code8[,2] <- substr( upperFirstLetter( gsub( 'spp', 'UNKN', code8[,2] ) ), 1, 8 ) 
+code8 <- paste( code8[,1], code8[,2], sep = '' )
+
+plot <- columnSplit( tmp$group_id, '_' )[,1] 
+plot <- gsub( 'R', 'R-' , plot )
+plot <- gsub(  'G', 'G-', plot )
+
+mm <- match( plot, xbirds$plot )
+wf <- which( is.finite( mm ) )
+tmp$lon <- tmp$lat <- NA
+tmp[wf,c('lon','lat')] <- xbirds[mm[wf], c('lon','lat') ]
+
+xdata$plot <- .replaceString( xdata$plot, 'G-', 'LTGRAN-' )
+xdata$plot <- .replaceString( xdata$plot, 'R-', 'LTSABIE-' )
+xdata$plot <- .replaceString( xdata$plot, 'LTGRAN-', 'LTGran-' )
+xdata$plot <- .replaceString( xdata$plot, 'LTSABIE-', 'LTSabie-' )
+
+
+xdata$plot <- .replaceString( xdata$plot, 'LTGran-10', 'LTGran-10R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTGran-11', 'LTGran-11R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTGran-13', 'LTGran-13R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTGran-7', 'LTGran-7R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTGran-9', 'LTGran-9R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTSabie-10', 'LTSabie-10R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTSabie-11', 'LTSabie-11R' )
+
+xdata$plot <- .replaceString( xdata$plot, 'LTSabie-12', 'LTSabie-12R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTSabie-13', 'LTSabie-13R' )
+xdata$plot <- .replaceString( xdata$plot, 'LTSabie-9', 'LTSabie-9R' )
+
+rownames( xdata ) <- paste( xdata$plot, xdata$year, sep = '_' )
+
+write.csv( xdata, file = 'xdataKruger.csv', row.names = T )
+
+
+############## Rodents start here
+
+dat2024 <- read.csv( 'rodentsAllData2024.csv' )
+dat2024 <- dat2024[ nchar( dat2024$trap ) > 0, ]
+dat2024$plot <- .replaceString( dat2024$plot, 'R-', 'LTSabie-' )
+dat2024$plot <- .replaceString( dat2024$plot, 'G-', 'LTGran-' )
+dat2024$plot <- paste( dat2024$plot, 'R', sep = '' )
+
+species <- fixKrugerRodentNames( dat2024$Species.verified )
+specTab <- table( species )
+
+common <- getTraitsMammal( scientificName = names( specTab ),
+                             traitName = 'commonName',
+                             tpath = '/Volumes/research/clark/clark.unix/traitsByGroup/' ) 
+common[ is.na( common ) ] <- names( specTab )[ is.na( common ) ]
+dat2024$commonName <- common[ species, 1 ]
+dat2024$species <- species
+
+
+dat2025 <- read.csv( 'rodents2025/rodentsData2025.csv' )
+dat2025 <- dat2025[ nchar( dat2025$trap ) > 0 & nchar( dat2025$Species.verified ) > 0 , ]
+dat2025$plot <- .replaceString( dat2025$plot, 'LTGran', 'LTGran-' )
+dat2025$plot <- .replaceString( dat2025$plot, 'LTSabie', 'LTSabie-' )
+dat2025$commonName <- dat2025$Species.verified
+
+common <- sort( unique( dat2025$commonName ) )
+
+species <- getTraitsMammal( commonName = common, 
+                             traitName = 'scientificName',
+                             tpath = '/Volumes/research/clark/clark.unix/traitsByGroup/' ) 
+species[ is.na( species ) ] <- common[ is.na( species ) ]
+dat2025$species <- species[ dat2025$commonName, 1]
+
+dcols <- intersect( colnames( dat2024 ), colnames( dat2025 ) )
+
+y <- rbind( dat2024[,dcols], dat2025[,dcols] )
+y$year <- as.numeric( columnSplit( y$date, '-' )[, 3] ) + 2000
+
+
+xseq <- seq( 10, 50, by = 10 )
+X        <- as.matrix( expand.grid(  seq( 10, 40, by = 10 ), seq( 10, 50, by = 10 ) ) )
+lnames   <- as.vector( t( outer( toupper( letters[1:4] ), 1:5, paste, sep = '' ) ) )
+rownames( X ) <- lnames
+colnames( X ) <- c('x', 'y' )
+L <- nrow(X)
+
+
+xy     <- apply( X, 2, range )  # 200 m buffer
+xy[1,] <- xy[1,] - 10
+xy[2,] <- xy[2,] + 10
+A   <- cbind( xy[ c( 1, 2, 2, 1, 1), 1 ], xy[ c(2,2,1,1,2), 2] )
+
+bout  <- y$date
+byr   <- as.numeric( columnSplit( bout, '-' )[,3] ) + 2000
+
+# bouts per plot yr
+py   <- paste( y$plot, byr, bout, sep = '_' )
+wn   <- which( !duplicated( py ) )
+jmat <- table( y$plot[wn], byr[wn] ) 
+
+jmat[ jmat[, '2024'] < 4, '2024' ] <- 4       #CHECK!!!!!!!!!!
+jmat[ jmat[, '2025'] < 3, '2025' ] <- 3
+
+y$id <- paste( y$year, y$id, sep = '-' )
+
+colnames(A) <- c('x','y')
+
+save( y, X, A, jmat, file = 'rodentDataAll.rdata' )
+```
+
+## Kruger small mammal data
+
+The sampling grid is 5 by 5 traps placed at 10 m intervals. Here I load data from 2024/2025 and tabulate the species by plot. I also aggregate a two groups to genus level. I do this because they are difficult to identify to species level. This aggregation also increases the sample size, which is low.
+
+```{r}
+load( 'rodentDataAll.rdata', verbose = T )
+
+y$commonName[ grep( 'rock rat', y$commonName ) ] <- 'rock rat'
+y$commonName[ grep( 'multimammate mouse', y$commonName ) ] <- 'multimammate mouse'
+
+specTab   <- table( y$plot, y$commonName)
+specSum   <- colSums( specTab )
+specNames <- names( specSum )[ specSum > 2 ]
+nspec   <- length( specNames )
+```
+
+```{r, echo = F, eval = F}
+
+######## get traits
+
+source('/Volumes/research/clark/clark.unix/makeMast/predictionMastFunctions.R')
+
+traitName <- c( 'family', 'adult_mass_g', 'adult_body_length_mm',
+                'det_invert', 'det_fruit', 'det_seed',
+                'det_plantother'  )
+
+specByTrait <- getTraitsMammal( commonName = colnames( specTab ), 
+                           traitName = traitName,
+                           tpath = "/Volumes/research/clark/clark.unix/traitsByGroup/" )
+
+```
+
+The objects in `rodentDataAll.rdata` are as follows:
+
+
+```{r, fig.align = 'center', echo = F}
+stab <- data.frame( objects = c( 'y', 'X', 'A', 'jmat' ),
+                    description = c('observations by variables', 'grid coordinates',
+                                    '10 m buffer around grid', 'sampling bouts'),
+                    dimension = c('', 'L by 2', '5 by 2', 'plots by years') )
+kable( stab, caption = "Objects in this analysis" ) %>%
+  kable_styling("striped", full_width = F) %>%
+  scroll_box(width = "70%", height = "250px")
+```
+
+`r makeSpace()`
+
+Look at each of these objects to see the structure.
+
+
+The distribution of captures across sites is the object `specTab`:
+
+```{r,echo = F}
+total <- specSum
+stab <- rbind( specTab, total )
+kable( stab, caption = "Number of trapped individuals at each plot" ) %>%
+  kable_styling("striped", full_width = F) %>%
+  scroll_box(width = "100%", height = "600px")
+```
+
+`r makeSpace()`
+
+Totals in the bottom row of this table show that some species are too rare to analyze. We will be restricted to analysis of the abundant species.
+
+## Model elements
+
+There will be an estimate of population size for each species $s$ at each plot $k$ in each of two years $t$. Subscripts are needed to keep this straight. The estimate of population size is a **posterior distribution** for each species/plot/year, $N_{s,k,t}$. There is uncertainty in this estimate that can be described by a **standard error (SE)** and **credible interval (CI)**. The SE is the standard deviation of the posterior distribution. The CI is the interior 95% of this distribution with 2.5% in the lower and upper tails. 
+
+
+Again, the potential population size is selected to be larger than the number of individuals observed but still reasonable. If $n_{s,k,t}$ individuals are observed, then I choose $M_{s,k,t} = 8 \times n_{s,k,t}$. The scaling factor is `n2M` = 8 in this example. 
+
+The code used for the analysis uses Markov chain Monte Carlo (MCMC) to simulate a posterior distribution of estimates. Here are the objects it will generate:
+
+
+```{r,echo = F}
+stab <- data.frame( objects = c( 'N', 'beta_0, beta_1', 'p', 'M', 'psi', 'movement scale' ),
+                    description = c('number of individuals', 'movement kernel parameters',
+                                    'detection probability', 'potential pop size', 'membership probability (fraction of M)', 'meters') )
+kable( stab, caption = "Objects in this analysis" ) %>%
+  kable_styling("striped", full_width = F) %>%
+  scroll_box(width = "70%", height = "300px")
+```
+
+
+`r makeSpace()`
+
+Each estimate will come in the form of MCMC chains, which can be combined to approximate marginal distributions for each parameter.
+
+
+## Model fitting
+
+As mentioned above, model fitting is by MCMC, which draws samples that are held as chains of values. It may be easiest to see this with an example. In the block below I set up some objects needed for the analysis:
+
+
+```{r}
+n2M    <- 8                                      # scaling factor
+n.mcmc <- 2000                                   # no. MCMC iterations
+n.sim  <- 1000                                   # no. simulation locations for movement
+n.p    <- 100                                    # length of distance vector
+d.vec  <- seq(0, 40, length = n.p)               # distance vector for movement
+
+mu.beta   <- c(-2,-.002)                         # prior mean
+beta.tune <- c(.3,.0005)                         # SD for beta proposals (MCMC stuff)
+s2.beta   <- c( .5, .4 )                         # prior variance
+```
+
+`r makeSpace()`
+
+Ordinarily I would set `n.mcmc` much larger than in this example, which executes quickly for illustration.
+
+
+
+## Model for one species
+
+
+Here I fit the model for one species/plot/year. I need to extract from `data.frame y` a $L \times n$ matrix $Y$ for each species-plot-year. I set up model elements and then generate maps for the grid showing capture locations for each individual.
+
+```{r, fig.align = "center", fig.cap = "Map for each individual showing where and how many times it was caught."}
+plot <- "LTGran-13R"
+yj <- y[ y$commonName == "multimammate mouse" & y$plot == plot & y$year == 2024, ] # subset
+yt <- table( yj$trap, yj$id )                                                      # captures 
+id <- colnames( yt )                                                               # individuals
+n  <- length( id )
+L  <- nrow( X )
+Y  <- matrix( 0, L, n, dimnames = list( rownames(X), id ) )          # where each ID caught
+Y[ rownames( yt ), colnames( yt ) ] <- yt                            # locations caught and not caught
+M  <- pmax( 20, n*n2M )                                              # potential pop size
+J  <- jmat[ plot, "2024" ]                                           # sampling bouts
+
+mapCapture( n, A, X, Y )                                             # generate maps
+```
+
+
+`r makeSpace()`
+
+The map shows that this species was mostly captured once. Where it was recaptured, the recaptures occurred close to the traps where they were first captured.
+
+<p class="comment"> **The detection function** for movement declines with distance from an imputed activity center. This movement kernel is a logit function, 
+\begin{equation}
+logit( p ) = \log \left( \frac{p}{1 - p} \right) = \beta_0 + \beta_1 x^2
+\end{equation}
+where $x$ is distance in m. The logit is sometimes called the "log odds ratio". A logit kernel looks like this:
+</p>
+```{r,  fig.align = "center", fig.cap = "**The detection function** declines with distance from an imputed activity center." }
+pvec <- logit.inv( mu.beta[1] + mu.beta[2]*d.vec^2 )
+plot( d.vec, pvec, type = 'l', bty = 'n', las = 1, lwd = 2, xlab = 'Distance (m)', ylab = 'Probability p' )
+```
+
+
+`r makeSpace()`
+
+The values in `mu.beta` are prior values. I will combine these prior values with the data to come up with posterior estimates.
+
+Here is a fitted model with prior parameter values for `vector beta`, which holds the two values $(\beta_0, \beta_1)$:
+
+```{r, echo = F}
+mpath <- "/Volumes/research/clark/clark.unix/smallMammals/"
+```
+
+```{r, eval = F }
+tmp <- fitModel( Y, J, M, X, A, n.mcmc, mu.beta, beta.tune, s2.beta, n.sim, mpath = mpath ) # MCMC 
+out.1     <- tmp$out.1         # 1st stage output
+out.2.P   <- tmp$out.2.P       # 2nd stage output
+N.out.2.P <- tmp$N.out.2.P     # N estimates
+fit       <- tmp$fit           # summary
+
+par( bty = 'n', mar = c(2,4,1,1 ), omi = c(.5, .5, .5, .1) ) # MCMC chains
+layout( matrix( 1:6,3,2) )
+plot( out.1$beta.star[1,], type = "l", ylab = bquote( beta[0] ) , main = 'stage 1', xaxt = 'n' )
+plot( out.1$beta.star[2,], type = "l", ylab = bquote( beta[1] ), xaxt = 'n' )
+plot( out.1$psi.star, type="l", ylab = bquote( psi ) )
+plot( out.2.P$beta.save[1,], type="l", lty=1, ylab = '', main = 'stage 2', xaxt = 'n' )
+plot( out.2.P$beta.save[2,], type="l", lty=1, ylab = '', xaxt = 'n' )
+plot( out.2.P$psi.save, type="l", ylab = '' )
+mtext( 'MCMC iteration', side = 1, outer = T, line = 1 )
+```
+
+
+`r makeSpace()`
+
+This model is fitted in two steps. In the figure below I am looking for good mixing in the chains, indicating that simulation has adequately summarized the posterior distribution. If chains show too much autocorrelation I can adjust `beta.tune`. These chains show good mixing:
+
+```{r, out.width="80%", fig.align = "center", fig.cap = "**MCMC chains** generated by posterior simulation.*", echo = F}
+knitr::include_graphics( 'rodentChains.png' )
+```
+
+
+
+A summary is held in the object `fit`, which includes the number of captures (`n`), captures once (`c1`), twice (`c2`), and so on. The estimates for $(\beta_0, \beta_1)$ are in the `fit` columns `B1.estimate, B1.SE, B1.CI_025, B1.CI_975`. There are also columns for parameters $p$ (`P`) and $\psi$ (`Psi`). For species/plot/year combinations with no captures (`n = 0`), there are no estimates.
+
+Population size (number of individuals in the grid) are in the `fit` columns `N.estimate, N.SE, N.CI_025, N.CI_975`.
+
+
+The population density estimate is $N/A$, where area $A = 50 m \times 60 m = 0.3$ ha, i.e., the area bounded by matrix `A`. For this observation, the density estimate is:
+
+```{r, eval = F }
+wn <- which( startsWith( colnames( fit ), 'N.' ) )
+fit[, wn]/.3
+```
+
+
+
+
+`r makeSpace()`
+
+Here are plots of the posterior distribution.
+
+```{r, eval = F }
+posteriorPlots( out.2.P, N.out.2.P, n, M )
+```
+
+
+```{r, out.width="90%", fig.align = "center", fig.cap = "**Posterior densities** for beta and psi, with the latent variable N. The densities for beta and psi show means and CIs (vertical dashed lines). The distribution for N is at least as large as the observed n. Estimates stop at M.", echo = F}
+knitr::include_graphics( 'posteriorDensities.png' )
+```
+
+
+`r makeSpace()`
+
+The probability assigned to values of $N$ outside the interval $(n, M)$ is zero. Again, we know that there are at least $n$ individuals, and we have truncated the upper limit at $M$.
+
+The movement kernel estimates $(\beta_0, \beta_1)$ are shown at left. The estimated kernel that is based on these estimtes has a length scale that can be summarized as the distance where values fall below a threshold.  Here is the interval for the length scale, with the interval (15.3, 29.1) m:
+
+```{r, eval = F}
+wn <- which( startsWith( colnames( fit ), 'L.' ) )                # values
+fit[, wn]
+
+kernelPlot( P.2.P.mat, out.2.P )
+p0  <- logit.inv( fit$B1.estimate )/2                             # add to plot
+lci <- c( fit$L.CI_025, fit$L.estimate, fit$L.CI_975 )
+for( j in 1:3)lines( lci[ c(j, j ) ], c( 0, p0 ), lty = 2 )
+```
+
+
+```{r, out.width="60%", fig.align = "center", fig.cap = "**Uncertainty (95% credible interval)** for the movement kernel.*", echo = F}
+knitr::include_graphics( 'kernel.png' )
+```
+
+
+`r makeSpace()`
+
+
+## Fit all species
+
+Below is a loop to fit all species/plot/year combinations. The pseudocode for this block is as follows:
+
+* define objects to hold estimates
+* **species loop**: find plots where species occurs
+  + **plot loop**: find years for species-plot
+    + **year loop**
+      + construct `J`, `Y`, `n`, `M`
+      + fit model
+      + save objects to `fit`
+
+
+```{r, eval = F }
+# initialize to hold output:
+fh       <- c( 'estimate', 'SE', 'CI_025', 'CI_975' )                      # includes 95% CI
+bnames   <- c(paste( 'B1', fh, sep = '.' ), paste( 'B2', fh, sep = '.' ) ) # beta estimates
+nnames   <- paste( 'N', fh, sep = '.' )                                    # population size
+pnames   <- paste( 'P', fh, sep = '.' )                                    # detection Pr
+qnames   <- paste( 'Psi', fh, sep = '.' )                                  # membership Pr
+dnames   <- paste( 'L', fh, sep = '.' )                                    # length scale
+
+nvec  <- matrix( c( 0, 0, 0, NA ), 1, dimnames = list( NULL, nnames ) )
+bvec  <- matrix( NA, 1, 8, dimnames = list( NULL, bnames ) )
+pvec  <- matrix( NA, 1, 4, dimnames = list( NULL, pnames ) )
+qvec  <- matrix( NA, 1, 4, dimnames = list( NULL, qnames ) )
+lvec  <- matrix( NA, 1, 4, dimnames = list( NULL, dnames ) )
+powerDetect <- NA
+
+L <- nrow(X)
+
+fit <- numeric( 0 )
+
+for( s in 1:nspec ){
+  
+  ws    <- which( y$commonName == specNames[s] )    # this species 
+  yspec <- y[ws , ]
+  plots <- sort( unique( yspec$plot ) )             # plots where observed
+  nplot <- length( plots )
+  
+  print( specNames[s] )
+  print( table( yspec$plot, yspec$year ) )          # distribution of observations
+  
+  for( k in 1:nplot ){
+    
+    yall <- unique( y$year[ y$plot == plots[k] ] )  # years observed on this plot
+    yrk  <- sort( unique( yspec$year ) )
+    if( length( yrk ) == 0 )next
+    
+    for( j in 1:length(yall) ){
+      
+      df <- numeric( 0 )                            # initialize data.frame for this species/plot/yr
+      yc <- as.character( yall[j] )
+      J  <- jmat[ plots[k], yc ]                    # sample occasions
+      wj <- which( yspec$year == yall[j] & yspec$plot == plots[k] )
+      
+      if( !yall[j] %in% yrk | length( wj ) == 0 ){          # placeholder if no captures
+        
+        df   <- data.frame( species = specNames[s], plot = plots[k], year = yall[j], J, n = 0 )
+        df   <- cbind( df, c1 = 0, c2 = 0, c3 = 0, c4 = 0 )
+        df   <- cbind( df, nvec, bvec, pvec, qvec, powerDetect, lvec )
+        
+      }else{
+        
+        yj <- yspec[drop = F, wj, ]
+        yt <- table( yj$trap, yj$id )                                # where observed
+        id <- colnames( yt )                                         
+        n  <- length( id )
+        Y  <- matrix( 0, L, n, dimnames = list( rownames(X), id ) )  # both observed and not observed
+        Y[ rownames( yt ), colnames( yt ) ] <- yt
+        M  <- pmax( 20, n*n2M )                      
+        
+        df  <- data.frame( species = specNames[s], plot = plots[k], year = yall[j] )
+        tmp <- fitModel( Y, J, M, X, A, n.mcmc, mu.beta, beta.tune, s2.beta, n.sim, mpath = mpath )
+        df  <- cbind( df, tmp$fit )
+      }
+      fit <- rbind( fit, df )
+      print( tail( fit ) )
+    }
+  }
+}
+```
+
+`r makeSpace()`
+
+# Observations by variables
+
+For analysis it's helpful to format densities as observations by variables. An observation is a plot-year. Variables are species densities. Here are species by variables:
+
+```{r, eval = F}
+wn      <- which( startsWith( colnames( fit ), 'N.' ) )
+density <- fit[, wn]/.3
+
+py <- paste( fit$plot, fit$year, sep = '_' )
+plotYears <- sort( unique( py ) )
+
+yMean <- matrix( 0, length( plotYears ), nspec, dimnames = list( plotYears, specNames ) )
+ySE   <- yMean
+yMean[ cbind( py, fit$species) ] <- density$N.estimate
+ySE[ cbind( py, fit$species) ]   <- density$N.SE
+xdata <- data.frame( columnSplit( plotYears, '_' ) )
+colnames( xdata ) <- c('plot','year')
+
+rcPlot( yMean, ySE, xdata )
+```
+
+`r makeSpace()`
+
+# Abundance
+
+Finally, we have estimates of abundance by species, plot, and year. Next time we can move forward to asking which variables are associated with abundance.
+
+```{r, out.width="80%", fig.align = "center", fig.cap = "**Abundance estimates** by plot and year showing mean and one SE.", echo = F}
+knitr::include_graphics( 'abundanceEstimates.png' )
+```
+
+
+
+
+
+```{r, echo = F, eval = F }
+
+
+
+write.csv( yMean, file = 'rodentDensityMu.csv', row.names = T )
+write.csv( ySE, file = 'rodentDensitySe.csv', row.names = T )
+
+
+ydata <- read.csv( 'rodentDensityMu.csv', row.names = 1 )
+xdata <- read.csv( 'xdataKruger.csv', row.names = 1 )[ rownames( ydata ), ]
+
+colnames( ydata ) <- .replaceString( colnames( ydata) , '.', ' ' )
+colnames( ydata )[7] <- 'white-toothed shrew'
+
+save( xdata, ydata, specByTrait, file = 'rodentDensityFiles2025.rdata' )
+
+########### old
+
+
+ww <- which( is.na( tmp$cec30 ) )
+
+tmp[ ww, ] <- getSoil( tmp[drop = F, ww, ] )
+
+write.csv( tmp, file = 'xdataKruger.csv', row.names = T )
+
+
+rownames( xdata ) <- paste( xdata$plot, xdata$year, sep = '_' )
+
+tmpx <- tmp[ rep(1, nrow(xdata) ), ]
+rownames(tmpx) <- rownames( xdata)
+
+for( j in 1:ncol( tmpx ) )tmpx[,j] <- NA
+
+tmpx[ rownames( xdata ), colnames( xdata ) ] <- xdata
+tmpx[ rownames(tmp), colnames(tmp) ] <- tmp
+
+wn <- which( sapply( tmpx, is.numeric ) )
+for( j in wn ){
+  xmu <- tapply( tmpx[,j], tmpx$plot, mean, na.rm = T )
+  xmu[ !is.finite( xmu ) ] <- NA
+  tmpx[ names(xmu), j] <- xmu
+}
+gg <- grep( 'Gran', rownames( tmpx ) )
+tmpx$habitat[ gg ] <- 'granites'
+gg <- grep( 'Sabie', rownames( tmpx ) )
+tmpx$habitat[ gg ] <- 'riparian'
+
+write.csv( tmpx, file = 'xdataKruger.csv', row.names = T )
+
+
+
+# 
+
+```
+
+
+
+<p class="exer">
+**Exercise 1**: The estimates of population density depend on the data. 
+</p>
+
+1. How narrow must the CI be in order for an estimated density to be useful? 
+
+2. Which elements in the object `fit` give the deepest insights on the quality of estimates?
+
+3. For plots with two years of data, what might explain changes from one year to the next?
+
+4. Are the differences between granites and riparian larger or smaller than you expected? Say why.
+
+5. If you were to increase sample effort to improve estimates would you enlarge the existing grids at the same plots, add more plots, or add more sample dates? How would benefits balance the added costs for each option?
+
+
+`r makeSpace()`
+
+# Biodiversity as species and traits
+
+The numbers and abundances of species can offer insight on the habitat qualities that are important for biodiversity. For example, if most of the plant species in a plot are halophytes, then salinity may be a dominant control on plant diversity. If most of the rodents are fossorial, then protection from mid-day heat stress or predation may be important controls.  If most of the plants use the CAM photosynthetic pathway or fix nitrogen, then moisture limitation or nitrogen limitation may be important, respectively. We can analyze the association between species abundance and environmental variables to yield sensitivity coefficients and predictive distributions for the species that could be abundant at locations that have not been sampled.
+
+**Community weighted mean (CWM)** traits summarize the prevalence of trait types for an assemblage of species, where the weights are species presence or, preferably, abundance. 
+
+In the two sections that follow we use generalized joint attribute modeling (GJAM) to determine environmental variables that influence species abundance and the traits that those species possess.
+
+
+
+
+
+
+`r makeSpace()`
+
+# Generalized joint attribute modeling (GJAM)
+
+GJAM analyzes the effects of environment on species as a joint distribution, allowing for the fact that species (and traits) may be measured in different ways. GJAM quantifies the association between abundances of species and environmental variables.
+
+
+
+Here I load the estimated species abundances in the $n \times S$ matrix `ydata` and the environmental predictors for the same observations in `xdata`: 
+
+```{r, echo = T, eval = T}
+load( 'rodentDensityFiles2025.rdata', verbose = T )
+n     <- nrow( ydata )
+nspec <- ncol( ydata )
+specNames <- colnames( ydata )
+```
+
+The `rownames` for `xdata` and `ydata` indicate than an observation is a plot-year.  The values in `ydata` are the mean abundances estimated in the foregoing section by the capture-recapture model. 
+
+```{r, eval = F, echo = F}
+specMean <- colMeans( ydata, na.rm = T )
+specMean <- specMean[ order( specMean, decreasing = T ) ]
+
+plot( specMean, type = 's', log = 'xy', bty = 'n', las = 1, xaxt = 'n',
+      xlab = 'rank abundance', ylab = '' )
+xloc <- sqrt( c(1:nspec)*(2:(nspec+1)) )
+text( xloc, .9*specMean[1:nspec], names( specMean ), srt = 90, pos = 2, cex = .5 )
+```
+
+
+
+
+## Response data types
+
+Values in `ydata` are termed **continuous abundance** (`CA`) data in GJAM, because values greater than zero are continuous, but as with all abundance data, there can be zeros (none observed) and no negative values. Note how this contrasts with standard regression, which requires data that are continuous across the negative and positive real numbers.
+
+## Predictors
+
+Although `xdata` holds a number of potential predictors, we cannot use many predictors, because we have few observations, `n =` `r n`. Recall that the number of predictors has to be much smaller than the number of observations.
+
+Here's an example model using habitat (granites versus riparian) and year. I start by declaring habitat to be a `factor`, and taking years since sampling began:
+
+```{r, echo = T}
+xdata$habitat <- as.factor( xdata$habitat )
+xdata$year    <- xdata$year - 2024
+```
+
+## Connect data to question and hypothesis
+
+As a scientist or conservation manager I might have **questions** about how change in aridity affect small mammal populations or how habitat affects food supply. To answer these questions it would be efficient to have **hypotheses**, such as "If supply is high in moist riparian regions, then small mammal abundances might be ...". "Alternatively, ..." [alternative hypothesis]. 
+
+<p class="exer">
+**Exercise 2**: Provide a question and a hypothesis for:
+* Habitat differences that affect small mammals.
+* Changes in abundance from 2024 to 2025.
+</p>
+
+## Fitting a model
+
+GJAM is a hierarchical Bayes model. It simulates a posterior distribution using MCMC. I must tell it the number of MCMC steps (`ng`) and the number of steps to discard before convergence occurs (`burnin`). I must also tell it the data `typeNames = 'CA'`. These arguments are included in `modelList`.
+
+I construct a model from the predictors `habitat` and `year` to create a `formula`. Here is an analysis with gjam:
+
+```{r, eval = T}
+form      <- as.formula( ~ year + habitat )
+modelList <- list(ng = 5000, burnin = 2000, typeNames = 'CA' )
+out       <- gjam( formula = form, xdata = xdata, ydata = ydata, modelList = modelList )
+```
+
+
+Use this to view a summary:
+
+```{r, eval = F}
+summary(out)
+```
+
+The `Coefficient matrix B` has positive values for predictors that are associated with high abundance, and vice versa.
+
+The `Coefficient matrix B as table` includes estimates, standard errors, the 95% CI and whether or not the CI includes zero (`sig95`).
+
+
+I can color code species in the plots. Colors could represent body size or diet (insectivores, granivores, ...). Here are plots:
+
+```{r, eval = F}
+family    <- specByTrait[ specNames, 'family' ]       # family for each species
+specColor <- rep('black',ncol(ydata))
+specColor[ family == 'Muridae' ]    <- '#d95f02'
+specColor[ family == 'Nesomyidae' ] <- '#377eb8'
+names( specColor ) <- specNames
+plotPars <- list( PLOTALLY = T, GRIDPLOTS = T, specColor = specColor )
+gjamPlot( out, plotPars )
+```
+
+The `list plotPars` includes several options:
+
+* `PLOTALLY`  - plot predicted versus observed for all species
+* `GRIDPLOTS` - plot sensitivity and variance components as colored grids
+* `specColor` - `character vector` of colors to shade species 
+
+We'll discuss these plots in class. Also, `browseVignettes('gjam')` provides many examples.
+
+
+
+<p class="exer">
+**Exercise 3**: Use a different set of predictors, pose a hypothesis, and say why it is consistent with the analysis or not.
+</p>
+
+
+
+
+```{r, out.width="80%", fig.align = "center", fig.cap = "**Traits are modeled jointly** in GJAM, either as a CWM response--the Trait Response Model--or as a predictive distribution generated from the joint species response--the Predictive Trait Model.", echo = F}
+knitr::include_graphics( 'traitModels.png' )
+```
+
+
+
+
+
+
+# Trait model
+
+Community weighted mean (CWM) traits provide insight on the shared traits that respond to the environment. CWM traits are necessarily interdependent (every species contributes to every CWM trait), so they must be analyzed jointly. 
+
+If I have a sample of $n$ locations holding the abundances of each of $S$ species, then I can use a species $\times$ trait matrix to derive observations $\times$ traits. This observations $\times$ traits matrix can be analyzed for the effects of predictors on traits rather than predictors by species. 
+
+
+## Trait types: numeric and nominal (categorical)
+
+Traits come in the form of diverse data types, and they cannot be treated the same. Some traits are continuous with positive and negative values, such as log body size. Others are restricted to positive values (e.g., body size). Still others are categories, like diet type, color, or behavioral. Sometimes categories are derived from ordinal scores, such as "absent", "rare", "intermediate", "abundant". In the examples that follow we consider several trait types.
+
+## Species by trait matrix
+
+
+The steps in a CWM analysis are:
+
+1. Change abundance $y$ to relative abundance $w$
+2. Combine relative abundances of each species with a species $\times$ traits matrix to get CWM traits for each location.
+
+### 1. Relative abundance
+
+The relative abundance of a species is its proportion of the total abundance at that location. 
+
+<p class="comment">
+**Relative abundance** is the species abundance $y_{is}$ divided by total abundance for the site $n_i = \sum_s y_{is}$:
+\begin{equation}
+w_{is} = \frac{1}{n_{i}} \sum_{s} y_{is}
+\end{equation}
+In other words, $w_{is}$ is the relative abundance of species $s$ in observation $i$.
+</p>
+
+
+I can simulate a data set of counts and the relative abundance like this:
+
+```{r}
+n <- 12                    # no. locations
+S <- 10                   # no. species
+snames <- paste( 'S', 1:S, sep = '' )
+pbys   <- matrix( rpois( n*S, 5 ), n, S, dimnames = list( NULL, snames ) ) # Y
+W      <- sweep( pbys, MARGIN = 1, rowSums( pbys ), '/' )
+```
+
+
+Here are simulated counts in Y:
+
+
+```{r,echo = F}
+kable( pbys, caption = "Plots by species in matrix Y." ) %>%
+  kable_styling("striped", full_width = F) %>%
+  scroll_box(width = "70%", height = "300px")
+```
+
+To obtain relative abundance I used the `sweep function`, which sweeps across `MARGIN = 1` (rows, not columns) to obtain the `rowSums` and divides each value in the row (`/`) by the `rowSum`. To convince myself that the values are proportions of row total I can check that rowSums now equal to 1, `rowSums(W)`.
+
+
+### 2. CWM values
+
+
+Typically, several traits are available for each species. These values are held in a species $\times$ traits matrix $\mathbf{V}$. There is a value $v_{sm}$ for each species $s$ and trait $m$. In this simple example, there are two traits, log body size and diet type.
+
+<p class="comment">
+For a **quantitative trait** like body size, the CWM value at location $i$ is obtained by summing over the trait values for each species $s$, each weighted by the relative abundance of that species $w_{is}$,
+$$
+u_{im} = \sum_s  w_{is} v_{sm}
+$$
+where $v_{sm}$ is the value for trait $m$ and species $s$. For a range of sites $i = 1, \dots, n$ this can be a simple matrix operation. I want a location by trait $(n \times M)$ matrix $\mathbf{U}$ that has a column for each $m = 1, \dots, M$ traits. I get this multiplying an $n \times S$ matrix of relative species abundance $\mathbf{W}$ by a $S \times M$ trait matrix $\mathbf{V}:
+$$
+\mathbf{U} = \mathbf{W} \mathbf{V}
+$$
+For a **categorical trait** there must be a column in matrix $\mathbf{V}$ for each level of the category. For example, if the diet has categories carnivore, herbivore, and omnivore, then there are three columns for diet.
+</p>
+
+
+
+Here is a simulated species $\times$ traits matrix `V` and observations $\times$ traits matrix `U`:
+
+```{r}
+M <- 2    # no. traits
+tnames <- c( 'logBodySize', 'diet' )
+names( tnames )  <- c( 'CON', 'CAT' )
+diets <- c( 'carnivore', 'herbivore', 'omnivore' )
+
+sbyt <- data.frame( rnorm( S ), sample( diets, S, replace = T ) )           # V
+dimnames( sbyt ) <- list( snames, tnames )
+sbyt$diet <- factor( sbyt$diet )
+pbys <- matrix( rpois( n*S, 5 ), n, S, dimnames = list( NULL, snames ) )    # Y
+```
+
+
+
+So far, the `data.frame` for species looks like this:
+
+
+```{r,echo = F}
+kable( sbyt, caption = "Species and traits, one numeric and another with three factor levels." ) %>%
+  kable_styling("striped", full_width = F) %>%
+  scroll_box(width = "70%", height = "300px")
+```
+
+Note that I cannot analyze this `data.frame` because diet are categories (words, not numbers). So this is not yet the species by traits matrix that I need.
+
+In the `package gjam`, the species by traits matrix is generated by the function `gjamSpec2Trait`:
+
+
+```{r}
+library( gjam )
+tmp <- gjamSpec2Trait(pbys, sbyt, names( tnames ) )
+u           <- tmp$plotByCWM                   # n X M matrix U
+M           <- ncol(u) 
+specByTrait <- tmp$specByTrait                 # S X M matrix V
+tTypes      <- tmp$traitTypes                  # data type by column in u
+```
+
+
+```{r,echo = F}
+kable( specByTrait, caption = "Species by trait matrix with each category as a separate column in the category 'diet'." ) %>%
+  kable_styling("striped", full_width = F) %>%
+  scroll_box(width = "70%", height = "300px")
+```
+
+Now each column in `u` is the weighted average taken over all species in the observation:
+
+
+```{r,echo = F}
+kable( u, caption = "Species by trait matrix with each category as a separate column in the category 'diet'." ) %>%
+  kable_styling("striped", full_width = F) %>%
+  scroll_box(width = "70%", height = "300px")
+```
+
+However, there is an important difference between the first column, which is a continuous variable (`CON` in `gjam`) and the remaining three columns, which collectively sum to 1. These are **fractional composition** data  (`FC` in `gjam`), because they sum to 1 (try this: `rowSums( u[,-1] )`. This sum-to-one property of fractional composition data places constraints on how they are analyzed.
+
+The data types for each column are held in the object `tTypes`.
+
+
+
+## Traits for Kruger small mammals
+
+In this block I extract trait columns, and I aggregate some of the trait types. Finally, I declare them to be factors.
+
+```{r, eval = F}
+load( 'rodentDensityFiles2025.rdata', verbose = T )
+n     <- nrow( ydata )
+nspec <- ncol( ydata )
+specNames <- colnames( ydata )
+xdata$habitat <- as.factor( xdata$habitat )
+
+tnames <- c( "adult_mass_g", "det_invert", "det_fruit", "det_seed", "det_plantother"  )
+sbyt <- specByTrait[ specNames, tnames ]
+
+tTypes <- c('CA', 'FC', 'FC', 'FC', 'FC' )  # variable types for traits
+
+wfc <- which( tTypes == 'FC' )
+sbyt[ , wfc ] <- sweep( sbyt[, wfc ], 1, rowSums( sbyt[, wfc] ), '/' )
+
+tmp <- gjamSpec2Trait(ydata, sbyt, tTypes)
+tTypes      <- tmp$traitTypes                  # M = 15 values
+u           <- tmp$plotByCWM                   # n X M
+specByTrait <- tmp$specByTrait                 # S X M
+M           <- ncol(u)
+
+form <- as.formula( ~ year + habitat )
+modelList  <- list(ng = 3000, burnin = 500, typeNames = tTypes )
+out <- gjam( form, xdata = xdata, ydata = u, modelList = modelList)
+
+gjamPlot(output = out, list( PLOTALLY = T, GRIDPLOTS = T ) )
+summary(out)
+```
+
+The interpretation can now focus on traits rather than species.
+
+# Recap
+
+The analysis of species abundance provides insight on aspects of the habitat (predictors) and of the species that occupy it (traits) that can be important for biodiversity. 
+
+**Joint analysis** as in GJAM takes into account the co-dependence between species abundances and traits.
+
+**Data** distribution is critical. Rare species, small sample sizes, limited coverage over important habitat variables can all preclude clear answers.  
+
+In this example, the small sample size and limited coverage in space (riparian versus granites) and time (two years) both limit interpretation.
+
+
+
+
+
+

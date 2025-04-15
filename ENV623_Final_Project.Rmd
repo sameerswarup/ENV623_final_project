@@ -54,8 +54,14 @@ table(deployments_dat$start_date)
 
 table(deployments_dat$end_date)
 
-intersect(unique(e_dat$deployment_id), unique(deployments_dat$deployment_id))
+table((deployments_dat$placename))
 
+# Elephant Presence by location
+intersect(unique(e_dat$placename), unique(deployments_dat$placename))
+setdiff(unique(deployments_dat$placename), unique(e_dat$placename))
+
+# Elephant Presence by camera site
+intersect(unique(e_dat$deployment_id), unique(deployments_dat$deployment_id))
 setdiff(unique(deployments_dat$deployment_id), unique(e_dat$deployment_id))
 ```
 
