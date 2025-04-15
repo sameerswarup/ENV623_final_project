@@ -18,6 +18,7 @@ library(dplyr)
 library(readxl)
 library(tidyr)
 library(tibble)
+library(hdm)
 
 load("./climate_data/monthlyClimateKruger.rdata")
 ```
@@ -39,18 +40,53 @@ e_dat |>
 # Proboscidae is sufficent to guarantee African elephant, and
 # As we can see, some datapoints are not sufficiently labeled
 e_dat <- e_dat[e_dat$order == "Proboscidea", ]
+e_dat <- e_dat[, c("deployment_id", "location", "timestamp", "number_of_objects")]
+
+deployments_dat <- deployments_dat[, c("deployment_id", "placename", "longitude", "latitude", "start_date", "end_date", "camera_id", "camera_name")]
+
+# Convert to time format
+e_dat$timestamp <- as.POSIXct(e_dat$timestamp, format = "%Y-%m-%d %H:%M:%S")
+str(e_dat$timestamp)
+
+deployments_dat$start_date <- as.POSIXct(deployments_dat$start_date, format = "%Y-%m-%d %H:%M:%S")
+deployments_dat$end_date <- as.POSIXct(deployments_dat$end_date, format = "%Y-%m-%d %H:%M:%S")
+str(deployments_dat$end_date)
+str(deployments_dat$start_date)
+
+#site_counts <- e_dat |>
+#  count(deployment_id)
+
+deployments_dat$days <- round(as.numeric(deployments_dat$end_date - deployments_dat$start_date, units = "days"))
+
 
 site_counts <- e_dat |>
-  count(deployment_id)
+  group_by(deployment_id) |>
+  summarise(
+    counts = sum(number_of_objects, na.rm = TRUE),
+    counts_f21 = sum(number_of_objects[timestamp >= as.POSIXct("2025-02-21")], na.rm = TRUE)
+  )
 
 deployments_dat <- deployments_dat |>
   left_join(site_counts, by = "deployment_id") |>
-  mutate(n = coalesce(n, 0))
+  mutate(
+    counts = coalesce(counts, 0),
+    counts_f21 = coalesce(counts_f21, 0)
+  )
+
+deployments_dat$norm_counts <- deployments_dat$counts / deployments_dat$days
+deployments_dat$norm_counts_f21 <- deployments_dat$counts_f21 / min(deployments_dat$days, na.rm = TRUE)
+
+
+
+# Print totals
+print(sum(deployments_dat$num_elephants, na.rm = TRUE))
+print(sum(deployments_dat$num_elephants_f21, na.rm = TRUE))
+
 ```
 
 ```{r}
 # rm(e_dat_filtered)
-# testing_dat <- read.csv("./wildlife_insights_data/images_2009198.csv")
+testing_e_dat <- read.csv("./wildlife_insights_data/images_2009198.csv")
 # table(testing_dat$identified_by)
 
 ```
@@ -150,6 +186,22 @@ tree_final <- tree_data %>%
               left_join(prec_clean, by = c("latitude", "longitude")) %>%
               left_join(temp_clean, by = c("latitude", "longitude"))
 ```
+
+```{r lasso-model}
+# Y ~ X + W
+# Y: Tree Diameter
+# X: Elephant Counts
+# W: Temperature, Precipitation, PET (Potential Evapotranspiration)
+
+
+#cat("Running Lasso for outcome model (Y ~ W)...\n")
+#lasso_y <- rlasso(x = W, y = d[[outcome]], post = FALSE) 
+#selected_y_vars <- names(coef(lasso_y))[coef(lasso_y) != 0]
+#selected_y_vars <- setdiff(selected_y_vars, "(Intercept)")
+#cat("Variables selected for outcome model:", length(selected_y_vars), "\n")
+
+```
+
 
 
 ```{r}
