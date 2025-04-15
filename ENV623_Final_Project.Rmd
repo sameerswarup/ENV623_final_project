@@ -59,7 +59,6 @@ intersect(unique(e_dat$deployment_id), unique(deployments_dat$deployment_id))
 setdiff(unique(deployments_dat$deployment_id), unique(e_dat$deployment_id))
 ```
 
-
 ```{r}
 #Import iNaturalist data on trees
 iNat <- read.csv("./ENV 623 - iNaturalist Observations.csv")
@@ -71,9 +70,15 @@ iNat <- read.csv("./ENV 623 - iNaturalist Observations.csv")
 tree_data <- iNat %>%
              filter(is.na(field.crownradius)) %>%
              select(latitude, longitude, species_guess, scientific_name, common_name, field.stemdiameter, field.treeidentifier) %>%
-             mutate(latitude = round(latitude, 1),
-                    longitude = round(longitude, 1))
+             mutate(longitude = round(longitude, 4))
 ```
+
+```{r}
+#Left join deployments to tree data to get sites
+tree_w_sites <- tree_data %>%
+                left_join(deployments_dat, by = c("longitude"))
+```
+
 
 ```{r}
 #Read in and clean monthly precipitation data
