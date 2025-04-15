@@ -102,21 +102,6 @@ tree_data <- iNat %>%
 ```
 
 ```{r}
-place_trial <- tree_data %>%
-              mutate(place_name_trial = translate_code(field.treeidentifier))
-```
-
-
-```{r}
-#Left join deployments to tree data to get sites
-tree_w_sites <- tree_data %>%
-                mutate(longitude_4_dp = round(longitude, 4)) %>%
-                left_join(deployments_dat, by = c("longitude")) %>%
-                filter(!is.na(placename))
-```
-
-
-```{r}
 #Read in and clean monthly precipitation data
 prec_df <- as.data.frame(prec)
 
@@ -133,11 +118,11 @@ prec_clean <- prec_df %>%
     longitude = as.numeric(longitude),
     latitude = as.numeric(latitude)
   ) %>%
-  select(latitude, longitude, `2023_03`) %>%
   mutate(latitude_1_dp = round(latitude, 1),
                     longitude_1_dp = round(longitude, 1)) %>%
-  group_by(latitude, longitude) %>%
-  summarise(avg_2023_03_prec = mean(`2023_03`, na.rm = TRUE))
+  group_by(latitude_1_dp, longitude_1_dp) %>%
+  summarise(avg_2023_03_prec = mean(`2023_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2023_03_prec)
 
 ```
 
@@ -158,11 +143,11 @@ temp_clean <- temp_df %>%
     longitude = as.numeric(longitude),
     latitude = as.numeric(latitude)
   ) %>%
-  select(latitude, longitude, `2023_03`) %>%
   mutate(latitude_1_dp = round(latitude, 1),
                     longitude_1_dp = round(longitude, 1)) %>%
-  group_by(latitude, longitude) %>%
-  summarise(avg_2023_03_temp = mean(`2023_03`, na.rm = TRUE))
+  group_by(latitude_1_dp, longitude_1_dp) %>%
+  summarise(avg_2023_03_temp = mean(`2023_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2023_03_temp)
 
 ```
 
@@ -183,11 +168,11 @@ pet_clean <- pet_df %>%
     longitude = as.numeric(longitude),
     latitude = as.numeric(latitude)
   ) %>%
-  select(latitude, longitude, `2023_03`) %>%
   mutate(latitude_1_dp = round(latitude, 1),
                     longitude_1_dp = round(longitude, 1)) %>%
-  group_by(latitude, longitude) %>%
-  summarise(avg_2023_03_pet = mean(`2023_03`, na.rm = TRUE))
+  group_by(latitude_1_dp, longitude_1_dp) %>%
+  summarise(avg_2023_03_pet = mean(`2023_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2023_03_pet)
 
 ```
 
@@ -195,9 +180,10 @@ pet_clean <- pet_df %>%
 #Left join temp, prec to tree data on lat and long 
 tree_final <- tree_data %>%
               mutate(latitude_1_dp = round(latitude, 1),
-                    longitude_1_dp = round(longitude, 1))
-              left_join(prec_clean, by = c("latitude", "longitude")) %>%
-              left_join(temp_clean, by = c("latitude", "longitude"))
+                    longitude_1_dp = round(longitude, 1)) %>%
+              left_join(prec_clean, by = c("latitude_1_dp", "longitude_1_dp")) %>%
+              left_join(temp_clean, by = c("latitude_1_dp", "longitude_1_dp")) %>%
+              left_join(pet_clean, by = c("latitude_1_dp", "longitude_1_dp"))
 ```
 
 
