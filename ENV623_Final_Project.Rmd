@@ -294,12 +294,43 @@ X <- "norm_counts"
 # X: Elephant Counts
 # W: Temperature, Precipitation, PET (Potential Evapotranspiration)
 
+#########################
+## Run LASSO Selection ##
+#########################
+all_predictors <- c(X, W)
+formula_string <- paste(Y, "~", paste0("(", paste(all_predictors, collapse = " + "), ")^2"))
 
-#cat("Running Lasso for outcome model (Y ~ W)...\n")
-#lasso_y <- rlasso(x = W, y = d[[outcome]], post = FALSE) 
-#selected_y_vars <- names(coef(lasso_y))[coef(lasso_y) != 0]
-#selected_y_vars <- setdiff(selected_y_vars, "(Intercept)")
-#cat("Variables selected for outcome model:", length(selected_y_vars), "\n")
+# Convert the string to a formula object
+formula_obj <- as.formula(formula_string)
+
+rlasso_model <- rlasso(formula_obj, data = d, post = FALSE)
+
+lasso_coefs <- coef(rlasso_model)
+selected_vars <- names(lasso_coefs)[lasso_coefs != 0]
+
+selected_vars <- setdiff(selected_vars, "(Intercept)")
+
+cat("Selected variables by rlasso (including interactions):\n")
+print(selected_vars)
+
+#######################################
+## Use LASSO Covariates + norm_count ##
+#######################################
+
+selected_vars <- selected_vars[selected_vars != "(Intercept)"]
+
+# Force norm_count to be in the regression
+final_predictors <- union(X, selected_vars)
+lm_formula_string <- paste(Y, "~", paste(final_predictors, collapse = " + "))
+lm_formula <- as.formula(lm_formula_string)
+
+cat("\nFormula for the final linear regression:\n")
+print(lm_formula)
+
+final_lm_model <- lm(lm_formula, data = d)
+
+cat("\nSummary of the final linear regression model:\n")
+print(summary(final_lm_model))
 
 ```
 
