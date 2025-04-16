@@ -341,7 +341,6 @@ print(summary(final_lm_model))
 ```
 
 
-
 ```{r}
 #Mixed effects model: Tree Diameter ~ Elephant Presence + PET + Temperature + Precipitation
 # Variable effects: Site
