@@ -14,12 +14,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r import-libraries}
+library(ggplot2)
 library(dplyr)
 library(readxl)
 library(tidyr)
 library(tibble)
 library(hdm)
 library(stringr)
+library(nlme)
 
 load("./climate_data/monthlyClimateKruger.rdata")
 ```
@@ -187,8 +189,8 @@ prec_clean <- prec_df %>%
   mutate(latitude_1_dp = round(latitude, 1),
                     longitude_1_dp = round(longitude, 1)) %>%
   group_by(latitude_1_dp, longitude_1_dp) %>%
-  summarise(avg_2023_03_prec = mean(`2023_03`, na.rm = TRUE)) %>%
-  select(latitude_1_dp, longitude_1_dp, avg_2023_03_prec)
+  summarise(avg_2024_03_prec = mean(`2024_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2024_03_prec)
 
 ```
 
@@ -212,8 +214,8 @@ temp_clean <- temp_df %>%
   mutate(latitude_1_dp = round(latitude, 1),
                     longitude_1_dp = round(longitude, 1)) %>%
   group_by(latitude_1_dp, longitude_1_dp) %>%
-  summarise(avg_2023_03_temp = mean(`2023_03`, na.rm = TRUE)) %>%
-  select(latitude_1_dp, longitude_1_dp, avg_2023_03_temp)
+  summarise(avg_2024_03_temp = mean(`2024_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2024_03_temp)
 
 ```
 
@@ -237,8 +239,8 @@ pet_clean <- pet_df %>%
   mutate(latitude_1_dp = round(latitude, 1),
                     longitude_1_dp = round(longitude, 1)) %>%
   group_by(latitude_1_dp, longitude_1_dp) %>%
-  summarise(avg_2023_03_pet = mean(`2023_03`, na.rm = TRUE)) %>%
-  select(latitude_1_dp, longitude_1_dp, avg_2023_03_pet)
+  summarise(avg_2024_03_pet = mean(`2024_03`, na.rm = TRUE)) %>%
+  select(latitude_1_dp, longitude_1_dp, avg_2024_03_pet)
 
 ```
 
@@ -263,7 +265,7 @@ tree_final <- tree_final |>
 tree_w_sites <- tree_final |>
   left_join(site_dat, by = c("site_name" = "placename"))
 
-tree_w_sites <- tree_w_sites[, c("field.stemdiameter", "site_name", "avg_2023_03_prec", "avg_2023_03_temp", "avg_2023_03_pet", "norm_counts", "norm_counts_f21")]
+tree_w_sites <- tree_w_sites[, c("field.stemdiameter", "site_name", "avg_2024_03_prec", "avg_2024_03_temp", "avg_2024_03_pet", "norm_counts", "norm_counts_f21")]
 
 # Remove all non-camera trap sites
 tree_w_sites <- tree_w_sites %>%
@@ -285,7 +287,7 @@ site_covs <- colnames(site_dummies)
 d <- select(d, -site_name)
 
 # DEFINE REGRESSION VAR NAMES
-W <- c("avg_2023_03_prec", "avg_2023_03_temp", "avg_2023_03_pet", site_covs)
+W <- c("avg_2024_03_prec", "avg_2024_03_temp", "avg_2024_03_pet", site_covs)
 Y <- "field.stemdiameter"
 X <- "norm_counts"
 
@@ -345,6 +347,68 @@ print(summary(final_lm_model))
 # Variable effects: Site
 
 #Data viz of tree diameter
+#Left-skewed
+ggplot2::ggplot(data = tree_w_sites, aes(x = field.stemdiameter)) +
+  geom_histogram()
 
+#Perform a log-transform
+tree_w_sites$log_diameter <- log(tree_w_sites$field.stemdiameter)
+
+#re-check with histogram
+#More normalized distribution
+ggplot2::ggplot(data = tree_w_sites, aes(x = log_diameter)) +
+  geom_histogram()
+
+#Check distribution of climate data
+ggplot2::ggplot(data = tree_w_sites, aes(x = avg_2024_03_prec)) +
+  geom_histogram()
+
+ggplot2::ggplot(data = tree_w_sites, aes(x = avg_2024_03_temp)) +
+  geom_histogram()
+
+ggplot2::ggplot(data = tree_w_sites, aes(x = avg_2024_03_pet)) +
+  geom_histogram()
+```
+
+```{r}
+#Add some Gaussian Noise to normalize distribution of climate data
+#Use the blended versions of the climate data
+mean_pet <- mean(tree_w_sites$avg_2024_03_pet)
+sd_pet <- sd(tree_w_sites$avg_2024_03_pet)
+
+tree_w_sites$avg_2024_03_pet_blend <- 0.5 * tree_w_sites$avg_2024_03_pet + 
+                                      0.5 * rnorm(nrow(tree_w_sites), mean_pet, sd = 1)
+
+mean_temp <- mean(tree_w_sites$avg_2024_03_temp)
+sd_temp <- sd(tree_w_sites$avg_2024_03_temp)
+
+tree_w_sites$avg_2024_03_temp_blend <- 0.5 * tree_w_sites$avg_2024_03_temp + 
+                                      0.5 * rnorm(nrow(tree_w_sites), mean_temp, sd = 1)
+
+mean_prec <- mean(tree_w_sites$avg_2024_03_prec)
+sd_prec <- sd(tree_w_sites$avg_2024_03_prec)
+
+tree_w_sites$avg_2024_03_prec_blend <- 0.5 * tree_w_sites$avg_2024_03_prec + 
+                                      0.5 * rnorm(nrow(tree_w_sites), mean_prec, sd = 1)
+
+ggplot2::ggplot(data = tree_w_sites, aes(x = avg_2024_03_pet_blend)) +
+  geom_histogram()
+
+ggplot2::ggplot(data = tree_w_sites, aes(x = avg_2024_03_prec_blend)) +
+  geom_histogram()
+
+ggplot2::ggplot(data = tree_w_sites, aes(x = avg_2024_03_temp_blend)) +
+  geom_histogram()
+```
+
+```{r}
+# Fit mixed effects model with random intercept by site
+tree_diameter_mlm <- lme(log_diameter ~
+                            norm_counts +
+                            avg_2024_03_pet_blend +
+                            avg_2024_03_prec_blend +
+                            avg_2024_03_temp_blend, random = ~ 1 | site_name, data = tree_w_sites, na.action = na.exclude)
+
+summary(tree_diameter_mlm)
 ```
 
