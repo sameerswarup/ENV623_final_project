@@ -260,25 +260,25 @@ site_dat <- site_dat |>
 tree_final <- tree_final |>
   mutate(site_name = toupper(site_name))
 
-d <- tree_final |>
+tree_w_sites <- tree_final |>
   left_join(site_dat, by = c("site_name" = "placename"))
 
-d <- d[, c("field.stemdiameter", "site_name", "avg_2023_03_prec", "avg_2023_03_temp", "avg_2023_03_pet", "norm_counts", "norm_counts_f21")]
+tree_w_sites <- tree_w_sites[, c("field.stemdiameter", "site_name", "avg_2023_03_prec", "avg_2023_03_temp", "avg_2023_03_pet", "norm_counts", "norm_counts_f21")]
 
 # Remove all non-camera trap sites
-d <- d %>%
+tree_w_sites <- tree_w_sites %>%
   filter(site_name %in% unique(site_dat$placename))
 
-print(unique(d$site_name))
+print(unique(tree_w_sites$site_name))
 
 # Create Dummies
-site_dummies <- model.matrix(~ site_name - 1, data = d)
+site_dummies <- model.matrix(~ site_name - 1, data = tree_w_sites)
 colnames(site_dummies) <- sub("^site_name", "", colnames(site_dummies))
 
 # Drop a column to prevent multicollinearity. I decided to use LTSABIE_2R
 # As it has no observations
 site_dummies <- subset(site_dummies, select = -LTSABIE_2R)
-d <- cbind(d, as.data.frame(site_dummies))
+d <- cbind(tree_w_sites, as.data.frame(site_dummies))
 site_covs <- colnames(site_dummies)
 
 # Remove unnecessary column
