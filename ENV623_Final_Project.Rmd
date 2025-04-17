@@ -286,9 +286,14 @@ site_covs <- colnames(site_dummies)
 # Remove unnecessary column
 d <- select(d, -site_name)
 
+# log transform tree diameter
+d$log_diameter <- log(d$field.stemdiameter)
+
+
 # DEFINE REGRESSION VAR NAMES
 W <- c("avg_2024_03_prec", "avg_2024_03_temp", "avg_2024_03_pet", site_covs)
-Y <- "field.stemdiameter"
+# Y <- "field.stemdiameter"
+Y <- "log_diameter"
 X <- "norm_counts"
 
 ```
